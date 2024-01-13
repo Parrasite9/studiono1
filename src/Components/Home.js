@@ -1,10 +1,11 @@
 import '../CSS/Home.css'
 import React from 'react'
+import Navbar from './Global_Components/Navbar'
 
 function Home() {
   return (
     <div className='Home'>
-      THIS IS THE HOME PAGE
+      <Navbar />
       
     </div>
   )
