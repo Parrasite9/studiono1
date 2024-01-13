@@ -5,6 +5,7 @@ function Home() {
   return (
     <div className='Home'>
       THIS IS THE HOME PAGE
+      
     </div>
   )
 }
