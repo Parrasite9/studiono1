@@ -32,7 +32,7 @@ function Navbar() {
         <div className="navbar__container">
           {/* LOGO  */}
           <div className="logo">
-            <h1>STUDIO NO. 1</h1>
+            <h3>STUDIO NO. 1</h3>
           </div>
 
           {/* BUGER MENU  */}
