@@ -1,49 +1,46 @@
-import '../../CSS/Global_Components/Navbar.css'
-import React, { useState } from 'react'
-
-// MUI ICONS 
+import '../../CSS/Global_Components/Navbar.css';
+import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
-
-  const [showMenu, setShowMenu] = useState(false)
+  const [showMenu, setShowMenu] = useState(false);
 
   const triggerMenu = () => {
-    if (showMenu === false) {
-      setShowMenu(true)
-      console.log(showMenu);
-    } else {
-      setShowMenu(false)
-      console.log(true);
-    }
-  }
+    setShowMenu(!showMenu);
+  };
 
   return (
-    <div className='Navbar'>
+    <div className={`Navbar ${showMenu ? 'menu-opened' : ''}`}>
       {showMenu ? (
-        <>
-        <h1>THIS IS A TEST</h1>
-        <div className="close__menu">
-          <CloseIcon onClick={triggerMenu}/>
+        <div className="fullscreen__navbar">
+          <div className="close__menu">
+            <CloseIcon onClick={triggerMenu} />
+          </div>
+
+          <div className="navlinks">
+            <Link to="/">Home</Link>
+            <Link to="/AboutUs">About Us</Link>
+            <Link to="/Services">Services</Link>
+            <Link to="/FAQ">FAQ</Link>
+            <Link to="/ContactUs">Contact Us</Link>
+            <Link to="/Book-Now"><button>Book Now</button></Link>
+          </div>
         </div>
-        </>
       ) : (
         <div className="navbar__container">
-          {/* LOGO  */}
           <div className="logo">
             <h3>STUDIO NO. 1</h3>
           </div>
 
-          {/* BUGER MENU  */}
           <div className="burger__menu">
             <MenuIcon onClick={triggerMenu} />
           </div>
-
-      </div>
+        </div>
       )}
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

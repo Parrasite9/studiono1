@@ -29,3 +29,75 @@
         justify-self: end;
         padding-right: 25%;
     }
+
+    /* ===================================================
+    ABOVE THIS IS REFERENCING THE CLOSED MENU NAV (MOBILE)
+    BELOW THIS IS REFERENCING THE OPEN MENU NAV (MOBILE)
+    =================================================== */
+
+    .navlinks > a {
+        color: #f2f2f2;
+        text-decoration: none;
+    }
+
+    /*!!!!!!!! DOUBLE CHECK AND SEE IF THIS IS WORKING !!!!!!!!!!!!!!  */
+    .navlinks > a:active {
+        color: #ffd700;
+    }
+
+    .Navbar.menu-opened {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(0%);
+      }
+
+    .close__menu {
+        color: #ffd700;
+    }
+
+    .fullscreen__navbar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+    .close__menu { 
+        grid-area: 1 / 1 / 2 / 4; 
+        align-self: center;
+        justify-self: end;
+        padding-right: 15%;
+        padding-top: 5%;
+    }
+    .navlinks { grid-area: 2 / 2 / 7 / 3; }
+
+    .navlinks {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr); /* Adjust the number based on the number of links */
+        gap: 10px; /* Adjust the gap between links */
+        align-content: center; /* Center align the items vertically */
+      }
+      
+      .navlinks > a {
+        color: #f2f2f2;
+        text-decoration: none;
+        text-align: center;
+        padding: 15% 0;
+      }
+
+      .navlinks > a > button {
+        background-color: #333;
+        color: #f2f2f2;
+        padding: 5%;
+        width: 150px;
+        border: 2px solid #ffd700;
+        border-radius: 15px;
+      }
+      
+      
