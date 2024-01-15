@@ -7,7 +7,7 @@ function Hero() {
     <div className='Hero'>
       <h3>Elevate your Style</h3>
       <h1>WHERE BEAUTY KNOWS NO BOUNDARIES</h1>
-      <Link to='#'><button>Explore Our Services</button></Link>
+      <Link to='#'><button className='hero__button'>Explore Our Services</button></Link>
     </div>
   )
 }
