@@ -1,0 +1,26 @@
+.Footer {
+    background-color: #333;
+}
+
+.logo {
+    color: #f2f2f2;
+}
+
+.footer__header {
+    color: #ffd700;
+}
+
+.location > h5 {
+    color: #f2f2f2;
+}
+
+.pages > .footer-link,
+.privacy_and_legal > .footer-link {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.copyright > p {
+    color: #f2f2f2;
+    padding-bottom: 45px;
+}
