@@ -1,0 +1,22 @@
+.Hero {
+    text-align: center;
+    padding: 0 8%;
+}
+
+h3 {
+    color: #0074B7;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+h1 {
+    color: #333;
+    margin-top: 0;
+}
+
+button {
+    background-color: #163C5E;
+    color: #f2f2f2;
+    padding: 2% 10%;
+    border-radius: 10px;
+}
