@@ -1,0 +1,50 @@
+.MeetOurTeam {
+    margin: 5% 32px;
+}
+
+.panel-header {
+    background-color: #163C5E !important;
+    color: #ffd700 !important;
+}
+
+/* .stylist__icon > .personal__img{
+    width: 75%;
+    height: auto;
+} */
+
+.stylist__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Add any additional styling such as padding or margins as needed */
+}
+.personal__img {
+    max-width: 100%; /* Ensures image is responsive and doesn't overflow its container */
+    height: auto; /* Maintains aspect ratio */
+    /* Add any additional styling as needed */
+}
+
+
+.barber__and__stylist__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
+    .div4 { grid-area: 1 / 4 / 2 / 5; }
+    .div5 { grid-area: 2 / 1 / 3 / 2; }
+    .div6 { grid-area: 2 / 2 / 3 / 3; }
+    .div7 { grid-area: 2 / 3 / 3 / 4; }
+    .div8 { grid-area: 2 / 4 / 3 / 5; }
+
+    .stylist__icon > p {
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
