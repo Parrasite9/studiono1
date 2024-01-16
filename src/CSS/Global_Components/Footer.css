@@ -3,7 +3,9 @@
 }
 
 .logo {
+    text-align: center;
     color: #f2f2f2;
+    padding-top: 25px;
 }
 
 .footer__header {
@@ -20,7 +22,31 @@
     text-decoration: none;
 }
 
+.pages > a, .privacy_and_legal {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .copyright > p {
     color: #f2f2f2;
     padding-bottom: 45px;
+}
+
+.link__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: ; */
+    grid-column-gap: 00px;
+    grid-row-gap: 0px;
+    margin: 0 32px;
+    justify-items: center;
+    }
+    
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+.div2 { grid-area: 1 / 2 / 3 / 3; }
+.div3 { grid-area: 3 / 1 / 4 / 2; }
+.div4 { grid-area: 3 / 2 / 4 / 3; }
+
+.payment, .copyright {
+    text-align: center;
 }
