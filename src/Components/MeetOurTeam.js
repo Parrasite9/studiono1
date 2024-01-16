@@ -6,6 +6,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { Link } from 'react-router-dom';
 
 function MeetOurTeam() {
   // State to track the currently expanded panel
@@ -41,13 +42,23 @@ function MeetOurTeam() {
 
                 {/* INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon">
-                    <img className='personal__img' src="/images/yara.png" alt="" />
+                    <Link to={{
+                        pathname: '/meet-our-team/yara-l',
+                        state: {
+                            name: 'Yara L.',
+                            image: '/images/dummy.jpg',
+                            bio: 'The Bio info goes here',
+                            bookingLink: 'yahoo.com'
+                        }
+                    }}>
+                        <img className='personal__img' src="/images/yara.png" alt="" />
+                    </Link>
                     <p>Yara L.</p>
                 </div>
 
                 {/* INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon">
-                    <img className='personal__img' src="/images/a.png" alt="" />
+                    <Link to={'/meet-our-team/jane-doe'}><img className='personal__img' src="/images/a.png" alt="" /></Link>
                     <p>Jane Doe</p>
                 </div>
 
