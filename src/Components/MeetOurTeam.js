@@ -50,7 +50,9 @@ function MeetOurTeam() {
                             bio: 'The Bio info goes here',
                             bookingLink: 'yahoo.com'
                         }
-                    }}>
+                    }}
+                    onClick={() => console.log('Link clicked, navigating to Yara L.')}
+>
                         <img className='personal__img' src="/images/yara.png" alt="" />
                     </Link>
                     <p>Yara L.</p>
