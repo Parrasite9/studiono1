@@ -1,5 +1,5 @@
 import '../CSS/TeamMember.css'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 // REDUX 
 import { useSelector } from 'react-redux'
@@ -12,6 +12,20 @@ import Footer from './Global_Components/Footer'
 function TeamMember() {
 
   const teamMemberData = useSelector(state => state.teamMember.teamMemberData)
+
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 900);
+    };
+
+    // Set up event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Clean up event listener
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
 
   // Get current time in CST (UTC-6)
@@ -40,9 +54,15 @@ function TeamMember() {
 
       {/* MEMBER BIO */}
       <div className="member__Bio">
-        {/* <p>{teamMemberData.bio.mobile.paragraph4}</p> */}
-        <p>{teamMemberData.mobileBio.paragraph1}</p>
-        {/* <p>{teamMemberData.bio.paragraph3}</p> */}
+        {isMobile ? (
+              <p>{teamMemberData.mobileBio.paragraph1}</p>
+            ) : (
+              <>
+                <p>{teamMemberData.desktopBio.paragraph1}</p>
+                <p>{teamMemberData.desktopBio.paragraph2}</p>
+                <p>{teamMemberData.desktopBio.paragraph3}</p>
+              </>
+          )}
       </div>
 
       {/* BUTTON CONTAINER  */}
