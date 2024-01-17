@@ -284,12 +284,59 @@ function MeetOurTeam() {
             id="panel3-header"
             className='panel-header'
           >
-            <Typography>Massage Therapist</Typography>
+            <Typography>Spa Services</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <div className="spa__services__container">
+                    {/* YARA L. || INDIVIDUAL STYLIST  */}
+                    <div className="stylist__icon" 
+                        onClick={() => handleTeamMemberClick({
+                        name: 'Yara L.',
+                        title: 'Salon Owner | Barber | Hair Stylist | Makeup Artist',
+                        image: '/images/dummy.jpg',
+                        desktopBio: {
+                                paragraph1: "Meet Yara, the dynamic and passionate owner of Studio No. 1, a vibrant salon that has been redefining style and elegance since its inception in 2021. With a decade of experience in the beauty industry, Yara brings a wealth of knowledge, skill, and creativity to the salon floor. Her journey began with a dream to create a space that not only offers top-notch hair and beauty services but also provides a warm, welcoming atmosphere for every client who walks through the doors.",
+                                paragraph2: "Yara's expertise spans a wide range of services, ensuring that every client need is met with the utmost attention to detail. Whether it's crafting stunning up-dos for weddings, creating memorable looks for birthdays and special events, or providing everyday styling needs like men's, women's, and children's cuts, Yara's precision and flair are evident. Her passion particularly shines in women's services, where she excels in delivering trend-setting balayage, vibrant hair colors, and other bespoke hair treatments that truly reflect each client's personality and style.",
+                                paragraph3: "Beyond hair services, Yara is also an accomplished makeup artist and waxing specialist, making Studio No. 1 a one-stop destination for complete beauty care. Her vision for the salon goes beyond mere aesthetics; it's about creating a place where clients can relax, rejuvenate, and feel their absolute best. Yara's dedication to excellence, coupled with her warm and approachable demeanor, has earned her a loyal clientele who trust her not just as their stylist but as a confidant and friend."    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Yara, the dynamic owner of Studio No. 1, a stylish salon established in 2021. With over a decade in the beauty industry, Yara offers an array of services, specializing in hair and makeup. Her salon is renowned for eye-catching haircuts, innovative baleyage, and vivid hair colors, catering to men, women, and children. As a skilled makeup artist and waxing specialist, Yara ensures Studio No. 1 is a one-stop destination for all beauty needs. Her approach goes beyond aesthetics; she creates a welcoming, rejuvenating space where clients feel valued and beautiful. Known for her warm personality, Yara has built a loyal clientele who see her as both a talented stylist and a trusted confidante.`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}>
+                        <Link to='/meet-our-team/yara-l'>
+                            <img className='personal__img' src="/images/yara.png" alt="" />
+                        </Link>
+                        <p>Yara L.</p>
+                    </div>
+
+                    {/* RAJANI || INDIVIDUAL STYLIST  */}
+                    <div className="stylist__icon"
+                        onClick={() => handleTeamMemberClick({
+                            name: 'Rajani',
+                            title: 'Hair Stylist | Makeup Artist',
+                            image: '/images/a.png',
+                            desktopBio: {
+                                    paragraph1: "1",
+                                    paragraph2: "2",
+                                    paragraph3: "3"    
+                            },
+                            mobileBio: {          
+                                paragraph1: `Meet Rajani, this is her Bio...`
+                            },
+
+                            bookingLink: 'http://www.yahoo.com',
+                            contactInfo: '888-888-8888'
+                        })}>                    
+                        <Link to={'/meet-our-team/rajani'}>
+                            <img className='personal__img' src="/images/a.png" alt="" />
+                        </Link>
+                        <p>Rajani</p>
+                    </div>
+                </div>
             </Typography>
           </AccordionDetails>
         </Accordion>

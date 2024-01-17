@@ -48,3 +48,22 @@
         margin-bottom: 15px;
         text-align: center;
     }
+
+    .spa__services__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+    .spa__services__container > .stylist__icon > a > img {
+        width: 50%;
+        height: auto;
+        display: block; /* Center horizontally */
+        margin: 0 auto; /* Center horizontally */
+    }
+        
