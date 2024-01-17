@@ -58,6 +58,7 @@ function MeetOurTeam() {
                 <div className="stylist__icon" 
                     onClick={() => handleTeamMemberClick({
                     name: 'Yara L.',
+                    title: 'Salon Owner | Barber | Hair Stylist | Makeup Artist',
                     image: '/images/dummy.jpg',
                     desktopBio: {
                             paragraph1: "Meet Yara, the dynamic and passionate owner of Studio No. 1, a vibrant salon that has been redefining style and elegance since its inception in 2021. With a decade of experience in the beauty industry, Yara brings a wealth of knowledge, skill, and creativity to the salon floor. Her journey began with a dream to create a space that not only offers top-notch hair and beauty services but also provides a warm, welcoming atmosphere for every client who walks through the doors.",

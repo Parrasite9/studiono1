@@ -52,6 +52,11 @@ function TeamMember() {
         <h2>{teamMemberData.name}</h2>
       </div>
 
+      {/* TEAM MEMBER NAME  */}
+      <div className="member__Title">
+        <h5>{teamMemberData.title}</h5>
+      </div>
+
       {/* MEMBER BIO */}
       <div className="member__Bio">
         {isMobile ? (
