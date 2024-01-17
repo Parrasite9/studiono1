@@ -54,7 +54,7 @@ function MeetOurTeam() {
 
               <div className="barber__and__stylist__container">
 
-                {/* INDIVIDUAL STYLIST  */}
+                {/* YARA L. || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon" 
                     onClick={() => handleTeamMemberClick({
                     name: 'Yara L.',
@@ -78,45 +78,171 @@ function MeetOurTeam() {
                     <p>Yara L.</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <Link to={'/meet-our-team/jane-doe'}><img className='personal__img' src="/images/a.png" alt="" /></Link>
-                    <p>Jane Doe</p>
+                {/* RAJANI || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Rajani',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/a.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Rajani, this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}>                    
+                    <Link to={'/meet-our-team/rajani'}>
+                        <img className='personal__img' src="/images/a.png" alt="" />
+                    </Link>
+                    <p>Rajani</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <img className='personal__img' src="/images/allison.png" alt="" />
+                {/* ALLISON || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Allison',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/allison.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Allison, this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}> 
+                    <Link to={'/meet-our-team/allison'}>
+                        <img className='personal__img' src="/images/allison.png" alt="" />                                  
+                    </Link> 
                     <p>Allison</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <img className='personal__img' src="/images/b.png" alt="" />
+                {/* JANE DOE || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'JANE DOE 1',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/b.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet JANE DOE 1, this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}> 
+                    <Link to={'/meet-our-team/janedoe1'}>
+                        <img className='personal__img' src="/images/b.png" alt="" />                         
+                    </Link> 
                     <p>Jane Doe</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <img className='personal__img' src="/images/c.png" alt="" />
+                {/* JANE DOE || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'JANE DOE 2',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/c.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet JANE DOE 2, this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}> 
+                    <Link to={'/meet-our-team/janedoe2'}>
+                        <img className='personal__img' src="/images/c.png" alt="" /> 
+                    </Link> 
                     <p>Jane Doe</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <img className='personal__img' src="/images/crystal.png" alt="" />
+                {/* CRYSTAL || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Crystal',
+                        title: 'Barber | Hair Stylist | Makeup Artist',
+                        image: '/images/crystal.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Crystal, this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}> 
+                    <Link to={'/meet-our-team/crystal'}>
+                        <img className='personal__img' src="/images/crystal.png" alt="" />
+                    </Link> 
                     <p>Crystal</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <img className='personal__img' src="/images/ruby.png" alt="" />
+                {/* RUBY || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Ruby',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/ruby.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Allison, this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}> 
+                    <Link to={'/meet-our-team/ruby'}>
+                        <img className='personal__img' src="/images/ruby.png" alt="" />
+                    </Link> 
                     <p>Ruby</p>
                 </div>
 
-                {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <img className='personal__img' src="/images/y2.png" alt="" />
+                {/* YARA C. || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Yara C.',
+                        title: 'Barber | Hair Stylist | Makeup Artist',
+                        image: '/images/y2.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Yara C., this is her Bio...`
+                        },
+
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}> 
+                    <Link to={'/meet-our-team/yara-c'}>
+                        <img className='personal__img' src="/images/y2.png" alt="" />
+                    </Link> 
                     <p>Yara C.</p>
                 </div>
 
