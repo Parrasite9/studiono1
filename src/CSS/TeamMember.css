@@ -36,3 +36,25 @@
         display: flex;
         justify-content: space-evenly;
     }
+    
+    .button__Container > div > a > button {
+        background-color: #5E8B7E;
+        color: #f2f2f2;
+        padding: 10px 50px;
+        border-radius: 10px;
+    }
+
+    .button__Container > a > button {
+        background-color: #163C5E;
+        color: #f2f2f2;
+        padding: 10px 25px;
+        border-radius: 10px;
+    }
+
+    .button__Container > div > a > button,
+    .button__Container > a > button {
+        display: flex;
+        align-items: center;
+    }
+
+    

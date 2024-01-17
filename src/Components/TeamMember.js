@@ -8,6 +8,9 @@ import { useSelector } from 'react-redux'
 import Navbar from './Global_Components/Navbar'
 import Footer from './Global_Components/Footer'
 
+// MUI 
+import CallIcon from '@mui/icons-material/Call';
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 
 function TeamMember() {
 
@@ -28,12 +31,17 @@ function TeamMember() {
   }, []);
 
 
-  // Get current time in CST (UTC-6)
-  const currentTime = new Date();
-  currentTime.setHours(currentTime.getHours() - 6);
+  // Get current time in UTC
+  const currentTimeUTC = new Date();
 
-  // Check if it's before 6:00 PM CST
-  const isBefore6PM = currentTime.getHours() < 18;
+  // Convert UTC time to CST (UTC-6)
+  const currentTimeCST = new Date(currentTimeUTC);
+  currentTimeCST.setHours(currentTimeCST.getHours() - 6);
+
+  // Check if it's within business hours (8 AM to 6 PM CST)
+  const hoursCST = currentTimeCST.getHours();
+  const businessHours = hoursCST >= 8 && hoursCST < 18;
+
 
 
   return (
@@ -74,9 +82,14 @@ function TeamMember() {
       <div className="button__Container">
         {/* CONTACT INFO  */}
         <div className="member__Contact">
-          {!isBefore6PM ? (
+          {!businessHours ? (
             <>
-              <a href={`tel:${teamMemberData.contactInfo}`} className="button-style"><button>Call Me</button></a>
+              <a href={`tel:${teamMemberData.contactInfo}`} className="button-style">
+                <button>
+                  <CallIcon fontSize='small' style={{ marginRight: '10px' }} /> 
+                  Call Me
+                </button>
+              </a>
             </>
           ) : (
             <>
@@ -84,7 +97,12 @@ function TeamMember() {
             </>
           )}
         </div>
-        <a href={teamMemberData.bookingLink} target='_blank' rel="noopener noreferrer"><button>Book a Service</button></a>
+        <a href={teamMemberData.bookingLink} target='_blank' rel="noopener noreferrer">
+          <button>
+            <CalendarMonthIcon fontSize='small' style={{ marginRight: '10px' }} />
+            Book a Service
+          </button>
+        </a>
       </div>
 
       </div>

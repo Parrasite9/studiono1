@@ -69,7 +69,7 @@ function MeetOurTeam() {
                         paragraph1: `Meet Yara, the dynamic owner of Studio No. 1, a stylish salon established in 2021. With over a decade in the beauty industry, Yara offers an array of services, specializing in hair and makeup. Her salon is renowned for eye-catching haircuts, innovative baleyage, and vivid hair colors, catering to men, women, and children. As a skilled makeup artist and waxing specialist, Yara ensures Studio No. 1 is a one-stop destination for all beauty needs. Her approach goes beyond aesthetics; she creates a welcoming, rejuvenating space where clients feel valued and beautiful. Known for her warm personality, Yara has built a loyal clientele who see her as both a talented stylist and a trusted confidante.`
                     },
 
-                    bookingLink: 'yahoo.com',
+                    bookingLink: 'http://www.yahoo.com',
                     contactInfo: '888-888-8888'
                 })}>
                     <Link to='/meet-our-team/yara-l'>
