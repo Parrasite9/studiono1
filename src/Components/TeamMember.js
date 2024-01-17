@@ -4,9 +4,6 @@ import React from 'react'
 // REDUX 
 import { useSelector } from 'react-redux'
 
-// REACT ROUTER 
-import { useLocation, useParams } from 'react-router-dom'
-
 // COMPONENTS 
 import Navbar from './Global_Components/Navbar'
 import Footer from './Global_Components/Footer'
@@ -15,12 +12,6 @@ import Footer from './Global_Components/Footer'
 function TeamMember() {
 
   const teamMemberData = useSelector(state => state.teamMember.teamMemberData)
-
-  // THIS IS THE ID FROM THE URL 
-  const { id } = useParams()
-  const location = useLocation()
-  const { name, image, bio, bookingLink } = location.state || {}
-  console.log(location.state);
 
   return (
     <>
