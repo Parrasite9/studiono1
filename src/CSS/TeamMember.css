@@ -1,0 +1,36 @@
+/* .TeamMember {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 4 / 3; }
+    .div2 { grid-area: 1 / 3 / 2 / 5; }
+    .div3 { grid-area: 2 / 3 / 3 / 5; }
+    .div4 { grid-area: 3 / 3 / 4 / 4; }
+    .div5 { grid-area: 3 / 4 / 4 / 5; } */
+
+    .TeamMember {
+        padding: 0 32px;
+    }
+
+    .member__Img {
+        display: flex;
+        justify-content: center;  
+    }
+
+    .member__Img > img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .member__Name, .member__Bio {
+        text-align: center;
+    }
+
+    .button__Container {
+        display: flex;
+        justify-content: space-evenly;
+    }
