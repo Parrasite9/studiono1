@@ -1,14 +1,28 @@
 import React, { useState } from 'react';
 import '../CSS/MeetOurTeam.css'
 
+// MUI
 import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+
+// REACT ROUTER DOM 
 import { Link } from 'react-router-dom';
 
+// REDUX 
+import { useDispatch } from 'react-redux';
+import { setTeamMemberData } from '../Redux/Reducers/TeamMemberReducer'
+
 function MeetOurTeam() {
+
+  const dispatch = useDispatch()
+
+  const handleTeamMemberClick = (teamMember) => {
+    dispatch(setTeamMemberData(teamMember))
+  }
+
   // State to track the currently expanded panel
   const [expanded, setExpanded] = useState('panel1'); // Default to first panel
 
@@ -41,18 +55,14 @@ function MeetOurTeam() {
               <div className="barber__and__stylist__container">
 
                 {/* INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon">
-                    <Link to={{
-                        pathname: '/meet-our-team/yara-l',
-                        state: {
-                            name: 'Yara L.',
-                            image: '/images/dummy.jpg',
-                            bio: 'The Bio info goes here',
-                            bookingLink: 'yahoo.com'
-                        }
-                    }}
-                    onClick={() => console.log('Link clicked, navigating to Yara L.')}
->
+                <div className="stylist__icon" 
+                    onClick={() => handleTeamMemberClick({
+                    name: 'Yara L.',
+                    image: '/images/dummy.jpg',
+                    bio: 'This is XYZ test bio',
+                    bookingLink: 'yahoo.com'
+                })}>
+                    <Link to='/meet-our-team/yara-l'>
                         <img className='personal__img' src="/images/yara.png" alt="" />
                     </Link>
                     <p>Yara L.</p>
