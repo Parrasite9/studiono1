@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 // COMPONENTS 
 import Navbar from './Global_Components/Navbar'
 import Footer from './Global_Components/Footer'
-
+import ReactSlick from './ReactSlick'
 // MUI 
 import CallIcon from '@mui/icons-material/Call';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
@@ -60,7 +60,7 @@ function TeamMember() {
         <h2>{teamMemberData.name}</h2>
       </div>
 
-      {/* TEAM MEMBER NAME  */}
+      {/* TEAM MEMBER TITLE  */}
       <div className="member__Title">
         <h5>{teamMemberData.title}</h5>
       </div>
@@ -106,6 +106,8 @@ function TeamMember() {
       </div>
 
       </div>
+
+    <ReactSlick />
 
     <Footer />
 
