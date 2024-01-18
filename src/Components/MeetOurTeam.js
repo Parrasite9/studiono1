@@ -73,7 +73,7 @@ function MeetOurTeam() {
                     contactInfo: '432-290-6756'
                 })}>
                     <Link to='/meet-our-team/yara-l'>
-                        <img className='personal__img' src="/images/yara.png" alt="" />
+                        <img className='personal__img' src="/images/yara_l/pro-photo/yara.png" alt="" />
                     </Link>
                     <p>Yara L.</p>
                 </div>
@@ -97,7 +97,7 @@ function MeetOurTeam() {
                         contactInfo: '888-888-8888'
                     })}>                    
                     <Link to={'/meet-our-team/rajani'}>
-                        <img className='personal__img' src="/images/a.png" alt="" />
+                        <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
                     </Link>
                     <p>Rajani</p>
                 </div>
@@ -121,12 +121,12 @@ function MeetOurTeam() {
                         contactInfo: '888-888-8888'
                     })}> 
                     <Link to={'/meet-our-team/allison'}>
-                        <img className='personal__img' src="/images/allison.png" alt="" />                                  
+                        <img className='personal__img' src="/images/allison/pro-photo/allison.png" alt="" />                                  
                     </Link> 
                     <p>Allison</p>
                 </div>
 
-                {/* JANE DOE || INDIVIDUAL STYLIST  */}
+                {/* Clara || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
                         name: 'JANE DOE 1',
@@ -138,22 +138,22 @@ function MeetOurTeam() {
                                 paragraph3: "3"    
                         },
                         mobileBio: {          
-                            paragraph1: `Meet JANE DOE 1, this is her Bio...`
+                            paragraph1: `Meet Clara, this is her Bio...`
                         },
 
                         bookingLink: 'http://www.yahoo.com',
                         contactInfo: '888-888-8888'
                     })}> 
                     <Link to={'/meet-our-team/janedoe1'}>
-                        <img className='personal__img' src="/images/b.png" alt="" />                         
+                        <img className='personal__img' src="/images/clara/pro-photo/clara.png" alt="" />                         
                     </Link> 
                     <p>Jane Doe</p>
                 </div>
 
-                {/* JANE DOE || INDIVIDUAL STYLIST  */}
+                {/* LEO || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
-                        name: 'JANE DOE 2',
+                        name: 'Leo',
                         title: 'Hair Stylist | Makeup Artist',
                         image: '/images/c.png',
                         desktopBio: {
@@ -162,14 +162,14 @@ function MeetOurTeam() {
                                 paragraph3: "3"    
                         },
                         mobileBio: {          
-                            paragraph1: `Meet JANE DOE 2, this is her Bio...`
+                            paragraph1: `Meet Leo, this is her Bio...`
                         },
 
                         bookingLink: 'http://www.yahoo.com',
                         contactInfo: '888-888-8888'
                     })}> 
                     <Link to={'/meet-our-team/janedoe2'}>
-                        <img className='personal__img' src="/images/c.png" alt="" /> 
+                        <img className='personal__img' src="/images/leo/pro-photo/leo.png" alt="" /> 
                     </Link> 
                     <p>Jane Doe</p>
                 </div>
@@ -193,7 +193,7 @@ function MeetOurTeam() {
                         contactInfo: '888-888-8888'
                     })}> 
                     <Link to={'/meet-our-team/crystal'}>
-                        <img className='personal__img' src="/images/crystal.png" alt="" />
+                        <img className='personal__img' src="/images/crystal/pro-photo/crystal.png" alt="" />
                     </Link> 
                     <p>Crystal</p>
                 </div>
@@ -217,7 +217,7 @@ function MeetOurTeam() {
                         contactInfo: '888-888-8888'
                     })}> 
                     <Link to={'/meet-our-team/ruby'}>
-                        <img className='personal__img' src="/images/ruby.png" alt="" />
+                        <img className='personal__img' src="/images/ruby/pro-photo/ruby.png" alt="" />
                     </Link> 
                     <p>Ruby</p>
                 </div>
@@ -241,7 +241,7 @@ function MeetOurTeam() {
                         contactInfo: '888-888-8888'
                     })}> 
                     <Link to={'/meet-our-team/yara-c'}>
-                        <img className='personal__img' src="/images/y2.png" alt="" />
+                        <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="" />
                     </Link> 
                     <p>Yara C.</p>
                 </div>
@@ -289,7 +289,7 @@ function MeetOurTeam() {
           <AccordionDetails>
             <Typography>
                 <div className="spa__services__container">
-                    {/* YARA L. || INDIVIDUAL STYLIST  */}
+                    {/* ROBIN || INDIVIDUAL STYLIST  */}
                     <div className="stylist__icon" 
                         onClick={() => handleTeamMemberClick({
                         name: 'Robin',
@@ -308,7 +308,7 @@ function MeetOurTeam() {
                         contactInfo: '888-888-8888'
                     })}>
                         <Link to='/meet-our-team/robin'>
-                            <img className='personal__img' src="/images/robin.png" alt="" />
+                            <img className='personal__img' src="/images/robin/pro-photo/robin.png" alt="" />
                         </Link>
                         <p>Robin</p>
                     </div>
@@ -332,7 +332,7 @@ function MeetOurTeam() {
                             contactInfo: '888-888-8888'
                         })}>                    
                         <Link to={'/meet-our-team/tori'}>
-                            <img className='personal__img' src="/images/tory.png" alt="" />
+                            <img className='personal__img' src="/images/tori/pro-photo/tory.png" alt="" />
                         </Link>
                         <p>Tori</p>
                     </div>
