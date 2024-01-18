@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { useSelector } from 'react-redux';
+import '../CSS/ReactSlick.css'
 
 const MultipleItems = () => {
   const teamMemberData = useSelector(state => state.teamMember.teamMemberData);
@@ -14,35 +15,35 @@ const MultipleItems = () => {
   };
 
   return (
-    <div>
-        <h2> Multiple items </h2>
+    <div className="ReactSlick">
+        <h2> Beauty Highlights </h2>
         <Slider {...settings}>
             <div>
-                <h3>{teamMemberData.name}</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo1} alt="gallery_img_1" />
             </div>
             <div>
-                <h3>2</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo2} alt="gallery_img_2" />
             </div>
             <div>
-                <h3>3</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo3} alt="gallery_img_3" />
             </div>
             <div>
-                <h3>4</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo4} alt="gallery_img_4" />
             </div>
             <div>
-                <h3>5</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo5} alt="gallery_img_5" />
             </div>
             <div>
-                <h3>6</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo6} alt="gallery_img_6" />
             </div>
             <div>
-                <h3>7</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo7} alt="gallery_img_7" />
             </div>
             <div>
-                <h3>8</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo8} alt="gallery_img_8" />
             </div>
             <div>
-                <h3>9</h3>
+                <img className="slider__img" src={teamMemberData.gallery.photo9} alt="gallery_img_9" />
             </div>
         </Slider>
     </div>
