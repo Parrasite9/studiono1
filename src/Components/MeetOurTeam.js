@@ -69,18 +69,41 @@ function MeetOurTeam() {
                         paragraph1: `Meet Yara, the dynamic owner of Studio No. 1, a stylish salon established in 2021. With over a decade in the beauty industry, Yara offers an array of services, specializing in hair and makeup. Her salon is renowned for eye-catching haircuts, innovative baleyage, and vivid hair colors, catering to men, women, and children. As a skilled makeup artist and waxing specialist, Yara ensures Studio No. 1 is a one-stop destination for all beauty needs. Her approach goes beyond aesthetics; she creates a welcoming, rejuvenating space where clients feel valued and beautiful. Known for her warm personality, Yara has built a loyal clientele who see her as both a talented stylist and a trusted confidante.`
                     },
                     gallery: {
-                        photo1: '/images/allison/gallery/a2.jpeg',
-                        photo2: '/images/allison/gallery/a3.jpeg',
-                        photo3: '/images/allison/gallery/a4.jpeg',
-                        photo4: '/images/allison/gallery/a5.jpeg',
-                        photo5: '/images/allison/gallery/a6.jpeg',
+                        photo1: '/images/allison/gallery/a1.jpeg',
+                        photo2: '/images/allison/gallery/a2.jpeg',
+                        photo3: '/images/allison/gallery/a3.jpeg',
+                        photo4: '/images/allison/gallery/a4.jpeg',
+                        photo5: '/images/allison/gallery/a5.jpeg',
                         photo6: '/images/allison/gallery/a6.jpeg',
-                        photo7: '/images/allison/gallery/a2.jpeg',
-                        photo8: '/images/allison/gallery/a1.jpeg',
-                        photo9: '/images/allison/gallery/a3.jpeg',
+                        photo7: '/images/allison/gallery/a7.jpeg',
+                        photo8: '/images/allison/gallery/a8.jpeg',
+                        photo9: '/images/allison/gallery/a9.jpeg',
                     },
                     bookingLink: 'http://www.yahoo.com',
-                    contactInfo: '432-290-6756'
+                    contactInfo: '432-290-6756',
+                    services: {
+                        test: 'hello',
+                        womens: {
+                            haircut: 'Haircut',
+                            haircutPrice: 'XX',
+                            balyage: 'Balyage',
+                            balyagePrice: 'XX',
+                            waxing: 'Waxing',
+                            waxingPrice: 'XX',
+                            color: 'Hair Color',
+                            colorPrice: 'FC',
+                            highlights: 'Highlights',
+                            highlightsPrice: 'FC',
+                            rootTouchUp: 'Root Touch-Ups',
+                            rootTouchUpPrice: 'XX',
+                            perm: 'Perm',
+                            permPrice: 'XX',
+                            relaxer: 'Relaxer',
+                            relaxerPrice: 'XX',
+                            whiteout: 'White Out',
+                            whiteoutPrice: 'FC',
+                        }
+                    }
                 })}>
                     <Link to='/meet-our-team/yara-l'>
                         <img className='personal__img' src="/images/yara_l/pro-photo/yara.png" alt="" />

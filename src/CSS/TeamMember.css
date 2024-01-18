@@ -19,6 +19,7 @@
     .member__Img {
         display: flex;
         justify-content: center;  
+        padding-top: 5%;
     }
 
     .member__Img > img {

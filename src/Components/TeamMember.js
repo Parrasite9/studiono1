@@ -8,9 +8,12 @@ import { useSelector } from 'react-redux'
 import Navbar from './Global_Components/Navbar'
 import Footer from './Global_Components/Footer'
 import ReactSlick from './ReactSlick'
+
 // MUI 
 import CallIcon from '@mui/icons-material/Call';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import SmsIcon from '@mui/icons-material/Sms';
+import Prices from './Prices'
 
 function TeamMember() {
 
@@ -82,7 +85,7 @@ function TeamMember() {
       <div className="button__Container">
         {/* CONTACT INFO  */}
         <div className="member__Contact">
-          {!businessHours ? (
+          {businessHours ? (
             <>
               <a href={`tel:${teamMemberData.contactInfo}`} className="button-style">
                 <button className='test'>
@@ -93,7 +96,12 @@ function TeamMember() {
             </>
           ) : (
             <>
-              <a href={`sms:${teamMemberData.contactInfo}`} className="button-style"><button>Text Me</button></a>
+              <a href={`sms:${teamMemberData.contactInfo}`} className="button-style">
+                <button>
+                  <SmsIcon fontSize='small' style={{ marginRight: '10px' }} />
+                  Text Me
+                </button>
+              </a>
             </>
           )}
         </div>
@@ -108,6 +116,8 @@ function TeamMember() {
       </div>
 
     <ReactSlick />
+
+    <Prices /> 
 
     <Footer />
 
