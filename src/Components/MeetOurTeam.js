@@ -70,7 +70,7 @@ function MeetOurTeam() {
                     },
 
                     bookingLink: 'http://www.yahoo.com',
-                    contactInfo: '888-888-8888'
+                    contactInfo: '432-290-6756'
                 })}>
                     <Link to='/meet-our-team/yara-l'>
                         <img className='personal__img' src="/images/yara.png" alt="" />
