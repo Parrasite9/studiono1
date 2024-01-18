@@ -59,7 +59,7 @@ function MeetOurTeam() {
                     onClick={() => handleTeamMemberClick({
                     name: 'Yara L.',
                     title: 'Salon Owner | Barber | Hair Stylist | Makeup Artist',
-                    image: '/images/dummy.jpg',
+                    image: '/images/yara_l/pro-photo/dummy.jpg',
                     desktopBio: {
                             paragraph1: "Meet Yara, the dynamic and passionate owner of Studio No. 1, a vibrant salon that has been redefining style and elegance since its inception in 2021. With a decade of experience in the beauty industry, Yara brings a wealth of knowledge, skill, and creativity to the salon floor. Her journey began with a dream to create a space that not only offers top-notch hair and beauty services but also provides a warm, welcoming atmosphere for every client who walks through the doors.",
                             paragraph2: "Yara's expertise spans a wide range of services, ensuring that every client need is met with the utmost attention to detail. Whether it's crafting stunning up-dos for weddings, creating memorable looks for birthdays and special events, or providing everyday styling needs like men's, women's, and children's cuts, Yara's precision and flair are evident. Her passion particularly shines in women's services, where she excels in delivering trend-setting balayage, vibrant hair colors, and other bespoke hair treatments that truly reflect each client's personality and style.",
