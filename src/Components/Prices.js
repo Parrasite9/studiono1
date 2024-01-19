@@ -11,6 +11,7 @@ function Prices() {
   return (
     <div className='Prices'>
       <h2>Prices</h2>
+      <p>Prices are Subject to Change</p>
       <div className="pricing__container">
 
         {/* SERVICE  */}

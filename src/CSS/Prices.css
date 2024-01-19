@@ -22,6 +22,12 @@
         text-align: center;
         margin-top: 15%;
     }
+
+    .Prices > p {
+        font-style: italic;
+        text-align: center;
+        margin-top: -10px;
+    }
     .service__and__price {
         display: flex;
         justify-content: space-between;
