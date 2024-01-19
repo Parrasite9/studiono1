@@ -111,40 +111,6 @@ function MeetOurTeam() {
                     <p>Yara L.</p>
                 </div>
 
-                {/* RAJANI || INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon"
-                    onClick={() => handleTeamMemberClick({
-                        name: 'Rajani',
-                        title: 'Hair Stylist | Makeup Artist',
-                        image: '/images/a.png',
-                        desktopBio: {
-                                paragraph1: "1",
-                                paragraph2: "2",
-                                paragraph3: "3"    
-                        },
-                        mobileBio: {          
-                            paragraph1: `Meet Rajani, this is her Bio...`
-                        },
-                        gallery: {
-                            photo1: '/images/allison/gallery/a2.jpeg',
-                            photo2: '/images/allison/gallery/a3.jpeg',
-                            photo3: '/images/allison/gallery/a4.jpeg',
-                            photo4: '/images/allison/gallery/a5.jpeg',
-                            photo5: '/images/allison/gallery/a6.jpeg',
-                            photo6: '/images/allison/gallery/a6.jpeg',
-                            photo7: '/images/allison/gallery/a2.jpeg',
-                            photo8: '/images/allison/gallery/a1.jpeg',
-                            photo9: '/images/allison/gallery/a3.jpeg',
-                        },
-                        bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
-                    })}>                    
-                    <Link to={'/meet-our-team/rajani'}>
-                        <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
-                    </Link>
-                    <p>Rajani</p>
-                </div>
-
                 {/* ALLISON || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
@@ -349,6 +315,40 @@ function MeetOurTeam() {
                     <p>Yara C.</p>
                 </div>
 
+                {/* DALETH || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Daleth',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/daleth/pro-photo/daleth.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Rajani, this is her Bio...`
+                        },
+                        gallery: {
+                            photo1: '/images/allison/gallery/a2.jpeg',
+                            photo2: '/images/allison/gallery/a3.jpeg',
+                            photo3: '/images/allison/gallery/a4.jpeg',
+                            photo4: '/images/allison/gallery/a5.jpeg',
+                            photo5: '/images/allison/gallery/a6.jpeg',
+                            photo6: '/images/allison/gallery/a6.jpeg',
+                            photo7: '/images/allison/gallery/a2.jpeg',
+                            photo8: '/images/allison/gallery/a1.jpeg',
+                            photo9: '/images/allison/gallery/a3.jpeg',
+                        },
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}>                    
+                    <Link to={'/meet-our-team/rajani'}>
+                        <img className='personal__img' src="/images/daleth/pro-photo/daleth.png" alt="daleth" />
+                    </Link>
+                    <p>Daleth</p>
+                </div>
+
               </div>
 
             </Typography>
@@ -370,9 +370,39 @@ function MeetOurTeam() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
-            </Typography>
+                {/* RAJANI || INDIVIDUAL STYLIST  */}
+                <div className="stylist__icon"
+                    onClick={() => handleTeamMemberClick({
+                        name: 'Rajani',
+                        title: 'Hair Stylist | Makeup Artist',
+                        image: '/images/a.png',
+                        desktopBio: {
+                                paragraph1: "1",
+                                paragraph2: "2",
+                                paragraph3: "3"    
+                        },
+                        mobileBio: {          
+                            paragraph1: `Meet Rajani, this is her Bio...`
+                        },
+                        gallery: {
+                            photo1: '/images/allison/gallery/a2.jpeg',
+                            photo2: '/images/allison/gallery/a3.jpeg',
+                            photo3: '/images/allison/gallery/a4.jpeg',
+                            photo4: '/images/allison/gallery/a5.jpeg',
+                            photo5: '/images/allison/gallery/a6.jpeg',
+                            photo6: '/images/allison/gallery/a6.jpeg',
+                            photo7: '/images/allison/gallery/a2.jpeg',
+                            photo8: '/images/allison/gallery/a1.jpeg',
+                            photo9: '/images/allison/gallery/a3.jpeg',
+                        },
+                        bookingLink: 'http://www.yahoo.com',
+                        contactInfo: '888-888-8888'
+                    })}>                    
+                    <Link to={'/meet-our-team/rajani'}>
+                        <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
+                    </Link>
+                    <p>Rajani</p>
+                </div>            </Typography>
           </AccordionDetails>
         </Accordion>
 
