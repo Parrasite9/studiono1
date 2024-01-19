@@ -16,6 +16,7 @@ const MultipleItems = () => {
     autoplaySpeed: 4000,
     arrows: true,
     cssEase: 'linear',
+    arrows: false,
   };
 
   return (
