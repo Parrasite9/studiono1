@@ -10,8 +10,13 @@
     align-items: center;
 }
 
+.section__image,
+.AboutUs > p {
+    padding: 0 8%;
+}
+
 .section__image > img {
-    width: 95%;
+    width: 100%;
     height: auto;
 }
 
