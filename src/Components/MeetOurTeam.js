@@ -355,57 +355,6 @@ function MeetOurTeam() {
           </AccordionDetails>
         </Accordion>
 
-        {/* SECOND PANEL  */}
-        <Accordion 
-          expanded={expanded === 'panel2'} 
-          onChange={handleChange('panel2')}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2-content"
-            id="panel2-header"
-            className='panel-header'
-          >
-            <Typography>Esthetician</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-                {/* RAJANI || INDIVIDUAL STYLIST  */}
-                <div className="stylist__icon"
-                    onClick={() => handleTeamMemberClick({
-                        name: 'Rajani',
-                        title: 'Hair Stylist | Makeup Artist',
-                        image: '/images/a.png',
-                        desktopBio: {
-                                paragraph1: "1",
-                                paragraph2: "2",
-                                paragraph3: "3"    
-                        },
-                        mobileBio: {          
-                            paragraph1: `Meet Rajani, this is her Bio...`
-                        },
-                        gallery: {
-                            photo1: '/images/allison/gallery/a2.jpeg',
-                            photo2: '/images/allison/gallery/a3.jpeg',
-                            photo3: '/images/allison/gallery/a4.jpeg',
-                            photo4: '/images/allison/gallery/a5.jpeg',
-                            photo5: '/images/allison/gallery/a6.jpeg',
-                            photo6: '/images/allison/gallery/a6.jpeg',
-                            photo7: '/images/allison/gallery/a2.jpeg',
-                            photo8: '/images/allison/gallery/a1.jpeg',
-                            photo9: '/images/allison/gallery/a3.jpeg',
-                        },
-                        bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
-                    })}>                    
-                    <Link to={'/meet-our-team/rajani'}>
-                        <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
-                    </Link>
-                    <p>Rajani</p>
-                </div>            </Typography>
-          </AccordionDetails>
-        </Accordion>
-
         {/* THIRD PANEL  */}
         <Accordion 
           expanded={expanded === 'panel3'} 
@@ -446,7 +395,7 @@ function MeetOurTeam() {
                         <p>Robin</p>
                     </div>
 
-                    {/* RAJANI || INDIVIDUAL STYLIST  */}
+                    {/* TORI || INDIVIDUAL STYLIST  */}
                     <div className="stylist__icon"
                         onClick={() => handleTeamMemberClick({
                             name: 'Tori',
@@ -469,6 +418,40 @@ function MeetOurTeam() {
                         </Link>
                         <p>Tori</p>
                     </div>
+
+                    {/* RAJANI || INDIVIDUAL STYLIST  */}
+                    <div className="stylist__icon"
+                        onClick={() => handleTeamMemberClick({
+                            name: 'Rajani',
+                            title: 'Hair Stylist | Makeup Artist',
+                            image: '/images/a.png',
+                            desktopBio: {
+                                    paragraph1: "1",
+                                    paragraph2: "2",
+                                    paragraph3: "3"    
+                            },
+                            mobileBio: {          
+                                paragraph1: `Meet Rajani, this is her Bio...`
+                            },
+                            gallery: {
+                                photo1: '/images/allison/gallery/a2.jpeg',
+                                photo2: '/images/allison/gallery/a3.jpeg',
+                                photo3: '/images/allison/gallery/a4.jpeg',
+                                photo4: '/images/allison/gallery/a5.jpeg',
+                                photo5: '/images/allison/gallery/a6.jpeg',
+                                photo6: '/images/allison/gallery/a6.jpeg',
+                                photo7: '/images/allison/gallery/a2.jpeg',
+                                photo8: '/images/allison/gallery/a1.jpeg',
+                                photo9: '/images/allison/gallery/a3.jpeg',
+                            },
+                            bookingLink: 'http://www.yahoo.com',
+                            contactInfo: '888-888-8888'
+                        })}>                    
+                        <Link to={'/meet-our-team/rajani'}>
+                            <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
+                        </Link>
+                        <p>Rajani</p>
+                    </div> 
                 </div>
             </Typography>
           </AccordionDetails>
