@@ -53,7 +53,10 @@ function MeetOurTeam() {
               malesuada lacus ex, sit amet blandit leo lobortis eget. */}
 
               <div className="barber__and__stylist__container">
-
+                <div className="section__text">
+                    <p>Select Your Team Member</p>
+                </div>
+                <div className="employee__icons">
                 {/* YARA L. || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon" 
                     onClick={() => handleTeamMemberClick({
@@ -511,7 +514,7 @@ function MeetOurTeam() {
                 </div>
 
               </div>
-
+              </div>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -532,6 +535,11 @@ function MeetOurTeam() {
           <AccordionDetails>
             <Typography>
                 <div className="spa__services__container">
+                <div className="section__text">
+                    <p>Select Your Team Member</p>
+                </div>
+                <div className="spa__employee__icons">
+
                     {/* ROBIN || INDIVIDUAL STYLIST  */}
                     <div className="stylist__icon" 
                         onClick={() => handleTeamMemberClick({
@@ -701,7 +709,9 @@ function MeetOurTeam() {
                             <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
                         </Link>
                         <p>Rajani</p>
-                    </div> 
+                    </div>
+                    </div>
+ 
                 </div>
             </Typography>
           </AccordionDetails>

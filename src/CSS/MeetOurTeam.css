@@ -25,8 +25,13 @@
     /* Add any additional styling as needed */
 }
 
-
-.barber__and__stylist__container {
+.section__text > p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+.employee__icons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -49,11 +54,11 @@
         text-align: center;
     }
 
-    .spa__services__container {
+    .spa__employee__icons {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 0px;
+        grid-column-gap: 30px;
         grid-row-gap: 0px;
         }
         
