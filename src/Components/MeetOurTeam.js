@@ -137,7 +137,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}> 
                     <Link to={'/meet-our-team/allison'}>
                         <img className='personal__img' src="/images/allison/pro-photo/allison.png" alt="" />                                  
@@ -171,7 +194,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}> 
                     <Link to={'/meet-our-team/janedoe1'}>
                         <img className='personal__img' src="/images/clara/pro-photo/clara.png" alt="" />                         
@@ -205,7 +251,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}> 
                     <Link to={'/meet-our-team/janedoe2'}>
                         <img className='personal__img' src="/images/leo/pro-photo/leo.png" alt="" /> 
@@ -239,7 +308,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}> 
                     <Link to={'/meet-our-team/crystal'}>
                         <img className='personal__img' src="/images/crystal/pro-photo/crystal.png" alt="" />
@@ -273,7 +365,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}> 
                     <Link to={'/meet-our-team/ruby'}>
                         <img className='personal__img' src="/images/ruby/pro-photo/ruby.png" alt="" />
@@ -307,7 +422,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}> 
                     <Link to={'/meet-our-team/yara-c'}>
                         <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="" />
@@ -341,7 +479,30 @@ function MeetOurTeam() {
                             photo9: '/images/allison/gallery/a3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}>                    
                     <Link to={'/meet-our-team/rajani'}>
                         <img className='personal__img' src="/images/daleth/pro-photo/daleth.png" alt="daleth" />
@@ -376,7 +537,7 @@ function MeetOurTeam() {
                         onClick={() => handleTeamMemberClick({
                         name: 'Robin',
                         title: 'Nail Tech | Facials',
-                        image: '/images/robin.png',
+                        image: '/images/robin/pro-photo/robin.png',
                         desktopBio: {
                                 paragraph1: "1",
                                 paragraph2: "2",
@@ -385,9 +546,42 @@ function MeetOurTeam() {
                         mobileBio: {          
                             paragraph1: `Meet Robin, this is her Bio...`
                         },
-
+                        gallery: {
+                            photo1: '/images/allison/gallery/a2.jpeg',
+                            photo2: '/images/allison/gallery/a3.jpeg',
+                            photo3: '/images/allison/gallery/a4.jpeg',
+                            photo4: '/images/allison/gallery/a5.jpeg',
+                            photo5: '/images/allison/gallery/a6.jpeg',
+                            photo6: '/images/allison/gallery/a6.jpeg',
+                            photo7: '/images/allison/gallery/a2.jpeg',
+                            photo8: '/images/allison/gallery/a1.jpeg',
+                            photo9: '/images/allison/gallery/a3.jpeg',
+                        },
                         bookingLink: 'http://www.yahoo.com',
-                        contactInfo: '888-888-8888'
+                        contactInfo: '888-888-8888',
+                        services: {
+                            test: 'hello',
+                            womens: {
+                                haircut: 'Haircut',
+                                haircutPrice: 'XX',
+                                balyage: 'Balyage',
+                                balyagePrice: 'XX',
+                                waxing: 'Waxing',
+                                waxingPrice: 'XX',
+                                color: 'Hair Color',
+                                colorPrice: 'FC',
+                                highlights: 'Highlights',
+                                highlightsPrice: 'FC',
+                                rootTouchUp: 'Root Touch-Ups',
+                                rootTouchUpPrice: 'XX',
+                                perm: 'Perm',
+                                permPrice: 'XX',
+                                relaxer: 'Relaxer',
+                                relaxerPrice: 'XX',
+                                whiteout: 'White Out',
+                                whiteoutPrice: 'FC',
+                            }
+                        }
                     })}>
                         <Link to='/meet-our-team/robin'>
                             <img className='personal__img' src="/images/robin/pro-photo/robin.png" alt="" />
@@ -400,7 +594,7 @@ function MeetOurTeam() {
                         onClick={() => handleTeamMemberClick({
                             name: 'Tori',
                             title: 'Massage Therapist',
-                            image: '/images/tory.png',
+                            image: '/images/tory/pro-photo/tory.png',
                             desktopBio: {
                                     paragraph1: "1",
                                     paragraph2: "2",
@@ -409,9 +603,42 @@ function MeetOurTeam() {
                             mobileBio: {          
                                 paragraph1: `Meet Tori, this is her Bio...`
                             },
-
+                            gallery: {
+                                photo1: '/images/allison/gallery/a2.jpeg',
+                                photo2: '/images/allison/gallery/a3.jpeg',
+                                photo3: '/images/allison/gallery/a4.jpeg',
+                                photo4: '/images/allison/gallery/a5.jpeg',
+                                photo5: '/images/allison/gallery/a6.jpeg',
+                                photo6: '/images/allison/gallery/a6.jpeg',
+                                photo7: '/images/allison/gallery/a2.jpeg',
+                                photo8: '/images/allison/gallery/a1.jpeg',
+                                photo9: '/images/allison/gallery/a3.jpeg',
+                            },
                             bookingLink: 'http://www.yahoo.com',
-                            contactInfo: '888-888-8888'
+                            contactInfo: '888-888-8888',
+                            services: {
+                                test: 'hello',
+                                womens: {
+                                    haircut: 'Haircut',
+                                    haircutPrice: 'XX',
+                                    balyage: 'Balyage',
+                                    balyagePrice: 'XX',
+                                    waxing: 'Waxing',
+                                    waxingPrice: 'XX',
+                                    color: 'Hair Color',
+                                    colorPrice: 'FC',
+                                    highlights: 'Highlights',
+                                    highlightsPrice: 'FC',
+                                    rootTouchUp: 'Root Touch-Ups',
+                                    rootTouchUpPrice: 'XX',
+                                    perm: 'Perm',
+                                    permPrice: 'XX',
+                                    relaxer: 'Relaxer',
+                                    relaxerPrice: 'XX',
+                                    whiteout: 'White Out',
+                                    whiteoutPrice: 'FC',
+                                }
+                            }
                         })}>                    
                         <Link to={'/meet-our-team/tori'}>
                             <img className='personal__img' src="/images/tori/pro-photo/tory.png" alt="" />
@@ -424,7 +651,7 @@ function MeetOurTeam() {
                         onClick={() => handleTeamMemberClick({
                             name: 'Rajani',
                             title: 'Hair Stylist | Makeup Artist',
-                            image: '/images/a.png',
+                            image: '/images/rajani/pro-photo/rajani.png',
                             desktopBio: {
                                     paragraph1: "1",
                                     paragraph2: "2",
@@ -445,7 +672,30 @@ function MeetOurTeam() {
                                 photo9: '/images/allison/gallery/a3.jpeg',
                             },
                             bookingLink: 'http://www.yahoo.com',
-                            contactInfo: '888-888-8888'
+                            contactInfo: '888-888-8888',
+                            services: {
+                                test: 'hello',
+                                womens: {
+                                    haircut: 'Haircut',
+                                    haircutPrice: 'XX',
+                                    balyage: 'Balyage',
+                                    balyagePrice: 'XX',
+                                    waxing: 'Waxing',
+                                    waxingPrice: 'XX',
+                                    color: 'Hair Color',
+                                    colorPrice: 'FC',
+                                    highlights: 'Highlights',
+                                    highlightsPrice: 'FC',
+                                    rootTouchUp: 'Root Touch-Ups',
+                                    rootTouchUpPrice: 'XX',
+                                    perm: 'Perm',
+                                    permPrice: 'XX',
+                                    relaxer: 'Relaxer',
+                                    relaxerPrice: 'XX',
+                                    whiteout: 'White Out',
+                                    whiteoutPrice: 'FC',
+                                }
+                            }
                         })}>                    
                         <Link to={'/meet-our-team/rajani'}>
                             <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
@@ -477,9 +727,6 @@ function MeetOurTeam() {
             </Typography>
           </AccordionDetails>
         </Accordion>
-
-
-
 
         {/* Add more accordion items here if needed */}
       </div>
