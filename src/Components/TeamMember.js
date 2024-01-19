@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux'
 // COMPONENTS 
 import Navbar from './Global_Components/Navbar'
 import Footer from './Global_Components/Footer'
-import ReactSlick from './ReactSlick'
+import Gallery from './Gallery'
 
 // MUI 
 import CallIcon from '@mui/icons-material/Call';
@@ -115,7 +115,7 @@ function TeamMember() {
 
       </div>
 
-    <ReactSlick />
+    <Gallery />
 
     <Prices /> 
 
