@@ -2,10 +2,12 @@
     background-color: #333;
 }
 
-.logo {
+.Footer > .logo {
     text-align: center;
     color: #f2f2f2;
     padding-top: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer__header {
