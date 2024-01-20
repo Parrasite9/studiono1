@@ -1,0 +1,12 @@
+.service{
+    padding: 0 8%;
+}
+.service > img {
+    width: 100%;
+    height: auto;
+}
+
+.service > h2,
+.service > p {
+    text-align: center;
+}
