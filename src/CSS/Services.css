@@ -10,3 +10,27 @@
 .service > p {
     text-align: center;
 }
+
+.service > Link > button {
+    color: green;
+}
+
+.service > a > button {
+    background-color: #163C5E;
+    color: #f2f2f2;
+    padding: 10px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: none; /* To remove the default browser styling for buttons */
+    text-decoration: none; /* To remove underline from text */
+    font-size: 1em; /* Adjust as needed */
+    text-align: center; /* To center the text inside the button */
+}
+
+.service > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
