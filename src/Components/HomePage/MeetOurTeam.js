@@ -174,7 +174,7 @@ function MeetOurTeam() {
                 {/* Clara || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
-                        name: 'JANE DOE 1',
+                        name: 'Clara',
                         title: 'Hair Stylist | Makeup Artist',
                         image: '/images/b.png',
                         desktopBio: {
@@ -225,7 +225,7 @@ function MeetOurTeam() {
                     <Link to={'/meet-our-team/janedoe1'}>
                         <img className='personal__img' src="/images/clara/pro-photo/clara.png" alt="" />                         
                     </Link> 
-                    <p>Jane Doe</p>
+                    <p>Clara</p>
                 </div>
 
                 {/* LEO || INDIVIDUAL STYLIST  */}
@@ -282,7 +282,7 @@ function MeetOurTeam() {
                     <Link to={'/meet-our-team/janedoe2'}>
                         <img className='personal__img' src="/images/leo/pro-photo/leo.png" alt="" /> 
                     </Link> 
-                    <p>Jane Doe</p>
+                    <p>Leo</p>
                 </div>
 
                 {/* CRYSTAL || INDIVIDUAL STYLIST  */}
