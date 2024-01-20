@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 // IMPORTED COMPONENTS 
 import Home from './Components/Home'
 import TeamMember from './Components/TeamMemberPage/TeamMember';
+import AboutPage from './Components/HomePage/AboutPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           {/* ROUTE HOLDS DATA OF EACH INDIVIDUAL ROUTE */}
           <Route path='/' element={<Home />} />
           <Route path='/meet-our-team/:id' element={<TeamMember />} />
+          <Route path='/about-us' element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
       

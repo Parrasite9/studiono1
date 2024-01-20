@@ -119,7 +119,7 @@ function MeetOurTeam() {
                     onClick={() => handleTeamMemberClick({
                         name: 'Allison',
                         title: 'Hair Stylist | Makeup Artist',
-                        image: '/images/allison.png',
+                        image: '/images/allison/pro-photo/allison.png',
                         desktopBio: {
                                 paragraph1: "1",
                                 paragraph2: "2",

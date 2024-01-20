@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Services() {
   return (
-    <div className='Services'>
+    <div className='Services' id='Services'>
       <div className="service__section">
 
         {/* LEFT SERVICE | BEAUTY SERVICE */}
