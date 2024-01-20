@@ -11,9 +11,9 @@
     text-align: center;
 }
 
-.service > Link > button {
+/* .service > Link > button {
     color: green;
-}
+} */
 
 .service > a > button {
     background-color: #163C5E;
