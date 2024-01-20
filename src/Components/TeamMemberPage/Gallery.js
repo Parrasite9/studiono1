@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { useSelector } from 'react-redux';
-import '../CSS/ReactSlick.css'
+import '../../CSS/ReactSlick.css'
 
 const MultipleItems = () => {
   const teamMemberData = useSelector(state => state.teamMember.teamMemberData);

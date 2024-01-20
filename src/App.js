@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 // IMPORTED COMPONENTS 
 import Home from './Components/Home'
-import TeamMember from './Components/TeamMember';
+import TeamMember from './Components/TeamMemberPage/TeamMember';
 
 function App() {
   return (

@@ -1,12 +1,12 @@
-import '../CSS/TeamMember.css'
+import '../../CSS/TeamMember.css'
 import React, { useEffect, useState } from 'react'
 
 // REDUX 
 import { useSelector } from 'react-redux'
 
 // COMPONENTS 
-import Navbar from './Global_Components/Navbar'
-import Footer from './Global_Components/Footer'
+import Navbar from '../Global_Components/Navbar'
+import Footer from '../Global_Components/Footer'
 import Gallery from './Gallery'
 
 // MUI 

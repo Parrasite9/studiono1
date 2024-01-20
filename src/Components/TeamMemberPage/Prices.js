@@ -1,5 +1,5 @@
 import React from 'react'
-import '../CSS/Prices.css'
+import '../../CSS/Prices.css'
 
 // REDUX 
 import { useSelector } from 'react-redux'

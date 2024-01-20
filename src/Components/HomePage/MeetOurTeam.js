@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../CSS/MeetOurTeam.css'
+import '../../CSS/MeetOurTeam.css'
 
 // MUI
 import Accordion from '@mui/material/Accordion';
@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 
 // REDUX 
 import { useDispatch } from 'react-redux';
-import { setTeamMemberData } from '../Redux/Reducers/TeamMemberReducer'
+import { setTeamMemberData } from '../../Redux/Reducers/TeamMemberReducer'
 
 function MeetOurTeam() {
 
