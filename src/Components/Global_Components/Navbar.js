@@ -21,7 +21,7 @@ function Navbar() {
 
           <div className="navlinks">
             <Link to="/">Home</Link>
-            <Link to="/AboutUs">About Us</Link>
+            <Link to="/About-us">About Us</Link>
             <Link to="/Services">Services</Link>
             <Link to="/FAQ">FAQ</Link>
             <Link to="/ContactUs">Contact Us</Link>
@@ -31,7 +31,8 @@ function Navbar() {
       ) : (
         <div className="navbar__container">
           <div className="logo">
-            <h3>STUDIO NO. 1</h3>
+            {/* <h3>STUDIO NO. 1</h3> */}
+            <Link to='/'>Studio No. 1</Link>
           </div>
 
           <div className="burger__menu">

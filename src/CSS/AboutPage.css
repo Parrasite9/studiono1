@@ -3,11 +3,16 @@
     text-align: center;
 }
 
-.AboutPage > .image__container > img {
+.AboutPage > .mobile__image__container > img {
     width: 100%;
     height: auto;
 }
 
-.image__container {
+.mobile__image__container {
     margin: 2% 8%;
+}
+
+.about__text > p > strong {
+    color: #0074B7;
+    text-decoration: underline;
 }

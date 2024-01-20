@@ -1,16 +1,41 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../Global_Components/Footer'
 import Navbar from '../Global_Components/Navbar'
 
 import '../../CSS/AboutPage.css'
+import { Link } from 'react-router-dom';
 function AboutPage() {
+
+  // State to determine if the device is mobile based on screen width
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+
+  // Effect to listen for window resize
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 900);
+    };
+
+    // Add event listener
+    window.addEventListener('resize', handleResize);
+
+    // Clean up
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <div className='AboutPage'>
         <Navbar />
 
-        <div className="image__container">
-            <img src="/images/about/group_mobile.jpg" alt="" />
-        </div>
+        {isMobile ? (
+            <div className="mobile__image__container">
+                <img src="/images/about/group_mobile.jpg" alt="Group Mobile" />
+            </div>
+            ) : (
+                <div className="desktop__image__container">
+                    <img src="/images/about/group_desktop.jpg" alt="Group Desktop" />
+                </div>
+            )
+          }
 
         <div className="about__text">
 
@@ -33,6 +58,7 @@ function AboutPage() {
             Join us at Studio No. 1, where every visit is an opportunity to experience the pinnacle of beauty and relaxation. We're not just a salon; we're your partners in the journey towards a more radiant and confident you.</p>
 
         </div>
+        <Link to="/Book-Now"><button>Book Now</button></Link>
         <Footer />
     </div>
   )
