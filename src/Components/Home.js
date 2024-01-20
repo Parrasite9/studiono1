@@ -6,6 +6,7 @@ import Footer from './Global_Components/Footer'
 import AboutUs from './AboutUs'
 import MeetOurTeam from './MeetOurTeam'
 import Services from './Services'
+import Email from './Email'
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
 
       <AboutUs />
       <Services />
-
+      <Email />
       <Footer />
     </div>
   )

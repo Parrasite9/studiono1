@@ -20,7 +20,7 @@ function Services() {
 
         {/* RIGHT SERVICE | BARBER */}
         <div className="service__right service">
-          <img src="/images/services/barber.jpg" alt="barber" />
+          <img src="/images/services/barber2.jpg" alt="barber" />
           <h2>Men's Grooming</h2>
           <p>Our services for men range from haircuts and styling to grooming treatments, 
             all designed to enhance your personal style and ensure you look and feel great.</p>
@@ -77,7 +77,7 @@ function Services() {
         {/* LEFT SERVICE | CHILD FRIENDLY */}
         <div className="service__left service">
           <img src="/images/services/child.jpg" alt="massage" />
-          <h2>Massage Therapy</h2>
+          <h2>Child Friendly</h2>
           <p>Studio No. 1 warmly welcome families and their little ones. Understanding the challenges 
             parents face in finding child-friendly salons, we've tailored a part of our services 
             specifically for children. Our environment is safe, fun, and engaging for kids, ensuring 
