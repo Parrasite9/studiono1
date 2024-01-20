@@ -74,7 +74,22 @@ function Services() {
           <Link><button>TEST</button></Link>
         </div>
 
-        {/* LEFT SERVICE | SPECIAL EVENT */}
+        {/* LEFT SERVICE | CHILD FRIENDLY */}
+        <div className="service__left service">
+          <img src="/images/services/child.jpg" alt="massage" />
+          <h2>Massage Therapy</h2>
+          <p>Studio No. 1 warmly welcome families and their little ones. Understanding the challenges 
+            parents face in finding child-friendly salons, we've tailored a part of our services 
+            specifically for children. Our environment is safe, fun, and engaging for kids, ensuring 
+            they feel comfortable and entertained while we pamper them with our gentle and kid-friendly 
+            beauty treatments. Whether it's a simple haircut or a fun styling session, our experienced 
+            staff are adept at making beauty treatments a delightful experience for children. Parents can 
+            relax, knowing their children are in caring and skilled hands, making Studio No. 1 a perfect 
+            family-friendly beauty destination.</p>
+          <Link><button>TEST</button></Link>
+        </div>
+
+        {/* RIGHT SERVICE | SPECIAL EVENT */}
         <div className="service__right service">
           <img src="/images/services/wedding.jpg" alt="massage" />
           <h2>Special Events</h2>
@@ -86,7 +101,7 @@ function Services() {
             cater to every detail. With options for group bookings and on-site services, we 
             make your convenience and comfort our top priority. Let us add a touch of Studio No. 1 
             magic to your memorable occasions.</p>
-          <Link className='test'><button>TEST</button></Link>
+          <Link><button>TEST</button></Link>
         </div>
       </div>
 
