@@ -7,7 +7,7 @@ import AboutUs from './HomePage/AboutUs'
 import MeetOurTeam from './HomePage/MeetOurTeam'
 import Services from './HomePage/Services'
 import Email from './HomePage/Email'
-
+import Testimonials from './HomePage/Testimonials'
 function Home() {
   return (
     <div className='Home'>
@@ -18,6 +18,7 @@ function Home() {
       <AboutUs />
       <Services />
       <Email />
+      <Testimonials />
       <Footer />
     </div>
   )

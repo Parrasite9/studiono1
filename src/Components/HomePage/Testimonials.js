@@ -1,7 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-import { useSelector } from 'react-redux';
-import '../CSS/ReactSlick.css'
+import '../../CSS/ReactSlick.css'
+import '../../CSS/Testimonials.css'
+
+// MUI 
+import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
 const testimonialSlider = () => {
 
@@ -9,10 +12,10 @@ const testimonialSlider = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 4000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // autoplay: true,
+    autoplaySpeed: 6000,
     arrows: true,
     cssEase: 'linear',
     arrows: false,
@@ -22,33 +25,75 @@ const testimonialSlider = () => {
     <div className="ReactSlick">
         <h2> Beauty Highlights </h2>
         <Slider {...settings}>
-            <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo1} alt="gallery_img_1" />
+
+            {/* SLIDE 1  */}
+            <div className="testimonial__slide">
+                <div>
+                    <FormatQuoteIcon />
+                    <p>Crystal is my girl!!! Every time 💜</p>
+                    <FormatQuoteIcon />
+                </div>
+                <h4>Anna F.</h4>
+            </div>
+
+            {/* SLIDE 2 */}
+            <div className="testimonial__slide">
+                <div>
+                    <FormatQuoteIcon />
+                    <p>Brand new salon with many accomodations. Spacious and inviting.</p>
+                    <FormatQuoteIcon />
+                </div>
+                <h4>Tristian B.</h4>
+            </div>
+
+            {/* SLIDE 3 */}
+            <div className="testimonial__slide">
+                <div>
+                    <FormatQuoteIcon />
+                    <p>Yara is awesome</p>
+                    <FormatQuoteIcon />
+                </div>
+                <h4>Macgallo G.</h4>
+            </div>
+
+            {/* SLIDE 4  */}
+            <div className="testimonial__slide">
+                <div>
+                    <FormatQuoteIcon />
+                    <p>Ruby is the best!!!</p>
+                    <FormatQuoteIcon />
+                </div>
+                <h4>Elisa D.</h4>
+            </div>
+
+            {/* SLIDE 5  */}
+            <div className="testimonial__slide">
+                <div>
+                    <FormatQuoteIcon />
+                    <p>Crystal is my girl!!! Every time 💜</p>
+                    <FormatQuoteIcon />
+                </div>
+                <h4>Anna F</h4>
+            </div>
+
+            
+            {/* <div>
+                <h4>Anna F</h4>
+                <p>Crystal is my girl!!! Every time 💜</p>
+              <img className="slider__img" src={teamMemberData.gallery.photo6} alt="gallery_img_6" />
             </div>
             <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo2} alt="gallery_img_2" />
+                <h4>Anna F</h4>
+                <p>Crystal is my girl!!! Every time 💜</p>
             </div>
             <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo3} alt="gallery_img_3" />
+                <h4>Anna F</h4>
+                <p>Crystal is my girl!!! Every time 💜</p>
             </div>
             <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo4} alt="gallery_img_4" />
-            </div>
-            <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo5} alt="gallery_img_5" />
-            </div>
-            <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo6} alt="gallery_img_6" />
-            </div>
-            <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo7} alt="gallery_img_7" />
-            </div>
-            <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo8} alt="gallery_img_8" />
-            </div>
-            <div>
-                <img className="slider__img" src={teamMemberData.gallery.photo9} alt="gallery_img_9" />
-            </div>
+                <h4>Anna F</h4>
+                <p>Crystal is my girl!!! Every time 💜</p>
+            </div> */}
         </Slider>
     </div>
   );
