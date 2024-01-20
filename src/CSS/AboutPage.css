@@ -1,0 +1,13 @@
+.about__text{
+    margin: 0 8%;
+    text-align: center;
+}
+
+.AboutPage > .image__container > img {
+    width: 100%;
+    height: auto;
+}
+
+.image__container {
+    margin: 2% 8%;
+}
