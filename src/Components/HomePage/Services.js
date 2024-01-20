@@ -101,7 +101,7 @@ function Services() {
             cater to every detail. With options for group bookings and on-site services, we 
             make your convenience and comfort our top priority. Let us add a touch of Studio No. 1 
             magic to your memorable occasions.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Book Your Special Day</button></Link>
         </div>
       </div>
 

@@ -14,7 +14,7 @@ const testimonialSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 6000,
     arrows: true,
     cssEase: 'linear',
@@ -76,7 +76,7 @@ const testimonialSlider = () => {
                 <h4>Anna F</h4>
             </div>
 
-            
+
             {/* <div>
                 <h4>Anna F</h4>
                 <p>Crystal is my girl!!! Every time 💜</p>
