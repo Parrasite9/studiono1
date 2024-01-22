@@ -461,7 +461,7 @@ function MeetOurTeam() {
                     onClick={() => handleTeamMemberClick({
                         name: 'Daleth',
                         title: 'Barber | Child Friendly',
-                        image: '/images/daleth/pro-photo/daleth.png',
+                        image: '/images/daleth/pro-photo/daleth__mobile.png',
                         desktopBio: {
                                 paragraph1: "Meet Daleth Vargas, a talented cosmetologist at our salon, known for her exceptional skill and dedication to the art of hair styling. With five years of experience in the beauty industry, Daleth has honed her expertise, specializing in men's and children's haircuts. Her approach to cosmetology blends classic techniques with contemporary style, ensuring each client leaves looking their best.",
                                 paragraph2: "Daleth's journey in the world of cosmetology is marked by a passion for bringing out the best in her clients, regardless of their age or style preferences. Her ability to connect with children and make them comfortable during their haircuts is particularly noteworthy. She understands that a haircut can be more than just a routine grooming experience; it's an opportunity to boost confidence and express individuality.",
@@ -507,7 +507,7 @@ function MeetOurTeam() {
                             }
                         }
                     })}>                    
-                    <Link to={'/meet-our-team/rajani'}>
+                    <Link to={'/meet-our-team/daleth'}>
                         <img className='personal__img' src="/images/daleth/pro-photo/daleth.png" alt="daleth" />
                     </Link>
                     <p>Daleth</p>
