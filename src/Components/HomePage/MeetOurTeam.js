@@ -460,15 +460,15 @@ function MeetOurTeam() {
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
                         name: 'Daleth',
-                        title: 'Hair Stylist | Makeup Artist',
+                        title: 'Barber | Child Friendly',
                         image: '/images/daleth/pro-photo/daleth.png',
                         desktopBio: {
-                                paragraph1: "1",
-                                paragraph2: "2",
-                                paragraph3: "3"    
+                                paragraph1: "Meet Daleth Vargas, a talented cosmetologist at our salon, known for her exceptional skill and dedication to the art of hair styling. With five years of experience in the beauty industry, Daleth has honed her expertise, specializing in men's and children's haircuts. Her approach to cosmetology blends classic techniques with contemporary style, ensuring each client leaves looking their best.",
+                                paragraph2: "Daleth's journey in the world of cosmetology is marked by a passion for bringing out the best in her clients, regardless of their age or style preferences. Her ability to connect with children and make them comfortable during their haircuts is particularly noteworthy. She understands that a haircut can be more than just a routine grooming experience; it's an opportunity to boost confidence and express individuality.",
+                                paragraph3: "Clients appreciate Daleth for her friendly demeanor and attentive service. She takes the time to understand each client's needs and preferences, ensuring a personalized and enjoyable salon experience. Whether you're looking for a trendy new look or a classic cut, Daleth's precision and attention to detail make her a trusted stylist for all ages."    
                         },
                         mobileBio: {          
-                            paragraph1: `Meet Rajani, this is her Bio...`
+                            paragraph1: `Introducing Daleth Vargas, a skilled cosmetologist at Studio No. 1 with a special flair for men’s and children’s haircuts. With 5 years of experience, Daleth excels in crafting tailored styles that range from classic to contemporary. Her gentle approach with kids makes her a hit among our younger clientele, while her expertise in men’s grooming has earned her a loyal following. Daleth’s passion for hairstyling and her friendly, engaging personality make every salon visit a delightful experience.`
                         },
                         gallery: {
                             photo1: '/images/allison/gallery/a2.jpeg',
