@@ -1,5 +1,5 @@
     .TeamMember {
-        padding: 0 32px;
+        padding: 0 8%;
     }
 
     .member__Img {
@@ -9,8 +9,8 @@
     }
 
     .member__Img > img {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: auto;
     }
 
     .member__Name, 

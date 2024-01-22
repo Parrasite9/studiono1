@@ -545,7 +545,7 @@ function MeetOurTeam() {
                         onClick={() => handleTeamMemberClick({
                         name: 'Robin',
                         title: 'Nail Tech | Esthetician | Wax Specialist | Eyelashes',
-                        image: '/images/robin/pro-photo/robin.png',
+                        image: '/images/robin/pro-photo/robin_mobile.jpg',
                         desktopBio: {
                                 paragraph1: "Meet Robin McKinney, a multi-talented and seasoned professional at Studio No. 1, where she brings her extensive expertise as a wax specialist, eyelash tech, esthetician, and nail tech. With an impressive journey spanning over 20 years in the spa and beauty industry, Robin has honed her skills through dedicated training and hands-on experience. Her career is marked by an unwavering commitment to excellence, evident in her comprehensive training in facial techniques, Brazilian waxing, eyelash application, and the art of eyebrow mapping.",
                                 paragraph2: "Robin's array of services caters to a diverse clientele, offering everything from precise eyebrow waxing and threading, tinting, and stunning eyelash extensions to indulgent nail and pedicure services. Her proficiency in Brazilians and eyelash lifts, coupled with rejuvenating facials, ensures a holistic beauty experience. Robin's approach goes beyond mere technical skill; she believes that beauty treatments are transformative, not just for the body but for the spirit as well. Her philosophy centers around the idea that everyone deserves to feel their best. Robin finds joy in brightening her clients' days, understanding that a trip to the salon is more than a beauty routine—it's an opportunity for relaxation, self-care, and a momentary escape from the hustle of daily life.",
@@ -555,15 +555,15 @@ function MeetOurTeam() {
                             paragraph1: `Robin McKinney, a versatile and seasoned expert at Studio No. 1, brings over 20 years of experience as a wax specialist, eyelash tech, esthetician, and nail tech. Her expertise spans a range of services including eyebrow waxing/threading, eyelash extensions, nail and pedicure services, Brazilians, eyelash lifts, and facials, honed through dedicated training in facial and Brazilian techniques, eyelash application, and eyebrow mapping. Embodying a philosophy that intertwines kindness and empathy with beauty, Robin believes in uplifting each client's spirit through her treatments. Her approach creates a unique blend of technical skill and a nurturing environment, making every salon visit a rejuvenating experience of self-care and personal transformation.`
                         },
                         gallery: {
-                            photo1: '/images/allison/gallery/a2.jpeg',
-                            photo2: '/images/allison/gallery/a3.jpeg',
-                            photo3: '/images/allison/gallery/a4.jpeg',
-                            photo4: '/images/allison/gallery/a5.jpeg',
-                            photo5: '/images/allison/gallery/a6.jpeg',
-                            photo6: '/images/allison/gallery/a6.jpeg',
-                            photo7: '/images/allison/gallery/a2.jpeg',
-                            photo8: '/images/allison/gallery/a1.jpeg',
-                            photo9: '/images/allison/gallery/a3.jpeg',
+                            photo1: '/images/robin/gallery/gal1.jpg',
+                            photo2: '/images/robin/gallery/gal2.jpg',
+                            photo3: '/images/robin/gallery/gal3.jpg',
+                            photo4: '/images/robin/gallery/gal4.jpg',
+                            photo5: '/images/robin/gallery/gal5.jpg',
+                            photo6: '/images/robin/gallery/gal6.jpg',
+                            photo7: '/images/robin/gallery/gal7.jpg',
+                            photo8: '/images/robin/gallery/gal8.jpg',
+                            photo9: '/images/robin/gallery/gal4.jpg',
                         },
                         bookingLink: 'http://www.yahoo.com',
                         contactInfo: '888-888-8888',
