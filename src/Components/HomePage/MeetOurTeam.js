@@ -399,16 +399,16 @@ function MeetOurTeam() {
                     <p>Ruby</p>
                 </div>
 
-                {/* YARA C. || INDIVIDUAL STYLIST  */}
+                {/* YARITZA C. || INDIVIDUAL STYLIST  */}
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
-                        name: 'Yara C.',
-                        title: 'Barber | Hair Stylist | Makeup Artist',
+                        name: 'Yara B.',
+                        title: 'Barber | Child Friendly',
                         image: '/images/y2.png',
                         desktopBio: {
-                                paragraph1: "1",
-                                paragraph2: "2",
-                                paragraph3: "3"    
+                                paragraph1: "Meet Yaritza Bislar, a proficient and artistic barber at Studio No. 1, known for her exceptional skill in male grooming and hairstyling. With a rich experience of four years in the industry, Yaritza has honed her expertise in a variety of barbering services. Her specialties include crafting sleek skin fades, classic gentlemen's haircuts, playful and comfortable kids' haircuts, and meticulous beard grooming. Her proficiency with the straight razor for hot facial shaves is particularly noteworthy, making each visit a relaxing and rejuvenating experience.",
+                                paragraph2: "Yaritza's approach to barbering is client-centric, focusing on understanding and meeting the individual needs of each customer. She believes that every client deserves a personalized experience, and she excels in customizing her services to suit their unique preferences and styles. Her commitment to her craft is evident in the precision and care she brings to every cut and shave.",
+                                paragraph3: "Beyond her technical abilities, Yaritza's warm and welcoming demeanor makes every appointment a pleasant and enjoyable encounter. Her dedication to ensuring client satisfaction resonates in the loyalty of her customers who trust her not only for their grooming needs but also for the friendly and professional atmosphere she creates. Yaritza looks forward to welcoming you to Studio No. 1, where your grooming needs are met with skill, care, and a personal touch."    
                         },
                         mobileBio: {          
                             paragraph1: `Meet Yara C., this is her Bio...`
