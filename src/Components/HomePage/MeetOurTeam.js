@@ -544,15 +544,15 @@ function MeetOurTeam() {
                     <div className="stylist__icon" 
                         onClick={() => handleTeamMemberClick({
                         name: 'Robin',
-                        title: 'Nail Tech | Facials',
+                        title: 'Nail Tech | Esthetician | Wax Specialist | Eyelashes',
                         image: '/images/robin/pro-photo/robin.png',
                         desktopBio: {
-                                paragraph1: "1",
-                                paragraph2: "2",
-                                paragraph3: "3"    
+                                paragraph1: "Meet Robin McKinney, a multi-talented and seasoned professional at Studio No. 1, where she brings her extensive expertise as a wax specialist, eyelash tech, esthetician, and nail tech. With an impressive journey spanning over 20 years in the spa and beauty industry, Robin has honed her skills through dedicated training and hands-on experience. Her career is marked by an unwavering commitment to excellence, evident in her comprehensive training in facial techniques, Brazilian waxing, eyelash application, and the art of eyebrow mapping.",
+                                paragraph2: "Robin's array of services caters to a diverse clientele, offering everything from precise eyebrow waxing and threading, tinting, and stunning eyelash extensions to indulgent nail and pedicure services. Her proficiency in Brazilians and eyelash lifts, coupled with rejuvenating facials, ensures a holistic beauty experience. Robin's approach goes beyond mere technical skill; she believes that beauty treatments are transformative, not just for the body but for the spirit as well. Her philosophy centers around the idea that everyone deserves to feel their best. Robin finds joy in brightening her clients' days, understanding that a trip to the salon is more than a beauty routine—it's an opportunity for relaxation, self-care, and a momentary escape from the hustle of daily life.",
+                                paragraph3: "In Robin's chair, clients find a haven of kindness and empathy. She values these qualities both in her professional and personal life, striving to create a welcoming and understanding atmosphere where clients can unwind, share their stories, and leave feeling refreshed and confident. Robin's dedication to her craft and her clients' well-being makes her not just a stylist but a trusted confidant and friend in beauty care."    
                         },
                         mobileBio: {          
-                            paragraph1: `Meet Robin, this is her Bio...`
+                            paragraph1: `Robin McKinney, a versatile and seasoned expert at Studio No. 1, brings over 20 years of experience as a wax specialist, eyelash tech, esthetician, and nail tech. Her expertise spans a range of services including eyebrow waxing/threading, eyelash extensions, nail and pedicure services, Brazilians, eyelash lifts, and facials, honed through dedicated training in facial and Brazilian techniques, eyelash application, and eyebrow mapping. Embodying a philosophy that intertwines kindness and empathy with beauty, Robin believes in uplifting each client's spirit through her treatments. Her approach creates a unique blend of technical skill and a nurturing environment, making every salon visit a rejuvenating experience of self-care and personal transformation.`
                         },
                         gallery: {
                             photo1: '/images/allison/gallery/a2.jpeg',
