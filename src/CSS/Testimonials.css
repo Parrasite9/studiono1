@@ -7,3 +7,13 @@
     margin: 0;
     margin-bottom: 2%;
 }
+
+@media (min-width: 700px) {
+    .ReactSlick > h2 {
+        font-size: 24px;
+    }
+
+    div > p {
+        font-size: 18px;
+    }
+}
