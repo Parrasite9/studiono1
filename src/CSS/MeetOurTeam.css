@@ -2,6 +2,10 @@
     margin: 5% 32px;
 }
 
+.css-o4b71y-MuiAccordionSummary-content {
+    justify-content: center;
+}
+
 .panel-header {
     background-color: #163C5E !important;
     color: #ffd700 !important;
@@ -91,3 +95,31 @@
             display: block; /* Center horizontally */
             margin: 0 auto; /* Center horizontally */
         }
+
+@media (min-width: 700px) {
+    .section__text > p {
+        font-size: 25px;
+    }
+
+    .employee__icons {
+        grid-column-gap: 20px;
+    }
+
+    .stylist__icon > p {
+        font-size: 20px;
+    }
+
+    .css-o4b71y-MuiAccordionSummary-content > p {
+        font-size: 22px;
+    }
+
+    .css-yw020d-MuiAccordionSummary-expandIconWrapper > svg {
+        font-size: 40px;
+    }
+
+    #panel1-header,
+    #panel3-header,
+    #panel4-header {
+        padding: 0 8px;
+    }
+}
