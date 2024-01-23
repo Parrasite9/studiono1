@@ -48,3 +48,17 @@
 .about__button {
     padding: 5% 10%;
 }
+
+@media (min-width: 700px) {
+    .title__header {
+        font-size: 24px;
+    }
+
+    .AboutUs > p {
+        font-size: 18px;
+    }
+
+    .about__button {
+        padding: 2% 10%;
+    }
+}
