@@ -20,3 +20,17 @@
     padding: 2% 10%;
     border-radius: 10px;
 }
+
+@media (min-width: 700px) {
+    .Hero > h3 {
+        font-size: 24px;
+    } 
+
+    .Hero > h1 {
+        font-size: 32px;
+    }
+
+    .hero__button {
+        font-size: 16px;
+    }
+}
