@@ -40,7 +40,7 @@ function MeetOurTeam() {
           onChange={handleChange('panel1')}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{ color: '#ffd700' }} />}
             aria-controls="panel1-content"
             id="panel1-header"
             className='panel-header'
@@ -525,7 +525,7 @@ function MeetOurTeam() {
           onChange={handleChange('panel3')}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{ color: '#ffd700' }} />}
             aria-controls="panel3-content"
             id="panel3-header"
             className='panel-header'
@@ -723,7 +723,7 @@ function MeetOurTeam() {
           onChange={handleChange('panel4')}
         >
           <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
+            expandIcon={<ExpandMoreIcon style={{ color: '#ffd700' }} />}
             aria-controls="panel4-content"
             id="panel4-header"
             className='panel-header'
