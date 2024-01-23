@@ -414,15 +414,15 @@ function MeetOurTeam() {
                             paragraph1: `Yaritza Bislar is a talented barber at Studio No. 1, bringing four years of dedicated experience to her craft. Specializing in a variety of barbering services, including sleek skin fades, classic gentlemen's haircuts, kids' haircuts, and expert beard grooming with straight razor hot facial shaves, Yaritza is known for her meticulous attention to detail and client-focused approach. Her ability to tailor each service to the individual needs and styles of her clients, coupled with her warm and welcoming demeanor, makes every visit a uniquely satisfying experience. Yaritza's commitment to excellence and personalized care has earned her a loyal clientele who value not only her technical skills but also the friendly and professional atmosphere she creates.`
                         },
                         gallery: {
-                            photo1: '/images/allison/gallery/a2.jpeg',
-                            photo2: '/images/allison/gallery/a3.jpeg',
-                            photo3: '/images/allison/gallery/a4.jpeg',
-                            photo4: '/images/allison/gallery/a5.jpeg',
-                            photo5: '/images/allison/gallery/a6.jpeg',
-                            photo6: '/images/allison/gallery/a6.jpeg',
-                            photo7: '/images/allison/gallery/a2.jpeg',
-                            photo8: '/images/allison/gallery/a1.jpeg',
-                            photo9: '/images/allison/gallery/a3.jpeg',
+                            photo1: '/images/yara_c/gallery/y1.png',
+                            photo2: '/images/yara_c/gallery/y2.png',
+                            photo3: '/images/yara_c/gallery/y3.png',
+                            photo4: '/images/yara_c/gallery/y4.png',
+                            photo5: '/images/yara_c/gallery/y5.png',
+                            photo6: '/images/yara_c/gallery/y6.png',
+                            photo7: '/images/yara_c/gallery/y7.png',
+                            photo8: '/images/yara_c/gallery/y8.png',
+                            photo9: '/images/yara_c/gallery/y9.png',
                         },
                         bookingLink: 'http://www.yahoo.com',
                         contactInfo: '888-888-8888',
@@ -710,9 +710,9 @@ function MeetOurTeam() {
                         </Link>
                         <p>Rajani</p>
                     </div>
-                    </div>
- 
                 </div>
+ 
+              </div>
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -732,8 +732,125 @@ function MeetOurTeam() {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-              malesuada lacus ex, sit amet blandit leo lobortis eget.
+                <div className="section__text">
+                    <p>Select Your Team Member</p>
+                </div>
+                
+                <div className="special__services__container">
+                    {/* NUNU || INDIVIDUAL STYLIST  */}
+                    <div className="stylist__icon"
+                        onClick={() => handleTeamMemberClick({
+                            name: 'Nunu',
+                            title: 'Barber | Child Friendly',
+                            image: '/images/nunu/pro-photo/nunu_mobile.jpg',
+                            desktopBio: {
+                                    paragraph1: "...",
+                                    paragraph2: "...",
+                                    paragraph3: "..."    
+                            },
+                            mobileBio: {          
+                                paragraph1: `...`
+                            },
+                            gallery: {
+                                photo1: '/images/nunu/gallery/n1.jpg',
+                                photo2: '/images/nunu/gallery/n2.jpg',
+                                photo3: '/images/nunu/gallery/n3.jpg',
+                                photo4: '/images/nunu/gallery/n4.jpg',
+                                photo5: '/images/nunu/gallery/n5.jpg',
+                                photo6: '/images/nunu/gallery/n6.jpg',
+                                photo7: '/images/nunu/gallery/n7.jpg',
+                                photo8: '/images/nunu/gallery/n8.jpg',
+                                photo9: '/images/nunu/gallery/n9.jpg',
+                            },
+                            bookingLink: 'http://www.yahoo.com',
+                            contactInfo: '888-888-8888',
+                            services: {
+                                test: 'hello',
+                                womens: {
+                                    haircut: 'Haircut',
+                                    haircutPrice: 'XX',
+                                    balyage: 'Balyage',
+                                    balyagePrice: 'XX',
+                                    waxing: 'Waxing',
+                                    waxingPrice: 'XX',
+                                    color: 'Hair Color',
+                                    colorPrice: 'FC',
+                                    highlights: 'Highlights',
+                                    highlightsPrice: 'FC',
+                                    rootTouchUp: 'Root Touch-Ups',
+                                    rootTouchUpPrice: 'XX',
+                                    perm: 'Perm',
+                                    permPrice: 'XX',
+                                    relaxer: 'Relaxer',
+                                    relaxerPrice: 'XX',
+                                    whiteout: 'White Out',
+                                    whiteoutPrice: 'FC',
+                                }
+                            }
+                        })}> 
+                        <Link to={'/meet-our-team/yara-c'}>
+                            <img className='personal__img' src="/images/nunu/pro-photo/nunu.png" alt="" />
+                        </Link> 
+                        <p>Nunu</p>
+                    </div>
+
+                    {/* YARITZA C. || INDIVIDUAL STYLIST  */}
+                    <div className="stylist__icon"
+                        onClick={() => handleTeamMemberClick({
+                            name: 'Yara B.',
+                            title: 'Barber | Child Friendly',
+                            image: '/images/y2.png',
+                            desktopBio: {
+                                    paragraph1: "Meet Yaritza Bislar, a proficient and artistic barber at Studio No. 1, known for her exceptional skill in male grooming and hairstyling. With a rich experience of four years in the industry, Yaritza has honed her expertise in a variety of barbering services. Her specialties include crafting sleek skin fades, classic gentlemen's haircuts, playful and comfortable kids' haircuts, and meticulous beard grooming. Her proficiency with the straight razor for hot facial shaves is particularly noteworthy, making each visit a relaxing and rejuvenating experience.",
+                                    paragraph2: "Yaritza's approach to barbering is client-centric, focusing on understanding and meeting the individual needs of each customer. She believes that every client deserves a personalized experience, and she excels in customizing her services to suit their unique preferences and styles. Her commitment to her craft is evident in the precision and care she brings to every cut and shave.",
+                                    paragraph3: "Beyond her technical abilities, Yaritza's warm and welcoming demeanor makes every appointment a pleasant and enjoyable encounter. Her dedication to ensuring client satisfaction resonates in the loyalty of her customers who trust her not only for their grooming needs but also for the friendly and professional atmosphere she creates. Yaritza looks forward to welcoming you to Studio No. 1, where your grooming needs are met with skill, care, and a personal touch."    
+                            },
+                            mobileBio: {          
+                                paragraph1: `Yaritza Bislar is a talented barber at Studio No. 1, bringing four years of dedicated experience to her craft. Specializing in a variety of barbering services, including sleek skin fades, classic gentlemen's haircuts, kids' haircuts, and expert beard grooming with straight razor hot facial shaves, Yaritza is known for her meticulous attention to detail and client-focused approach. Her ability to tailor each service to the individual needs and styles of her clients, coupled with her warm and welcoming demeanor, makes every visit a uniquely satisfying experience. Yaritza's commitment to excellence and personalized care has earned her a loyal clientele who value not only her technical skills but also the friendly and professional atmosphere she creates.`
+                            },
+                            gallery: {
+                                photo1: '/images/yara_c/gallery/y1.png',
+                                photo2: '/images/yara_c/gallery/y2.png',
+                                photo3: '/images/yara_c/gallery/y3.png',
+                                photo4: '/images/yara_c/gallery/y4.png',
+                                photo5: '/images/yara_c/gallery/y5.png',
+                                photo6: '/images/yara_c/gallery/y6.png',
+                                photo7: '/images/yara_c/gallery/y7.png',
+                                photo8: '/images/yara_c/gallery/y8.png',
+                                photo9: '/images/yara_c/gallery/y9.png',
+                            },
+                            bookingLink: 'http://www.yahoo.com',
+                            contactInfo: '888-888-8888',
+                            services: {
+                                test: 'hello',
+                                womens: {
+                                    haircut: 'Haircut',
+                                    haircutPrice: 'XX',
+                                    balyage: 'Balyage',
+                                    balyagePrice: 'XX',
+                                    waxing: 'Waxing',
+                                    waxingPrice: 'XX',
+                                    color: 'Hair Color',
+                                    colorPrice: 'FC',
+                                    highlights: 'Highlights',
+                                    highlightsPrice: 'FC',
+                                    rootTouchUp: 'Root Touch-Ups',
+                                    rootTouchUpPrice: 'XX',
+                                    perm: 'Perm',
+                                    permPrice: 'XX',
+                                    relaxer: 'Relaxer',
+                                    relaxerPrice: 'XX',
+                                    whiteout: 'White Out',
+                                    whiteoutPrice: 'FC',
+                                }
+                            }
+                        })}> 
+                        <Link to={'/meet-our-team/yara-c'}>
+                            <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="" />
+                        </Link> 
+                        <p>Yara C.</p>
+                    </div>            
+                </div>
             </Typography>
           </AccordionDetails>
         </Accordion>
