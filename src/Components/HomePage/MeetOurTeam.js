@@ -61,7 +61,7 @@ function MeetOurTeam() {
                 <div className="stylist__icon" 
                     onClick={() => handleTeamMemberClick({
                     name: 'Yara L.',
-                    title: 'Salon Owner | Barber | Hair Stylist | Makeup Artist',
+                    title: 'Salon Owner | Beautician | Men Services | Makeup Artist | Child Friendly',
                     image: '/images/yara_l/pro-photo/y_hero.jpeg',
                     desktopBio: {
                             paragraph1: "Meet Yara, the dynamic and passionate owner of Studio No. 1, a vibrant salon that has been redefining style and elegance since its inception in 2021. With a decade of experience in the beauty industry, Yara brings a wealth of knowledge, skill, and creativity to the salon floor. Her journey began with a dream to create a space that not only offers top-notch hair and beauty services but also provides a warm, welcoming atmosphere for every client who walks through the doors.",
@@ -346,15 +346,15 @@ function MeetOurTeam() {
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
                         name: 'Ruby',
-                        title: 'Hair Stylist | Makeup Artist',
+                        title: 'Beautician | Men Services | Child Friendly',
                         image: '/images/ruby.png',
                         desktopBio: {
-                                paragraph1: "1",
-                                paragraph2: "2",
-                                paragraph3: "3"    
+                                paragraph1: "Meet Ruby Armendariz, an inspired beautician with over a decade of experience in the realm of hair aesthetics. Ruby's journey in the beauty industry is marked by her passion for aligning fashion trends with each client's unique inspiration. With a keen eye for style and a commitment to individuality, she specializes in creating signature looks that resonate with the personal flair of each client, whether they are women, men, or children.",
+                                paragraph2: "Ruby's expertise extends across a wide spectrum of hair services. She is a specialist in hair color and bleaching, adept at transforming your hair to align with the latest fashion trends. Her skills in hair extensions are backed by professional certification, allowing her to craft looks that embody your desired aesthetic. Additionally, Ruby offers perms and hairstyles tailored to complement your vibe, ensuring that each visit leaves you feeling refreshed and confident. Her proficiency isn't just limited to styling; she's equally dedicated to hair health, providing treatments and personalized after-care advice suited to your hair type.",
+                                paragraph3: "At the core of Ruby's approach is a belief in self-expression through hair styling. She sees each client's hair as a canvas for creativity, a means to 'craft your hair to your own style' and add a 'shine to your style.' Ruby is committed to meeting and exceeding your hair expectations, ensuring that every experience at the salon is more than just a haircut or color – it's a step towards expressing your individuality and feeling your best. So, treat yourself and let Ruby guide you in crafting a look that's uniquely yours."    
                         },
                         mobileBio: {          
-                            paragraph1: `Meet Allison, this is her Bio...`
+                            paragraph1: `Introducing Ruby, an inspired beautician with over ten years of experience in hair aesthetics, Ruby is your go-to expert for transforming fashion trends into personalized hairstyles. She excels in a range of services from haircuts for women, men, and children to color and bleaching, ensuring each look aligns with your individual style. Ruby's expertise extends to hair extensions, perms, and specialized treatments, complemented by tailored after-care advice to maintain your hair's health and vibrancy. At the heart of her approach is a dedication to crafting unique styles that not only meet but exceed your expectations, making every salon visit a step towards self-expression and confidence.`
                         },
                         gallery: {
                             photo1: '/images/allison/gallery/a2.jpeg',
@@ -411,7 +411,7 @@ function MeetOurTeam() {
                                 paragraph3: "Beyond her technical abilities, Yaritza's warm and welcoming demeanor makes every appointment a pleasant and enjoyable encounter. Her dedication to ensuring client satisfaction resonates in the loyalty of her customers who trust her not only for their grooming needs but also for the friendly and professional atmosphere she creates. Yaritza looks forward to welcoming you to Studio No. 1, where your grooming needs are met with skill, care, and a personal touch."    
                         },
                         mobileBio: {          
-                            paragraph1: `Meet Yara C., this is her Bio...`
+                            paragraph1: `Yaritza Bislar is a talented barber at Studio No. 1, bringing four years of dedicated experience to her craft. Specializing in a variety of barbering services, including sleek skin fades, classic gentlemen's haircuts, kids' haircuts, and expert beard grooming with straight razor hot facial shaves, Yaritza is known for her meticulous attention to detail and client-focused approach. Her ability to tailor each service to the individual needs and styles of her clients, coupled with her warm and welcoming demeanor, makes every visit a uniquely satisfying experience. Yaritza's commitment to excellence and personalized care has earned her a loyal clientele who value not only her technical skills but also the friendly and professional atmosphere she creates.`
                         },
                         gallery: {
                             photo1: '/images/allison/gallery/a2.jpeg',
@@ -471,15 +471,15 @@ function MeetOurTeam() {
                             paragraph1: `Introducing Daleth Vargas, a skilled cosmetologist at Studio No. 1 with a special flair for men’s and children’s haircuts. With 5 years of experience, Daleth excels in crafting tailored styles that range from classic to contemporary. Her gentle approach with kids makes her a hit among our younger clientele, while her expertise in men’s grooming has earned her a loyal following. Daleth’s passion for hairstyling and her friendly, engaging personality make every salon visit a delightful experience.`
                         },
                         gallery: {
-                            photo1: '/images/allison/gallery/a2.jpeg',
-                            photo2: '/images/allison/gallery/a3.jpeg',
-                            photo3: '/images/allison/gallery/a4.jpeg',
-                            photo4: '/images/allison/gallery/a5.jpeg',
-                            photo5: '/images/allison/gallery/a6.jpeg',
-                            photo6: '/images/allison/gallery/a6.jpeg',
-                            photo7: '/images/allison/gallery/a2.jpeg',
-                            photo8: '/images/allison/gallery/a1.jpeg',
-                            photo9: '/images/allison/gallery/a3.jpeg',
+                            photo1: '/images/daleth/gallery/2.jpeg',
+                            photo2: '/images/daleth/gallery/3.jpeg',
+                            photo3: '/images/daleth/gallery/4.jpeg',
+                            photo4: '/images/daleth/gallery/5.jpeg',
+                            photo5: '/images/daleth/gallery/6.jpeg',
+                            photo6: '/images/daleth/gallery/6.jpeg',
+                            photo7: '/images/daleth/gallery/2.jpeg',
+                            photo8: '/images/daleth/gallery/1.jpeg',
+                            photo9: '/images/daleth/gallery/3.jpeg',
                         },
                         bookingLink: 'http://www.yahoo.com',
                         contactInfo: '888-888-8888',
@@ -612,15 +612,15 @@ function MeetOurTeam() {
                                 paragraph1: `Meet Tori, this is her Bio...`
                             },
                             gallery: {
-                                photo1: '/images/allison/gallery/a2.jpeg',
-                                photo2: '/images/allison/gallery/a3.jpeg',
-                                photo3: '/images/allison/gallery/a4.jpeg',
-                                photo4: '/images/allison/gallery/a5.jpeg',
-                                photo5: '/images/allison/gallery/a6.jpeg',
-                                photo6: '/images/allison/gallery/a6.jpeg',
-                                photo7: '/images/allison/gallery/a2.jpeg',
-                                photo8: '/images/allison/gallery/a1.jpeg',
-                                photo9: '/images/allison/gallery/a3.jpeg',
+                                photo1: '/images/tori/gallery/t2.jpeg',
+                                photo2: '/images/tori/gallery/t3.jpeg',
+                                photo3: '/images/tori/gallery/t4.jpeg',
+                                photo4: '/images/tori/gallery/t5.jpeg',
+                                photo5: '/images/tori/gallery/t6.jpeg',
+                                photo6: '/images/tori/gallery/t6.jpeg',
+                                photo7: '/images/tori/gallery/t2.jpeg',
+                                photo8: '/images/tori/gallery/t1.jpeg',
+                                photo9: '/images/tori/gallery/t3.jpeg',
                             },
                             bookingLink: 'http://www.yahoo.com',
                             contactInfo: '888-888-8888',
