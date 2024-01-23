@@ -118,7 +118,7 @@ function MeetOurTeam() {
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
                         name: 'Allison',
-                        title: 'Hair Stylist | Makeup Artist',
+                        title: 'Beautician | Makeup Artist',
                         image: '/images/allison/pro-photo/allison.png',
                         desktopBio: {
                                 paragraph1: "1",
@@ -289,7 +289,7 @@ function MeetOurTeam() {
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
                         name: 'Crystal',
-                        title: 'Barber | Hair Stylist | Makeup Artist',
+                        title: 'Men Services | Hair Stylist | Makeup Artist',
                         image: '/images/crystal.png',
                         desktopBio: {
                                 paragraph1: "1",
@@ -460,7 +460,7 @@ function MeetOurTeam() {
                 <div className="stylist__icon"
                     onClick={() => handleTeamMemberClick({
                         name: 'Daleth',
-                        title: 'Barber | Child Friendly',
+                        title: 'Men Services | Child Friendly',
                         image: '/images/daleth/pro-photo/daleth__mobile.png',
                         desktopBio: {
                                 paragraph1: "Meet Daleth Vargas, a talented cosmetologist at our salon, known for her exceptional skill and dedication to the art of hair styling. With five years of experience in the beauty industry, Daleth has honed her expertise, specializing in men's and children's haircuts. Her approach to cosmetology blends classic techniques with contemporary style, ensuring each client leaves looking their best.",
