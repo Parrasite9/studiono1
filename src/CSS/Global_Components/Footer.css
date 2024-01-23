@@ -22,6 +22,7 @@
 .privacy_and_legal > .footer-link {
     color: #f2f2f2;
     text-decoration: none;
+    margin-bottom: 5px;
 }
 
 .pages > a, .privacy_and_legal {
