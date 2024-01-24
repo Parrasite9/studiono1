@@ -66,13 +66,45 @@
 @media (min-width: 1000px) {
     .AboutUs {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }
-        
-        .div1 { grid-area: 1 / 1 / 4 / 2; }
-        .div2 { grid-area: 1 / 2 / 2 / 3; }
-        .div3 { grid-area: 2 / 2 / 4 / 3; }
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-template-rows: auto auto auto; /* Three rows, height set automatically */
+        grid-column-gap: 20px; /* Adjust the gap between columns as needed */
+    }
+    
+    /* Image spans all three rows in the first column */
+    .AboutUs .section__image {
+        grid-column: 1 / 2; /* Span first column */
+        grid-row: 1 / 4; /* Span from row 1 to 4, covering rows 1, 2, and 3 */
+    }
+    
+    /* Title in the first row of the second column */
+    .AboutUs .title__header {
+        grid-column: 2 / 3; /* Span second column */
+        grid-row: 1; /* First row */
+    }
+    
+    /* Paragraph in the second row of the second column */
+    .AboutUs p {
+        grid-column: 2 / 3; /* Span second column */
+        grid-row: 2; /* Second row */
+    }
+    
+    /* Button in the third row of the second column */
+    .AboutUs .about__button {
+        grid-column: 2 / 3; /* Span second column */
+        grid-row: 3; /* Third row */
+    }
+    
+    /* Optional margins for better spacing */
+    .AboutUs .title__header {
+        margin-bottom: 10px; /* Adjust as needed */
+    }
+    
+    .AboutUs p {
+        margin-bottom: 10px; /* Adjust as needed */
+    }
+    
+    
+    
+    
 }
