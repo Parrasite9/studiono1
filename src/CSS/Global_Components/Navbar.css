@@ -69,7 +69,7 @@
         grid-template-rows: repeat(6, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        }
+    }
         
     .close__menu { 
         grid-area: 1 / 1 / 2 / 4; 
@@ -94,7 +94,12 @@
         padding: 15% 0;
       }
 
-      .navlinks > a > button {
+      .navlinks > a.active {
+        color: #ffd700;
+    }
+
+      .navlinks > a > button,
+      .desktop__navlinks > a > button {
         background-color: #333;
         color: #f2f2f2;
         padding: 5%;
@@ -110,5 +115,41 @@
         /* padding: 2% 0; */
         margin: 8% 0;
       }
+
+      .desktop__navlinks {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .desktop__navlinks > a {
+        color: #f2f2f2;
+        text-decoration: none;
+      }
       
-      
+      @media (min-width: 1000px) {
+        .desktop__navlinks > a.active {
+            color: #ffd700;
+        }
+
+        .desktop__navlinks > a:hover {
+            color: #ffd700;
+        }
+
+        .desktop__navlinks > a > button {
+            width: 110px;
+          }
+        .desktop__navlinks > a > button:hover {
+            color: #333;
+            background-color: #f2f2f2;
+        }
+
+        .navbar__container > .logo { 
+            padding-left: 10%;
+        }
+
+        .desktop__navlinks > a:last-child {
+            margin-right: 5%;
+        }
+        
+      }
