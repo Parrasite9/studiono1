@@ -1,5 +1,61 @@
 .DesktopTeam {
     display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 0 5%;
+}
+
+/* Assign the category__container to the first column */
+.category__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+
+    .category__container > button {
+        background-color: #163C5E;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 1%;
+        padding: 5%;
+        font-size: 1em;
+    }
+
+.barber__TeamMembers,
+.spa__TeamMembers {
+    grid-area: 1 / 2 / 2 / 4; /* Spans from row 1 to 2, column 2 to 4 */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust this if needed */
+    grid-template-rows: repeat(2, 1fr); /* Adjust this if needed */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.category__container > button {
+    background-color: #163C5E;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    padding: 5%;
+    font-size: 1em;
+}
+
+.barber__TeamMembers,
+.spa__TeamMembers {
+    padding-left: 5%;
+}
+
+.barber__TeamMembers .stylist__icon img {
+    width: 90%;       /* Example: setting the width */
+    height: auto;       /* Example: setting the height to auto */
+}
+
+.spa__TeamMembers {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
@@ -7,22 +63,11 @@
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
-    .div2 { grid-area: 1 / 2 / 2 / 4; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 1 / 3 / 2 / 4; }
 
-    .category__container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        }
-    
-        .category__container > button {
-            background-color: #163C5E;
-            cursor: pointer;
-            border-radius: 10px;
-            margin-bottom: 1%;
-            padding: 5%;
-            font-size: 1em;
-        }
-        
+    .spa__TeamMembers .stylist__icon img {
+        width: 90%;       /* Example: setting the width */
+        height: auto;       /* Example: setting the height to auto */
+    }
+

@@ -110,7 +110,7 @@ function MeetOurTeam() {
                         }
                     })}>
                         <Link to='/meet-our-team/yara-l'>
-                            <img className='personal__img' src="/images/yara_l/pro-photo/yara.png" alt="" />
+                            <img className='personal__img' src="/images/yara_l/pro-photo/yara.png" alt="yara_l" />
                         </Link>
                         <p>Yara L.</p>
                     </div>
@@ -167,7 +167,7 @@ function MeetOurTeam() {
                             }
                         })}> 
                         <Link to={'/meet-our-team/allison'}>
-                            <img className='personal__img' src="/images/allison/pro-photo/allison.png" alt="" />                                  
+                            <img className='personal__img' src="/images/allison/pro-photo/allison.png" alt="allison" />                                  
                         </Link> 
                         <p>Allison</p>
                     </div>
@@ -223,8 +223,8 @@ function MeetOurTeam() {
                                 }
                             }
                         })}> 
-                        <Link to={'/meet-our-team/janedoe1'}>
-                            <img className='personal__img' src="/images/clara/pro-photo/clara.png" alt="" />                         
+                        <Link to={'/meet-our-team/clara'}>
+                            <img className='personal__img' src="/images/clara/pro-photo/clara.png" alt="clara" />                         
                         </Link> 
                         <p>Clara</p>
                     </div>
@@ -280,8 +280,8 @@ function MeetOurTeam() {
                                 }
                             }
                         })}> 
-                        <Link to={'/meet-our-team/janedoe2'}>
-                            <img className='personal__img' src="/images/leo/pro-photo/leo.png" alt="" /> 
+                        <Link to={'/meet-our-team/leo'}>
+                            <img className='personal__img' src="/images/leo/pro-photo/leo.png" alt="leo" /> 
                         </Link> 
                         <p>Leo</p>
                     </div>
