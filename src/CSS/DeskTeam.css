@@ -45,6 +45,10 @@
     font-size: 1em;
 }
 
+.category__container > button:hover {
+    background-color: hsl(207, 62%, 28%);
+}
+
 .barber__TeamMembers,
 .spa__TeamMembers,
 .special__TeamMembers {
