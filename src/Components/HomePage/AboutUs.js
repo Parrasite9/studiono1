@@ -30,7 +30,7 @@ function AboutUs() {
       <div className="section__image">
         {isLargeScreen ? (
           <>
-            <img src="images/about/group_desktop.jpg" alt="Salon__img" />
+            <img src="images/about/group_desk.jpg" alt="Salon__img" />
           </>
         ) : (
           <>

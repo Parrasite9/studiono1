@@ -81,12 +81,17 @@
     .AboutUs .title__header {
         grid-column: 2 / 3; /* Span second column */
         grid-row: 1; /* First row */
+        text-align: left;
+        padding: 0 8%;
+        font-size: 32px;
+
     }
     
     /* Paragraph in the second row of the second column */
     .AboutUs p {
         grid-column: 2 / 3; /* Span second column */
         grid-row: 2; /* Second row */
+        text-align: left;
     }
     
     /* Button in the third row of the second column */
@@ -103,8 +108,9 @@
     .AboutUs p {
         margin-bottom: 10px; /* Adjust as needed */
     }
-    
-    
-    
-    
+
+    .about__button {
+        justify-content: flex-start;
+        padding: 0 8%;
+    }    
 }
