@@ -34,3 +34,17 @@
         font-size: 16px;
     }
 }
+
+@media (min-width: 1000px) {
+    .Hero > h3 {
+        font-size: 32px;
+    } 
+
+    .Hero > h1 {
+        font-size: 40px;
+    }
+
+    .hero__button {
+        font-size: 16px;
+    }
+}
