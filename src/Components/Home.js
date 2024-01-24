@@ -15,7 +15,6 @@ function Home() {
       <Navbar />
       <Hero />
       <MeetOurTeam />
-      <DesktopTeam />
       <AboutUs />
       <Services />
       <Email />
