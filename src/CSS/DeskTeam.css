@@ -1,0 +1,28 @@
+.DesktopTeam {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 4; }
+
+    .category__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+    
+        .category__container > button {
+            background-color: #163C5E;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-bottom: 1%;
+            padding: 5%;
+            font-size: 1em;
+        }
+        
