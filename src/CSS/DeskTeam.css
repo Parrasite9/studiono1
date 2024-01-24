@@ -26,7 +26,8 @@
     }
 
 .barber__TeamMembers,
-.spa__TeamMembers {
+.spa__TeamMembers,
+.special__TeamMembers {
     grid-area: 1 / 2 / 2 / 4; /* Spans from row 1 to 2, column 2 to 4 */
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Adjust this if needed */
@@ -45,7 +46,8 @@
 }
 
 .barber__TeamMembers,
-.spa__TeamMembers {
+.spa__TeamMembers,
+.special__TeamMembers {
     padding-left: 5%;
 }
 
@@ -71,3 +73,28 @@
         height: auto;       /* Example: setting the height to auto */
     }
 
+    .special__TeamMembers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 2; }
+        .div2 { grid-area: 1 / 2 / 2 / 3; }
+
+        .special__TeamMembers .stylist__icon img {
+            width: 75%;       /* Example: setting the width */
+            height: auto;       /* Example: setting the height to auto */
+        }
+
+        .special__TeamMembers > div > a {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .special__TeamMembers > div > p {
+            padding-top: 2%;
+        }

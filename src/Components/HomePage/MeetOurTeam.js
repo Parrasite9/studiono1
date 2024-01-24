@@ -795,7 +795,7 @@ function MeetOurTeam() {
                         <p>Nunu</p>
                     </div>
 
-                    {/* YARITZA C. || INDIVIDUAL STYLIST  */}
+                    {/* BOTOX. || INDIVIDUAL STYLIST  */}
                     <div className="stylist__icon"
                         onClick={() => handleTeamMemberClick({
                             name: 'Yara B.',
