@@ -139,12 +139,14 @@
     }
 
     .barber__TeamMembers .stylist__icon img,
-    .spa__TeamMembers .stylist__icon img {
+    .spa__TeamMembers .stylist__icon img,
+    .special__TeamMembers .stylist__icon img {
         transition: transform 0.3s ease;
     }
     
     .barber__TeamMembers .stylist__icon:hover img,
-    .spa__TeamMembers .stylist__icon:hover img {
+    .spa__TeamMembers .stylist__icon:hover img,
+    .special__TeamMembers .stylist__icon:hover img  {
         transform: translateY(-10px);
     }
     
