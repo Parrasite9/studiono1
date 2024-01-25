@@ -13,8 +13,7 @@ function Footer() {
       </div>
 
       <div className="link__container">
-
-        <div className="location">
+        <div className="location" >
           <h4 className='footer__header'>Location</h4>
           <h5>107 W Hornbeck Blvd <br /> Fort Stockton, TX <br /> 79735</h5>
         </div>
