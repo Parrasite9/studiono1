@@ -44,3 +44,65 @@
         font-size: 18px;
     }
 }
+
+@media (min-width: 1000px) {
+    .service {
+        padding: .5% 8%;
+    }
+
+    .service > h2 {
+        font-size: 28px;
+    }
+
+    .service__section > .service {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Two equal columns */
+        grid-template-rows: auto auto auto; /* Three rows, height set automatically */
+        grid-column-gap: 20px; /* Adjust the gap between columns as needed */
+        align-items: center;
+    }
+
+    /* Styles for services positioned on the left (odd children) */
+    .service__section > .service:nth-child(even) img {
+        grid-column: 1 / 2; /* Image in the first column */
+        grid-row: 1 / 4; /* Image spans all rows */
+    }
+
+    .service__section > .service:nth-child(even) h2,
+    .service__section > .service:nth-child(even) p,
+    .service__section > .service:nth-child(even) Link {
+        grid-column: 2 / 3; /* Text content and button in the second column */
+        text-align: left;
+    }
+
+    /* Styles for services positioned on the right (even children) */
+    .service__section > .service:nth-child(odd) img {
+        grid-column: 2 / 3; /* Image in the second column */
+        grid-row: 1 / 4; /* Image spans all rows */
+    }
+
+    .service__section > .service:nth-child(odd) h2,
+    .service__section > .service:nth-child(odd) p,
+    .service__section > .service:nth-child(odd) Link {
+        grid-column: 1 / 2; /* Text content and button in the first column */
+        text-align: left;
+    }
+
+    /* Common bottom margin for h2, p, and Link elements */
+    .service__section > .service h2,
+    .service__section > .service p,
+    .service__section > .service Link {
+        margin-bottom: 10px; /* Adjust as needed */
+    }
+
+    /* Style for Link to align button inside */
+    .service__section > .service Link {
+        display: block; /* or 'inline-block' based on your layout */
+        text-align: left; /* Aligns the button inside the Link */
+    }
+
+    .service > a {
+        justify-content: flex-start;
+    }
+}
+
