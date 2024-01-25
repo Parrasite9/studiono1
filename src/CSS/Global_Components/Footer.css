@@ -32,7 +32,6 @@
 
 .copyright > p {
     color: #f2f2f2;
-    padding-bottom: 45px;
 }
 
 .link__container {
@@ -60,7 +59,7 @@
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: auto auto;
         grid-gap: 20px;
-        padding: 0 32px; /* Adjust the padding as needed */
+        padding: 16px 32px; /* Adjust the padding as needed */
     }
 
     .Footer > .logo {

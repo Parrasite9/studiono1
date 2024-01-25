@@ -102,3 +102,41 @@
         .special__TeamMembers > div > p {
             padding-top: 2%;
         }
+
+@media (min-width: 1000px) {
+    .category__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px; /* Adjust the space between buttons */
+    }
+    
+    .category__container > button {
+        width: 80%; /* Fixed width */
+        height: 60px; /* Fixed height */
+        background-color: #163C5E;
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 1%;
+        padding: 5%;
+        font-size: 1em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        opacity: 0.5;
+        color: #f2f2f2;
+    }
+    
+    .category__container > button:hover {
+        background-color: hsl(207, 62%, 28%);
+    }
+    
+    /* Active button styles */
+    .category__container > button.active {
+        opacity: 1;
+        color: #ffd700;
+    }
+    
+    
+}

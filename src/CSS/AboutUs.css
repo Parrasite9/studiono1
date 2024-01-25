@@ -69,6 +69,7 @@
         grid-template-columns: 1fr 1fr; /* Two equal columns */
         grid-template-rows: auto auto auto; /* Three rows, height set automatically */
         grid-column-gap: 20px; /* Adjust the gap between columns as needed */
+        padding: 0 4%;
     }
     
     /* Image spans all three rows in the first column */

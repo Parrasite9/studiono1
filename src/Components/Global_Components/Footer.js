@@ -5,6 +5,10 @@ import { Link } from 'react-router-dom'
 // MUI ICONS 
 import FacebookIcon from '@mui/icons-material/Facebook';
 
+// FONT AWESOME 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+
 function Footer() {
 
   const year = new Date().getFullYear(); // Gets the current year
@@ -38,9 +42,8 @@ function Footer() {
 
         <div className="follow__us">
           <h4 className='footer__header'>Follow Us!</h4>
-          <FacebookIcon />
-          
-        </div>
+          <a href="https://www.facebook.com/StudioNo1FS" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} style={{color: "#1e7ec8", fontSize: "20px"}} /></a>
+    </div>
       </div>
 
 
