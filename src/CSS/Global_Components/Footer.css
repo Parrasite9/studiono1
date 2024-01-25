@@ -117,3 +117,12 @@
 }
 
 
+@media (min-width: 1400px) {
+    .Footer {
+        padding: 16px 75px;
+    }
+
+    .footer__header {
+        font-size: 16px;
+    }
+}
