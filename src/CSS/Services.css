@@ -109,3 +109,13 @@
     }
 }
 
+@media (min-width: 1400px) {
+    .service > h2 {
+        font-size: 32px;
+    }
+
+    .service > p {
+        font-size: 20px;
+    }
+}
+
