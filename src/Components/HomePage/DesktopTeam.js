@@ -711,44 +711,44 @@ function DesktopTeam() {
         </button>
       </div>
 
-      {/* BARBERS & BEAUTOLOGIST  */}
-      <div className="barber__TeamMembers">
-        {activeButton === 'Barbers & Beauticians' && barberTeamMembers.map((member, index) => (
-            <div key={index} className="stylist__icon" onClick={() => handleTeamMemberClick(member)}>
-            <Link to={`/meet-our-team/${member.name.toLowerCase().replace(/\s/g, '-')}`}>
-                <img className='personal__img' src={member.personal__img} alt={member.name} />
-            </Link>
-            <p>{member.name}</p>
-            </div>
-        ))}
-      </div>
-
-      {/* SPA SERVICES  */}
-      <div className="spa__TeamMembers">
-            {activeButton === 'Spa Services' && spaTeamMembers.map((member, index) => (
-            <div key={index} className="stylist__icon" onClick={() => handleTeamMemberClick(member)}>
+        {/* BARBERS & BEAUTOLOGIST */}
+        <div className="barber__TeamMembers" 
+            style={{ zIndex: activeButton === 'Barbers & Beauticians' ? 99 : 1 }}>
+            {activeButton === 'Barbers & Beauticians' && barberTeamMembers.map((member, index) => (
+                <div key={index} className="stylist__icon" onClick={() => handleTeamMemberClick(member)}>
                 <Link to={`/meet-our-team/${member.name.toLowerCase().replace(/\s/g, '-')}`}>
-                <img className='personal__img' src={member.personal__img} alt={member.name} />
+                    <img className='personal__img' src={member.personal__img} alt={member.name} />
                 </Link>
                 <p>{member.name}</p>
-            </div>
-            ))}
-      </div>
-
-      {/* SPECIAL SERVICES  */}
-      <div className="special__TeamMembers">
-            {activeButton === 'Special Services' && specialTeamMembers.map((member, index) => (
-            <div key={index} className="stylist__icon" onClick={() => handleTeamMemberClick(member)}>
-                <Link to={`/meet-our-team/${member.name.toLowerCase().replace(/\s/g, '-')}`}>
-                <img className='personal__img' src={member.personal__img} alt={member.name} />
-                </Link>
-                <p>{member.name}</p>
-            </div>
+                </div>
             ))}
         </div>
 
+        {/* SPA SERVICES */}
+        <div className="spa__TeamMembers" 
+            style={{ zIndex: activeButton === 'Spa Services' ? 99 : 1 }}>
+            {activeButton === 'Spa Services' && spaTeamMembers.map((member, index) => (
+                <div key={index} className="stylist__icon" onClick={() => handleTeamMemberClick(member)}>
+                <Link to={`/meet-our-team/${member.name.toLowerCase().replace(/\s/g, '-')}`}>
+                    <img className='personal__img' src={member.personal__img} alt={member.name} />
+                </Link>
+                <p>{member.name}</p>
+                </div>
+            ))}
+        </div>
 
-
+        {/* SPECIAL SERVICES */}
+        <div className="special__TeamMembers" 
+            style={{ zIndex: activeButton === 'Special Services' ? 99 : 1 }}>
+            {activeButton === 'Special Services' && specialTeamMembers.map((member, index) => (
+                <div key={index} className="stylist__icon" onClick={() => handleTeamMemberClick(member)}>
+                <Link to={`/meet-our-team/${member.name.toLowerCase().replace(/\s/g, '-')}`}>
+                    <img className='personal__img' src={member.personal__img} alt={member.name} />
+                </Link>
+                <p>{member.name}</p>
+                </div>
+            ))}
+        </div>
     </div>
   );
 }
