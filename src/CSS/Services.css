@@ -90,9 +90,12 @@
 
     /* Common bottom margin for h2, p, and Link elements */
     .service__section > .service h2,
-    .service__section > .service p,
     .service__section > .service Link {
         margin-bottom: 10px; /* Adjust as needed */
+    }
+
+    .service__section > .service p {
+        margin-bottom: 30px;
     }
 
     /* Style for Link to align button inside */

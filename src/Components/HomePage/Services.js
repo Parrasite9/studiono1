@@ -15,7 +15,7 @@ function Services() {
             This includes hair styling, makeup, and other aesthetic treatments, 
             each tailored by our team members to reflect your personal style and 
             preferences.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Customize Your Beauty Experience</button></Link>
         </div>
 
         {/* RIGHT SERVICE | BARBER */}
@@ -24,7 +24,7 @@ function Services() {
           <h2>Men's Grooming</h2>
           <p>Our services for men range from haircuts and styling to grooming treatments, 
             all designed to enhance your personal style and ensure you look and feel great.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Elevate Your Style</button></Link>
         </div>
 
         {/* LEFT SERVICE | MANI/PEDI  */}
@@ -35,7 +35,7 @@ function Services() {
             classic manicures to luxurious spa pedicures, our nail experts use 
             the finest products to ensure your hands and feet look and feel 
             their best.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Indulge In Nail Care</button></Link>
         </div>
 
         {/* RIGHT SERVICE | FACIALS  */}
@@ -45,7 +45,7 @@ function Services() {
           <p>Our estheticians are artisans of the skin. Delight in our range of 
             facial treatments, from hydrating to anti-aging, each designed to 
             enhance your natural beauty and promote glowing, healthy skin.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Rejuvinate Your Skin</button></Link>
         </div>
 
         {/* LEFT SERVICE | MASSAGE */}
@@ -56,7 +56,7 @@ function Services() {
             Whether it's a deep tissue massage to relieve tension or a soothing 
             Swedish massage for relaxation, each session is a journey towards 
             tranquility and rejuvenation.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Book Your Relaxation</button></Link>
         </div>
 
         {/* RIGHT SERVICE | BODY SCULPTING */}
@@ -71,7 +71,7 @@ function Services() {
             provide a safe and effective way to achieve your body goals. Experience a 
             new level of confidence and embrace a rejuvenated self with our bespoke body 
             sculpting services.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Reshape Your Confidence</button></Link>
         </div>
 
         {/* LEFT SERVICE | CHILD FRIENDLY */}
@@ -86,7 +86,7 @@ function Services() {
             staff are adept at making beauty treatments a delightful experience for children. Parents can 
             relax, knowing their children are in caring and skilled hands, making Studio No. 1 a perfect 
             family-friendly beauty destination.</p>
-          <Link><button>TEST</button></Link>
+          <Link><button>Book a Kid-Friendly Session</button></Link>
         </div>
 
         {/* RIGHT SERVICE | SPECIAL EVENT */}
