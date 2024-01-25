@@ -681,10 +681,10 @@ function DesktopTeam() {
 
   return (
     <>
-    <div className="DesktopTeam__grid_instruction">
+    <div className="DesktopTeam__grid__instruction">
         <p>Select A Team Member</p>
     </div>
-    
+
     <div className='DesktopTeam'>
       <div className="category__container">
         <button 

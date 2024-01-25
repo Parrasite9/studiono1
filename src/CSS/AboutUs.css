@@ -67,51 +67,54 @@
     .AboutUs {
         display: grid;
         grid-template-columns: 1fr 1fr; /* Two equal columns */
-        grid-template-rows: auto auto auto; /* Three rows, height set automatically */
-        grid-column-gap: 20px; /* Adjust the gap between columns as needed */
+        grid-template-rows: auto; /* One row, height set automatically */
+        grid-gap: 20px; /* Adjust the gap between columns as needed */
         padding: 0 4%;
     }
-    
-    /* Image spans all three rows in the first column */
-    .AboutUs .section__image {
-        grid-column: 1 / 2; /* Span first column */
-        grid-row: 1 / 4; /* Span from row 1 to 4, covering rows 1, 2, and 3 */
-    }
-    
-    /* Title in the first row of the second column */
-    .AboutUs .title__header {
-        grid-column: 2 / 3; /* Span second column */
-        grid-row: 1; /* First row */
-        text-align: left;
-        padding: 0 8%;
-        font-size: 32px;
 
+    .section__image {
+        grid-column: 1 / 2; /* Span first column */
+        grid-row: 1; /* Only the first row */
     }
-    
-    /* Paragraph in the second row of the second column */
-    .AboutUs p {
+
+    .aboutUs__content {
         grid-column: 2 / 3; /* Span second column */
-        grid-row: 2; /* Second row */
+        grid-row: 1 / -1; /* Span all rows */
+    }
+
+    /* Adjust title, paragraph, and button styling as needed */
+    .title__header {
         text-align: left;
+        font-size: 32px;
     }
-    
-    /* Button in the third row of the second column */
-    .AboutUs .about__button {
-        grid-column: 2 / 3; /* Span second column */
-        grid-row: 3; /* Third row */
+
+    .title__header h3 {
+        margin-top: 0;
     }
-    
-    /* Optional margins for better spacing */
-    .AboutUs .title__header {
-        margin-bottom: 10px; /* Adjust as needed */
-    }
-    
+
     .AboutUs p {
-        margin-bottom: 10px; /* Adjust as needed */
+        text-align: left;
     }
 
     .about__button {
         justify-content: flex-start;
-        padding: 0 8%;
+        padding: 5% 0%;
     }    
+}
+
+
+@media (min-width: 1400px) {
+    .AboutUs .title__header {
+        font-size: 40px;
+    }
+
+    .aboutUs__content p {
+        padding-right: 8%;
+        font-size: 22px;
+    }
+
+    /* .aboutUs__button {
+        width: 200px;
+        text-align: center;
+    } */
 }
