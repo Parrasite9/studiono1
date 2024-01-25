@@ -153,3 +153,10 @@
         }
         
       }
+
+    @media (min-width: 1400px) {
+        .navbar__container {
+            height: 100px;
+            align-content: center;
+        }
+    }

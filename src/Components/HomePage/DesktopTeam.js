@@ -680,6 +680,11 @@ function DesktopTeam() {
   ]
 
   return (
+    <>
+    <div className="DesktopTeam__grid_instruction">
+        <p>Select A Team Member</p>
+    </div>
+    
     <div className='DesktopTeam'>
       <div className="category__container">
         <button 
@@ -750,6 +755,7 @@ function DesktopTeam() {
             ))}
         </div>
     </div>
+    </>
   );
 }
 

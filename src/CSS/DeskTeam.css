@@ -149,8 +149,32 @@
     .special__TeamMembers .stylist__icon:hover img  {
         transform: translateY(-10px);
     }
-    
-    
-    
-    
+
+    .DesktopTeam {
+        padding-top: 5px;
+    }
+
+    .DesktopTeam__grid__instruction {
+        text-align: center;
+        padding-left: 30%;
+        font-size: 20px;
+        font-style: italic;
+    }
+}
+
+@media (min-width: 1400px) {
+    .category__container > button {
+        height: 80px;
+        font-size: 20px;
+    }
+
+    .barber__TeamMembers {
+        grid-row-gap: 10px;
+    }
+
+    .barber__TeamMembers .stylist__icon img,
+    .spa__TeamMembers .stylist__icon img,
+    .special__TeamMembers .stylist__icon img {
+        padding-bottom: 10px;
+    }
 }
