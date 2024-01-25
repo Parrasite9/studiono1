@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom'
 import FacebookIcon from '@mui/icons-material/Facebook';
 
 function Footer() {
+
+  const year = new Date().getFullYear(); // Gets the current year
+
   return (
     <div className='Footer'>
       <div className="logo">
@@ -43,10 +46,11 @@ function Footer() {
 
       <div className="payment">
         <h4 className='footer__header'>Acceptable Forms of Payment</h4>
+        <img src="/images/footer/payment.png" alt="payment" />
       </div>
 
       <div className="copyright">
-        <p>© 2024 Studio No. 1. All Rights Reserved.</p>
+        <p>© {year} Studio No. 1. All Rights Reserved.</p>
       </div>
       
     </div>
