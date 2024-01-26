@@ -28,7 +28,7 @@ function Footer() {
         <div className="pages">
             <h4 className='footer__header'>Pages</h4>
             <Link className="footer-link" to="/">Home</Link>
-            <Link className="footer-link" to="/AboutUs">About Us</Link>
+            <Link className="footer-link" to="/About-Us">About Us</Link>
             <Link className="footer-link" to="/Services">Services</Link>
             <Link className="footer-link" to="/FAQ">FAQ</Link>
             <Link className="footer-link" to="/ContactUs">Contact Us</Link>

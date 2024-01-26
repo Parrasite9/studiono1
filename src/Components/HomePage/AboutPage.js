@@ -34,7 +34,7 @@ function AboutPage() {
               </div>
               ) : (
                   <div className="desktop__image__container">
-                      <img src="/images/about/group_desktop.png" alt="Group Desktop" />
+                      <img src="/images/about/group_desk.jpg" alt="Group Desktop" />
                   </div>
               )
             }

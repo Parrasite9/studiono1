@@ -20,10 +20,17 @@ function Navbar() {
   const links = [
     { to: "/", text: "Home" },
     { to: "/About-us", text: "About Us" },
-    { to: "/Services", text: "Services" },
+    { to: "#Services", text: "Services" },
     { to: "/FAQ", text: "FAQ" },
     { to: "/ContactUs", text: "Contact Us" },
   ];
+
+  const scrollToSection = (sectionId) => {
+    const section = document.querySelector(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   
 
   useEffect(() => {
@@ -52,18 +59,31 @@ function Navbar() {
             <Link to='/'>Studio No. 1</Link>
           </div>
 
-          <div className="desktop__navlinks">
-            {links.map((link, index) => (
-              <Link 
-                key={index} 
-                to={link.to}
-                className={location.pathname === link.to ? 'active' : ''}
-              >
-                  {link.text}
-              </Link>
-            ))}
-            <Link to="/Book-Now"><button>Book Now</button></Link>
-          </div>
+      <div className="desktop__navlinks">
+        {links.map((link, index) => (
+          link.to.startsWith("#") ? (
+            // Use <a> for internal page anchors
+            <a 
+              key={index} 
+              href={link.to}
+              onClick={() => scrollToSection(link.to)}
+              className={location.pathname === link.to ? 'active' : ''}
+            >
+              {link.text}
+            </a>
+          ) : (
+            // Use <Link> for different routes
+            <Link 
+              key={index} 
+              to={link.to}
+              className={location.pathname === link.to ? 'active' : ''}
+            >
+              {link.text}
+            </Link>
+          )
+        ))}
+        <Link to="/Book-Now"><button>Book Now</button></Link>
+      </div>
 
         </div>
       ) : (
