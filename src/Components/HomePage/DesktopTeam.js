@@ -72,7 +72,7 @@ function DesktopTeam() {
         name: 'Allison',
         personal__img: '/images/allison/pro-photo/allison.png',
         title: 'Beautician | Makeup Artist',
-        image: '/images/allison/pro-photo/allison.png',
+        image: '/images/allison/pro-photo/allison_desktop.jpg',
         desktopBio: {
                 paragraph1: "1",
                 paragraph2: "2",
@@ -93,7 +93,7 @@ function DesktopTeam() {
             photo9: '/images/allison/gallery/a3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -133,18 +133,18 @@ function DesktopTeam() {
             paragraph1: `Meet Clara, this is her Bio...`
         },
         gallery: {
-            photo1: '/images/allison/gallery/a2.jpeg',
-            photo2: '/images/allison/gallery/a3.jpeg',
-            photo3: '/images/allison/gallery/a4.jpeg',
-            photo4: '/images/allison/gallery/a5.jpeg',
-            photo5: '/images/allison/gallery/a6.jpeg',
-            photo6: '/images/allison/gallery/a6.jpeg',
-            photo7: '/images/allison/gallery/a2.jpeg',
-            photo8: '/images/allison/gallery/a1.jpeg',
-            photo9: '/images/allison/gallery/a3.jpeg',
+            photo1: '/images/clara/gallery/a2.jpeg',
+            photo2: '/images/clara/gallery/a3.jpeg',
+            photo3: '/images/clara/gallery/a4.jpeg',
+            photo4: '/images/clara/gallery/a5.jpeg',
+            photo5: '/images/clara/gallery/a6.jpeg',
+            photo6: '/images/clara/gallery/a6.jpeg',
+            photo7: '/images/clara/gallery/a2.jpeg',
+            photo8: '/images/clara/gallery/a1.jpeg',
+            photo9: '/images/clara/gallery/a3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -170,31 +170,31 @@ function DesktopTeam() {
         }
     },
     {
-        name: 'Leo',
+        name: 'Leonela',
         personal__img: '/images/leo/pro-photo/leo.png',
         title: 'Hair Stylist | Makeup Artist',
         image: '/images/c.png',
         desktopBio: {
-                paragraph1: "Meet Leonela Hernandez, a versatile and talented stylist at Studio No. 1, who has quickly become known for her expertise in men's grooming, women's beauty services, and family haircuts. With a robust experience of 5 years in the industry, Leonela's journey is marked by continuous learning and skill enhancement. She is a certified hand-tied extension expert and has participated in several barber competitions, showcasing her flair and precision. Her dedication to her craft is further evidenced by her participation in prestigious events and training, including a 2-day training with Roman Master in Mechas Level 1 and attending Premiere San Antonio 2023.",
+                paragraph1: "Meet Leonela, a versatile and talented stylist at Studio No. 1, who has quickly become known for her expertise in men's grooming, women's beauty services, and family haircuts. With a robust experience of 5 years in the industry, Leonela's journey is marked by continuous learning and skill enhancement. She is a certified hand-tied extension expert and has participated in several barber competitions, showcasing her flair and precision. Her dedication to her craft is further evidenced by her participation in prestigious events and training, including a 2-day training with Roman Master in Mechas Level 1 and attending Premiere San Antonio 2023.",
                 paragraph2: "Leonela's range of services caters to everyone. For men, she offers a VIP treatment that includes haircuts, beard trims, lineups, and more, ensuring each client leaves looking and feeling their best. Women flock to Leonela for her exceptional skills in highlights, coloring, face waxing, and other beauty treatments, appreciating her keen eye for style and detail. Families love her for her gentle approach with kids, making every haircut a fun and comfortable experience.",
                 paragraph3: "Her professional philosophy centers around a bespoke approach to beauty and hair care. Leonela believes in understanding her clients' unique needs and tailoring her services to suit their individual style. Her friendly demeanor and attentive service make every salon visit a delightful experience. Leonela's commitment to excellence, combined with her warm and approachable personality, makes her a cherished stylist among her clientele."    
         },
         mobileBio: {          
-            paragraph1: `Leonela Hernandez, a dynamic stylist at Studio No. 1, brings a blend of creativity and precision to her role as a Men's Grooming Specialist, Women's Beauty Services Expert, and Family Haircut Professional. With 5 years of rich experience and specialized training, including a certification in hand-tied extensions and extensive barber competition participation, Leonela excels in providing a range of services. From VIP men's treatments to stylish women's hair coloring and face waxing, to delightful haircuts for kids, her approach is all about personalized care and style. Clients appreciate her bespoke services, warm demeanor, and the ability to turn every salon visit into a memorable, tailored beauty experience.`
+            paragraph1: `Leonela, a dynamic stylist at Studio No. 1, brings a blend of creativity and precision to her role as a Men's Grooming Specialist, Women's Beauty Services Expert, and Family Haircut Professional. With 5 years of rich experience and specialized training, including a certification in hand-tied extensions and extensive barber competition participation, Leonela excels in providing a range of services. From VIP men's treatments to stylish women's hair coloring and face waxing, to delightful haircuts for kids, her approach is all about personalized care and style. Clients appreciate her bespoke services, warm demeanor, and the ability to turn every salon visit into a memorable, tailored beauty experience.`
         },
         gallery: {
-            photo1: '/images/allison/gallery/a2.jpeg',
-            photo2: '/images/allison/gallery/a3.jpeg',
-            photo3: '/images/allison/gallery/a4.jpeg',
-            photo4: '/images/allison/gallery/a5.jpeg',
-            photo5: '/images/allison/gallery/a6.jpeg',
-            photo6: '/images/allison/gallery/a6.jpeg',
-            photo7: '/images/allison/gallery/a2.jpeg',
-            photo8: '/images/allison/gallery/a1.jpeg',
-            photo9: '/images/allison/gallery/a3.jpeg',
+            photo1: '/images/leo/gallery/a2.jpeg',
+            photo2: '/images/leo/gallery/a3.jpeg',
+            photo3: '/images/leo/gallery/a4.jpeg',
+            photo4: '/images/leo/gallery/a5.jpeg',
+            photo5: '/images/leo/gallery/a6.jpeg',
+            photo6: '/images/leo/gallery/a6.jpeg',
+            photo7: '/images/leo/gallery/a2.jpeg',
+            photo8: '/images/leo/gallery/a1.jpeg',
+            photo9: '/images/leo/gallery/a3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -233,18 +233,18 @@ function DesktopTeam() {
             paragraph1: `Meet Crystal, this is her Bio...`
         },
         gallery: {
-            photo1: '/images/allison/gallery/a2.jpeg',
-            photo2: '/images/allison/gallery/a3.jpeg',
-            photo3: '/images/allison/gallery/a4.jpeg',
-            photo4: '/images/allison/gallery/a5.jpeg',
-            photo5: '/images/allison/gallery/a6.jpeg',
-            photo6: '/images/allison/gallery/a6.jpeg',
-            photo7: '/images/allison/gallery/a2.jpeg',
-            photo8: '/images/allison/gallery/a1.jpeg',
-            photo9: '/images/allison/gallery/a3.jpeg',
+            photo1: '/images/crystal/gallery/a2.jpeg',
+            photo2: '/images/crystal/gallery/a3.jpeg',
+            photo3: '/images/crystal/gallery/a4.jpeg',
+            photo4: '/images/crystal/gallery/a5.jpeg',
+            photo5: '/images/crystal/gallery/a6.jpeg',
+            photo6: '/images/crystal/gallery/a6.jpeg',
+            photo7: '/images/crystal/gallery/a2.jpeg',
+            photo8: '/images/crystal/gallery/a1.jpeg',
+            photo9: '/images/crystal/gallery/a3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -283,18 +283,18 @@ function DesktopTeam() {
             paragraph1: `Introducing Ruby, an inspired beautician with over ten years of experience in hair aesthetics, Ruby is your go-to expert for transforming fashion trends into personalized hairstyles. She excels in a range of services from haircuts for women, men, and children to color and bleaching, ensuring each look aligns with your individual style. Ruby's expertise extends to hair extensions, perms, and specialized treatments, complemented by tailored after-care advice to maintain your hair's health and vibrancy. At the heart of her approach is a dedication to crafting unique styles that not only meet but exceed your expectations, making every salon visit a step towards self-expression and confidence.`
         },
         gallery: {
-            photo1: '/images/allison/gallery/a2.jpeg',
-            photo2: '/images/allison/gallery/a3.jpeg',
-            photo3: '/images/allison/gallery/a4.jpeg',
-            photo4: '/images/allison/gallery/a5.jpeg',
-            photo5: '/images/allison/gallery/a6.jpeg',
-            photo6: '/images/allison/gallery/a6.jpeg',
-            photo7: '/images/allison/gallery/a2.jpeg',
-            photo8: '/images/allison/gallery/a1.jpeg',
-            photo9: '/images/allison/gallery/a3.jpeg',
+            photo1: '/images/ruby/gallery/a2.jpeg',
+            photo2: '/images/ruby/gallery/a3.jpeg',
+            photo3: '/images/ruby/gallery/a4.jpeg',
+            photo4: '/images/ruby/gallery/a5.jpeg',
+            photo5: '/images/ruby/gallery/a6.jpeg',
+            photo6: '/images/ruby/gallery/a6.jpeg',
+            photo7: '/images/ruby/gallery/a2.jpeg',
+            photo8: '/images/ruby/gallery/a1.jpeg',
+            photo9: '/images/ruby/gallery/a3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -344,7 +344,7 @@ function DesktopTeam() {
             photo9: '/images/yara_c/gallery/y9.png',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -394,7 +394,7 @@ function DesktopTeam() {
             photo9: '/images/daleth/gallery/3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -448,8 +448,8 @@ function DesktopTeam() {
             photo8: '/images/robin/gallery/gal8.jpg',
             photo9: '/images/robin/gallery/gal4.jpg',
         },
-        bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        bookingLink: 'https://robinmckinney.glossgenius.com',
+        contactInfo: '432-290-2826',
         services: {
             test: 'hello',
             womens: {
@@ -499,7 +499,7 @@ function DesktopTeam() {
             photo9: '/images/tori/gallery/t3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -538,18 +538,18 @@ function DesktopTeam() {
             paragraph1: `Meet Rajani, this is her Bio...`
         },
         gallery: {
-            photo1: '/images/allison/gallery/a2.jpeg',
-            photo2: '/images/allison/gallery/a3.jpeg',
-            photo3: '/images/allison/gallery/a4.jpeg',
-            photo4: '/images/allison/gallery/a5.jpeg',
-            photo5: '/images/allison/gallery/a6.jpeg',
-            photo6: '/images/allison/gallery/a6.jpeg',
-            photo7: '/images/allison/gallery/a2.jpeg',
-            photo8: '/images/allison/gallery/a1.jpeg',
-            photo9: '/images/allison/gallery/a3.jpeg',
+            photo1: '/images/rajani/gallery/a2.jpeg',
+            photo2: '/images/rajani/gallery/a3.jpeg',
+            photo3: '/images/rajani/gallery/a4.jpeg',
+            photo4: '/images/rajani/gallery/a5.jpeg',
+            photo5: '/images/rajani/gallery/a6.jpeg',
+            photo6: '/images/rajani/gallery/a6.jpeg',
+            photo7: '/images/rajani/gallery/a2.jpeg',
+            photo8: '/images/rajani/gallery/a1.jpeg',
+            photo9: '/images/rajani/gallery/a3.jpeg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -602,7 +602,7 @@ function DesktopTeam() {
             photo9: '/images/nunu/gallery/n9.jpg',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {
@@ -652,7 +652,7 @@ function DesktopTeam() {
             photo9: '/images/yara_c/gallery/y9.png',
         },
         bookingLink: 'http://www.yahoo.com',
-        contactInfo: '888-888-8888',
+        contactInfo: '#',
         services: {
             test: 'hello',
             womens: {

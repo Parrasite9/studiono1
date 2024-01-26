@@ -144,7 +144,7 @@ function MeetOurTeam() {
                           onClick={() => handleTeamMemberClick({
                               name: 'Allison',
                               title: 'Beautician | Makeup Artist',
-                              image: '/images/allison/pro-photo/allison.png',
+                              image: '/images/allison/pro-photo/allison_mobile.png',
                               desktopBio: {
                                       paragraph1: "1",
                                       paragraph2: "2",
@@ -165,7 +165,7 @@ function MeetOurTeam() {
                                   photo9: '/images/allison/gallery/a3.jpeg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -211,18 +211,18 @@ function MeetOurTeam() {
                                   paragraph1: `Meet Clara, this is her Bio...`
                               },
                               gallery: {
-                                  photo1: '/images/allison/gallery/a2.jpeg',
-                                  photo2: '/images/allison/gallery/a3.jpeg',
-                                  photo3: '/images/allison/gallery/a4.jpeg',
-                                  photo4: '/images/allison/gallery/a5.jpeg',
-                                  photo5: '/images/allison/gallery/a6.jpeg',
-                                  photo6: '/images/allison/gallery/a6.jpeg',
-                                  photo7: '/images/allison/gallery/a2.jpeg',
-                                  photo8: '/images/allison/gallery/a1.jpeg',
-                                  photo9: '/images/allison/gallery/a3.jpeg',
+                                  photo1: '/images/clara/gallery/a2.jpeg',
+                                  photo2: '/images/clara/gallery/a3.jpeg',
+                                  photo3: '/images/clara/gallery/a4.jpeg',
+                                  photo4: '/images/clara/gallery/a5.jpeg',
+                                  photo5: '/images/clara/gallery/a6.jpeg',
+                                  photo6: '/images/clara/gallery/a6.jpeg',
+                                  photo7: '/images/clara/gallery/a2.jpeg',
+                                  photo8: '/images/clara/gallery/a1.jpeg',
+                                  photo9: '/images/clara/gallery/a3.jpeg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -268,18 +268,18 @@ function MeetOurTeam() {
                                   paragraph1: `Leonela, a dynamic stylist at Studio No. 1, brings a blend of creativity and precision to her role as a Men's Grooming Specialist, Women's Beauty Services Expert, and Family Haircut Professional. With 5 years of rich experience and specialized training, including a certification in hand-tied extensions and extensive barber competition participation, Leonela excels in providing a range of services. From VIP men's treatments to stylish women's hair coloring and face waxing, to delightful haircuts for kids, her approach is all about personalized care and style. Clients appreciate her bespoke services, warm demeanor, and the ability to turn every salon visit into a memorable, tailored beauty experience.`
                               },
                               gallery: {
-                                  photo1: '/images/allison/gallery/a2.jpeg',
-                                  photo2: '/images/allison/gallery/a3.jpeg',
-                                  photo3: '/images/allison/gallery/a4.jpeg',
-                                  photo4: '/images/allison/gallery/a5.jpeg',
-                                  photo5: '/images/allison/gallery/a6.jpeg',
-                                  photo6: '/images/allison/gallery/a6.jpeg',
-                                  photo7: '/images/allison/gallery/a2.jpeg',
-                                  photo8: '/images/allison/gallery/a1.jpeg',
-                                  photo9: '/images/allison/gallery/a3.jpeg',
+                                  photo1: '/images/leo/gallery/a2.jpeg',
+                                  photo2: '/images/leo/gallery/a3.jpeg',
+                                  photo3: '/images/leo/gallery/a4.jpeg',
+                                  photo4: '/images/leo/gallery/a5.jpeg',
+                                  photo5: '/images/leo/gallery/a6.jpeg',
+                                  photo6: '/images/leo/gallery/a6.jpeg',
+                                  photo7: '/images/leo/gallery/a2.jpeg',
+                                  photo8: '/images/leo/gallery/a1.jpeg',
+                                  photo9: '/images/leo/gallery/a3.jpeg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -325,18 +325,18 @@ function MeetOurTeam() {
                                   paragraph1: `Meet Crystal, this is her Bio...`
                               },
                               gallery: {
-                                  photo1: '/images/allison/gallery/a2.jpeg',
-                                  photo2: '/images/allison/gallery/a3.jpeg',
-                                  photo3: '/images/allison/gallery/a4.jpeg',
-                                  photo4: '/images/allison/gallery/a5.jpeg',
-                                  photo5: '/images/allison/gallery/a6.jpeg',
-                                  photo6: '/images/allison/gallery/a6.jpeg',
-                                  photo7: '/images/allison/gallery/a2.jpeg',
-                                  photo8: '/images/allison/gallery/a1.jpeg',
-                                  photo9: '/images/allison/gallery/a3.jpeg',
+                                  photo1: '/images/crystal/gallery/a2.jpeg',
+                                  photo2: '/images/crystal/gallery/a3.jpeg',
+                                  photo3: '/images/crystal/gallery/a4.jpeg',
+                                  photo4: '/images/crystal/gallery/a5.jpeg',
+                                  photo5: '/images/crystal/gallery/a6.jpeg',
+                                  photo6: '/images/crystal/gallery/a6.jpeg',
+                                  photo7: '/images/crystal/gallery/a2.jpeg',
+                                  photo8: '/images/crystal/gallery/a1.jpeg',
+                                  photo9: '/images/crystal/gallery/a3.jpeg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -382,18 +382,18 @@ function MeetOurTeam() {
                                   paragraph1: `Introducing Ruby, an inspired beautician with over ten years of experience in hair aesthetics, Ruby is your go-to expert for transforming fashion trends into personalized hairstyles. She excels in a range of services from haircuts for women, men, and children to color and bleaching, ensuring each look aligns with your individual style. Ruby's expertise extends to hair extensions, perms, and specialized treatments, complemented by tailored after-care advice to maintain your hair's health and vibrancy. At the heart of her approach is a dedication to crafting unique styles that not only meet but exceed your expectations, making every salon visit a step towards self-expression and confidence.`
                               },
                               gallery: {
-                                  photo1: '/images/allison/gallery/a2.jpeg',
-                                  photo2: '/images/allison/gallery/a3.jpeg',
-                                  photo3: '/images/allison/gallery/a4.jpeg',
-                                  photo4: '/images/allison/gallery/a5.jpeg',
-                                  photo5: '/images/allison/gallery/a6.jpeg',
-                                  photo6: '/images/allison/gallery/a6.jpeg',
-                                  photo7: '/images/allison/gallery/a2.jpeg',
-                                  photo8: '/images/allison/gallery/a1.jpeg',
-                                  photo9: '/images/allison/gallery/a3.jpeg',
+                                  photo1: '/images/ruby/gallery/a2.jpeg',
+                                  photo2: '/images/ruby/gallery/a3.jpeg',
+                                  photo3: '/images/ruby/gallery/a4.jpeg',
+                                  photo4: '/images/ruby/gallery/a5.jpeg',
+                                  photo5: '/images/ruby/gallery/a6.jpeg',
+                                  photo6: '/images/ruby/gallery/a6.jpeg',
+                                  photo7: '/images/ruby/gallery/a2.jpeg',
+                                  photo8: '/images/ruby/gallery/a1.jpeg',
+                                  photo9: '/images/ruby/gallery/a3.jpeg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -450,7 +450,7 @@ function MeetOurTeam() {
                                   photo9: '/images/yara_c/gallery/y9.png',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -507,7 +507,7 @@ function MeetOurTeam() {
                                   photo9: '/images/daleth/gallery/3.jpeg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -590,8 +590,8 @@ function MeetOurTeam() {
                                   photo8: '/images/robin/gallery/gal8.jpg',
                                   photo9: '/images/robin/gallery/gal4.jpg',
                               },
-                              bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              bookingLink: 'https://robinmckinney.glossgenius.com',
+                              contactInfo: '432-290-2826',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -648,7 +648,7 @@ function MeetOurTeam() {
                                       photo9: '/images/tori/gallery/t3.jpeg',
                                   },
                                   bookingLink: 'http://www.yahoo.com',
-                                  contactInfo: '888-888-8888',
+                                  contactInfo: '#',
                                   services: {
                                       test: 'hello',
                                       womens: {
@@ -705,7 +705,7 @@ function MeetOurTeam() {
                                       photo9: '/images/allison/gallery/a3.jpeg',
                                   },
                                   bookingLink: 'http://www.yahoo.com',
-                                  contactInfo: '888-888-8888',
+                                  contactInfo: '#',
                                   services: {
                                       test: 'hello',
                                       womens: {
@@ -788,7 +788,7 @@ function MeetOurTeam() {
                                   photo9: '/images/nunu/gallery/n9.jpg',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
@@ -845,7 +845,7 @@ function MeetOurTeam() {
                                   photo9: '/images/yara_c/gallery/y9.png',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '888-888-8888',
+                              contactInfo: '#',
                               services: {
                                   test: 'hello',
                                   womens: {
