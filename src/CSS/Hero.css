@@ -83,3 +83,9 @@
             color: #333;
         }
 }
+
+@media (min-width: 1400px) {
+    .context > h1 {
+        font-size: 48px;
+    }
+}
