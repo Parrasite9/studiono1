@@ -47,4 +47,39 @@
     .hero__button {
         font-size: 16px;
     }
+
+    .hero__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 3; }
+        .div2 { grid-area: 1 / 1 / 2 / 2; }
+        .div3 { grid-area: 1 / 2 / 2 / 3; }
+
+        .hero__img > img {
+            width: 100%;
+        }
+
+        .hero__container > .context {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            justify-content: center;
+            padding-right: 5%;
+        }
+
+        .context > h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .context > h1 {
+            font-size: 36px;
+            margin-top: 0;
+            color: #333;
+        }
 }
