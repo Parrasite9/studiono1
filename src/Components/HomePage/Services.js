@@ -9,7 +9,7 @@ function Services() {
 
       <div className="service">
             <img src="/images/services/beauty.jpg" alt="beauty-img" />
-            <div className="test__container">
+            <div className="content__container">
             <h2>Personalized Beauty Services</h2>
             <p>Embrace your individuality with our bespoke beauty services. 
               This includes hair styling, makeup, and other aesthetic treatments, 
@@ -22,7 +22,7 @@ function Services() {
         {/* LEFT SERVICE | BEAUTY SERVICE */}
         <div className="service">
           <img src="/images/services/barber2.jpg" alt="barber" />
-            <div className="test__container">
+            <div className="content__container">
               <h2>Men's Grooming</h2>
               <p>Our services for men range from haircuts and styling to grooming treatments, 
                 all designed to enhance your personal style and ensure you look and feel great.</p>
@@ -33,7 +33,7 @@ function Services() {
 
         <div className="service">
           <img src="/images/services/pedi.jpg" alt="mani pedi" />
-            <div className="test__container">
+            <div className="content__container">
               <h2> Manicures and Pedicures</h2>
               <p>Indulge in our nail services where beauty meets relaxation. From 
                 classic manicures to luxurious spa pedicures, our nail experts use 
@@ -46,7 +46,7 @@ function Services() {
 
         <div className="service">
           <img src="/images/services/facials.jpg" alt="facials" />
-            <div className="test__container">
+            <div className="content__container">
               <h2>Skincare and Facials</h2>
               <p>Our estheticians are artisans of the skin. Delight in our range of 
                 facial treatments, from hydrating to anti-aging, each designed to 
@@ -58,7 +58,7 @@ function Services() {
 
         <div className="service">
           <img src="/images/services/massage.jpg" alt="massage" />
-            <div className="test__container">
+            <div className="content__container">
               <h2>Massage Therapy</h2>
               <p>Surrender to the healing touch of our skilled massage therapists. 
                 Whether it's a deep tissue massage to relieve tension or a soothing 
@@ -70,7 +70,7 @@ function Services() {
 
         <div className="service">
           <img src="/images/services/body.jpg" alt="body-sculpting" />
-            <div className="test__container">
+            <div className="content__container">
               <h2>Body Scultiping</h2>
               <p>At Studio No. 1, we're excited to offer cutting-edge body sculpting 
                 services, designed to refine and enhance your natural contours. Our skilled 
@@ -86,7 +86,7 @@ function Services() {
 
         <div className="service">
           <img src="/images/services/child.jpg" alt="child friendly" />
-            <div className="test__container">
+            <div className="content__container">
               <h2>Child Friendly</h2>
               <p>Studio No. 1 warmly welcome families and their little ones. Understanding the challenges 
                 parents face in finding child-friendly salons, we've tailored a part of our services 
@@ -102,7 +102,7 @@ function Services() {
 
         <div className="service">
           <img src="/images/services/wedding.jpg" alt="wedding" />
-            <div className="test__container">
+            <div className="content__container">
               <h2>Special Events</h2>
               <p>Your special day deserves extraordinary care, and that's exactly 
                 what we provide. Our team offers bespoke beauty and grooming services 

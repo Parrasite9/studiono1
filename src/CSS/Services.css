@@ -15,7 +15,7 @@
     color: green;
 } */
 
-.service > .test__container > a > button {
+.service > .content__container > a > button {
     background-color: #163C5E;
     color: #f2f2f2;
     padding: 10px 25px;
@@ -36,11 +36,11 @@
 }
 
 @media (min-width: 700px) {
-    .service > h2 {
+    .service > .content__container > h2 {
         font-size: 24px;
     }
 
-    .service > p {
+    .service > .content__container > p {
         font-size: 18px;
     }
 }
@@ -62,7 +62,7 @@
         grid-area: 1 / 1 / 2 / 2; /* Image in the first column */
     }
 
-    .service__section > .service:nth-child(even) > .test__container {
+    .service__section > .service:nth-child(even) > .content__container {
         grid-area: 1 / 2 / 2 / 3; /* Text content in the second column */
     }
 
@@ -71,11 +71,11 @@
         grid-area: 1 / 2 / 2 / 3; /* Image in the second column */
     }
 
-    .service__section > .service:nth-child(odd) > .test__container {
+    .service__section > .service:nth-child(odd) > .content__container {
         grid-area: 1 / 1 / 2 / 2; /* Text content in the first column */
     }
 
-    .test__container > h2 {
+    .content__container > h2 {
         margin-bottom: 5%;
     }
 }
@@ -83,11 +83,11 @@
 
 
 @media (min-width: 1400px) {
-    .service > h2 {
+    .service > .content__container > h2 {
         font-size: 32px;
     }
 
-    .service > p {
+    .service > .content__container > p {
         font-size: 20px;
     }
 
