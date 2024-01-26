@@ -29,6 +29,7 @@
 }
 
 .service > .content__container > a {
+    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
