@@ -9,6 +9,7 @@ import Services from './HomePage/Services'
 import Email from './HomePage/Email'
 import Testimonials from './HomePage/Testimonials'
 import DesktopTeam from './HomePage/DesktopTeam'
+
 function Home() {
   return (
     <div className='Home'>

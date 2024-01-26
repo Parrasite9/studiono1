@@ -15,7 +15,7 @@
     color: green;
 } */
 
-.service > a > button {
+.service > .test__container > a > button {
     background-color: #163C5E;
     color: #f2f2f2;
     padding: 10px 25px;
@@ -47,67 +47,40 @@
 
 @media (min-width: 1000px) {
     .service {
-        padding: .5% 8%;
+        padding-bottom: 1.5%;
     }
-
-    .service > h2 {
-        font-size: 28px;
-    }
-
     .service__section > .service {
         display: grid;
-        grid-template-columns: 1fr 1fr; /* Two equal columns */
-        grid-template-rows: auto auto auto; /* Three rows, height set automatically */
-        grid-column-gap: 20px; /* Adjust the gap between columns as needed */
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr; /* One row that fills the container */
+        grid-column-gap: 20px; /* Adjust gap as needed */
         align-items: center;
     }
 
     /* Styles for services positioned on the left (odd children) */
     .service__section > .service:nth-child(even) img {
-        grid-column: 1 / 2; /* Image in the first column */
-        grid-row: 1 / 4; /* Image spans all rows */
+        grid-area: 1 / 1 / 2 / 2; /* Image in the first column */
     }
 
-    .service__section > .service:nth-child(even) h2,
-    .service__section > .service:nth-child(even) p,
-    .service__section > .service:nth-child(even) Link {
-        grid-column: 2 / 3; /* Text content and button in the second column */
-        text-align: left;
+    .service__section > .service:nth-child(even) > .test__container {
+        grid-area: 1 / 2 / 2 / 3; /* Text content in the second column */
     }
 
     /* Styles for services positioned on the right (even children) */
     .service__section > .service:nth-child(odd) img {
-        grid-column: 2 / 3; /* Image in the second column */
-        grid-row: 1 / 4; /* Image spans all rows */
+        grid-area: 1 / 2 / 2 / 3; /* Image in the second column */
     }
 
-    .service__section > .service:nth-child(odd) h2,
-    .service__section > .service:nth-child(odd) p,
-    .service__section > .service:nth-child(odd) Link {
-        grid-column: 1 / 2; /* Text content and button in the first column */
-        text-align: left;
+    .service__section > .service:nth-child(odd) > .test__container {
+        grid-area: 1 / 1 / 2 / 2; /* Text content in the first column */
     }
 
-    /* Common bottom margin for h2, p, and Link elements */
-    .service__section > .service h2,
-    .service__section > .service Link {
-        margin-bottom: 10px; /* Adjust as needed */
-    }
-
-    .service__section > .service p {
-        margin-bottom: 30px;
-    }
-
-    /* Style for Link to align button inside */
-    .service__section > .service Link {
-        display: block; /* or 'inline-block' based on your layout */
-        text-align: left; /* Aligns the button inside the Link */
-    }
-
-    .service > a {
-        justify-content: flex-start;
+    .test__container > h2 {
+        margin-bottom: 5%;
     }
 }
+
+
 
 @media (min-width: 1400px) {
     .service > h2 {
@@ -117,5 +90,7 @@
     .service > p {
         font-size: 20px;
     }
+
+    
 }
 
