@@ -48,4 +48,24 @@
         text-decoration: none;
     }
 
+    @media (min-width: 1000px) {
+        .TeamMember {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 30px;
+            grid-row-gap: 0px;
+            }
+            
+            .div1 { grid-area: 1 / 1 / 2 / 3; }
+            .div2 { grid-area: 1 / 1 / 2 / 2; }
+            .div3 { grid-area: 1 / 2 / 2 / 3; }
+
+            .member__Img > img {
+                width: 100%;      /* This will make sure the image takes up 100% of the parent container's width */
+                height: auto;     /* This will maintain the aspect ratio of the image */
+                object-fit: cover; /* This will make sure the image covers the area of the container without stretching */
+            }
+            
+    }
     

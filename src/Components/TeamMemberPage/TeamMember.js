@@ -19,7 +19,7 @@ function TeamMember() {
 
   const teamMemberData = useSelector(state => state.teamMember.teamMemberData)
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth < 900);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 1000);
 
   useEffect(() => {
     const handleResize = () => {
@@ -52,66 +52,68 @@ function TeamMember() {
     <Navbar />
     
     <div className='TeamMember'>
-      {/* TEAM MEMBER IMG  */}
-      <div className="member__Img">
-        <img src={teamMemberData.image} alt={teamMemberData.name} />
-      </div>
-
-
-      {/* TEAM MEMBER NAME  */}
-      <div className="member__Name">
-        <h2>{teamMemberData.name}</h2>
-      </div>
-
-      {/* TEAM MEMBER TITLE  */}
-      <div className="member__Title">
-        <h5>{teamMemberData.title}</h5>
-      </div>
-
-      {/* MEMBER BIO */}
-      <div className="member__Bio">
-        {isMobile ? (
-              <p>{teamMemberData.mobileBio.paragraph1}</p>
-            ) : (
-              <>
-                <p>{teamMemberData.desktopBio.paragraph1}</p>
-                <p>{teamMemberData.desktopBio.paragraph2}</p>
-                <p>{teamMemberData.desktopBio.paragraph3}</p>
-              </>
-          )}
-      </div>
-
-      {/* BUTTON CONTAINER  */}
-      <div className="button__Container">
-        {/* CONTACT INFO  */}
-        <div className="member__Contact">
-          {businessHours ? (
-            <>
-              <a href={`tel:${teamMemberData.contactInfo}`} className="button-style">
-                <button className='test'>
-                  <CallIcon fontSize='small' style={{ marginRight: '10px' }} /> 
-                  Call Me
-                </button>
-              </a>
-            </>
-          ) : (
-            <>
-              <a href={`sms:${teamMemberData.contactInfo}`} className="button-style">
-                <button>
-                  <SmsIcon fontSize='small' style={{ marginRight: '10px' }} />
-                  Text Me
-                </button>
-              </a>
-            </>
-          )}
+        {/* TEAM MEMBER IMG  */}
+        <div className="member__Img">
+          <img src={teamMemberData.image} alt={teamMemberData.name} />
         </div>
-        <a href={teamMemberData.bookingLink} target='_blank' rel="noopener noreferrer">
-          <button>
-            <CalendarMonthIcon fontSize='small' style={{ marginRight: '10px' }} />
-            Book a Service
-          </button>
-        </a>
-      </div>
+
+        <div className="memberDetails">
+
+          {/* TEAM MEMBER NAME  */}
+          <div className="member__Name">
+            <h2>{teamMemberData.name}</h2>
+          </div>
+
+          {/* TEAM MEMBER TITLE  */}
+          <div className="member__Title">
+            <h5>{teamMemberData.title}</h5>
+          </div>
+
+          {/* MEMBER BIO */}
+          <div className="member__Bio">
+            {isMobile ? (
+                  <p>{teamMemberData.mobileBio.paragraph1}</p>
+                ) : (
+                  <>
+                    <p>{teamMemberData.desktopBio.paragraph1}</p>
+                    <p>{teamMemberData.desktopBio.paragraph2}</p>
+                    <p>{teamMemberData.desktopBio.paragraph3}</p>
+                  </>
+              )}
+          </div>
+
+          {/* BUTTON CONTAINER  */}
+          <div className="button__Container">
+            {/* CONTACT INFO  */}
+            <div className="member__Contact">
+              {!businessHours ? (
+                <>
+                  <a href={`tel:${teamMemberData.contactInfo}`} className="button-style">
+                    <button className='test'>
+                      <CallIcon fontSize='small' style={{ marginRight: '10px' }} /> 
+                      Call Me
+                    </button>
+                  </a>
+                </>
+              ) : (
+                <>
+                  <a href={`sms:${teamMemberData.contactInfo}`} className="button-style">
+                    <button>
+                      <SmsIcon fontSize='small' style={{ marginRight: '10px' }} />
+                      Text Me
+                    </button>
+                  </a>
+                </>
+              )}
+            </div>
+            <a href={teamMemberData.bookingLink} target='_blank' rel="noopener noreferrer">
+              <button>
+                <CalendarMonthIcon fontSize='small' style={{ marginRight: '10px' }} />
+                Book a Service
+              </button>
+            </a>
+          </div>
+        </div>
 
       </div>
 

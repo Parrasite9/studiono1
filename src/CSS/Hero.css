@@ -36,6 +36,10 @@
 }
 
 @media (min-width: 1000px) {
+    .Hero  {
+        margin-bottom: 5%;
+    }
+
     .Hero > h3 {
         font-size: 32px;
     } 
