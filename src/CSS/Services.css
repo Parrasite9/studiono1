@@ -23,7 +23,6 @@
     display: flex;
     align-items: center;
     border: none; /* To remove the default browser styling for buttons */
-    text-decoration: none; /* To remove underline from text */
     font-size: 1em; /* Adjust as needed */
     text-align: center; /* To center the text inside the button */
 }
