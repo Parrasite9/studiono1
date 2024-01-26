@@ -1,10 +1,17 @@
 .ReactSlick {
     text-align: center;
-    padding: 5%;
+    padding: 10% 5%;
 }
 
 .slider__img {
     width: 95%;
     height: auto;
+}
+
+@media (min-width: 750px) {
+    .ReactSlick {
+        text-align: center;
+        padding: 5%;
+    }
 }
 

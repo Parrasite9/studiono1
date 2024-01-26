@@ -80,6 +80,19 @@
     .content__container > h2 {
         margin-bottom: 5%;
     }
+
+    .service > .content__container > h2,
+    .service > .content__container > p,
+    .service > .content__container > a {
+        text-align: left;
+    }
+
+    #Services > div > div > div > a {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    
 }
 
 

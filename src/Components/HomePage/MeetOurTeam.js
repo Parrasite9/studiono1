@@ -362,7 +362,7 @@ function MeetOurTeam() {
                               }
                           })}> 
                           <Link to={'/meet-our-team/crystal'}>
-                              <img className='personal__img' src="/images/crystal/pro-photo/crystal.png" alt="" />
+                              <img className='personal__img' src="/images/crystal/pro-photo/crystal.png" alt="crystal" />
                           </Link> 
                           <p>Crystal</p>
                       </div>
@@ -419,7 +419,7 @@ function MeetOurTeam() {
                               }
                           })}> 
                           <Link to={'/meet-our-team/ruby'}>
-                              <img className='personal__img' src="/images/ruby/pro-photo/ruby.png" alt="" />
+                              <img className='personal__img' src="/images/ruby/pro-photo/ruby.png" alt="ruby" />
                           </Link> 
                           <p>Ruby</p>
                       </div>
@@ -476,7 +476,7 @@ function MeetOurTeam() {
                               }
                           })}> 
                           <Link to={'/meet-our-team/yara-c'}>
-                              <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="" />
+                              <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="yara-b" />
                           </Link> 
                           <p>Yara C.</p>
                       </div>
@@ -617,7 +617,7 @@ function MeetOurTeam() {
                               }
                           })}>
                               <Link to='/meet-our-team/robin'>
-                                  <img className='personal__img' src="/images/robin/pro-photo/robin.png" alt="" />
+                                  <img className='personal__img' src="/images/robin/pro-photo/robin.png" alt="robin" />
                               </Link>
                               <p>Robin</p>
                           </div>
@@ -674,7 +674,7 @@ function MeetOurTeam() {
                                   }
                               })}>                    
                               <Link to={'/meet-our-team/tori'}>
-                                  <img className='personal__img' src="/images/tori/pro-photo/tory.png" alt="" />
+                                  <img className='personal__img' src="/images/tori/pro-photo/tory.png" alt="tori" />
                               </Link>
                               <p>Tori</p>
                           </div>
@@ -731,7 +731,7 @@ function MeetOurTeam() {
                                   }
                               })}>                    
                               <Link to={'/meet-our-team/rajani'}>
-                                  <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="" />
+                                  <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="rajani" />
                               </Link>
                               <p>Rajani</p>
                           </div>
@@ -814,7 +814,7 @@ function MeetOurTeam() {
                               }
                           })}> 
                           <Link to={'/meet-our-team/yara-c'}>
-                              <img className='personal__img' src="/images/nunu/pro-photo/nunu.png" alt="" />
+                              <img className='personal__img' src="/images/nunu/pro-photo/nunu.png" alt="nunu" />
                           </Link> 
                           <p>Nunu</p>
                       </div>
@@ -871,7 +871,7 @@ function MeetOurTeam() {
                               }
                           })}> 
                           <Link to={'/meet-our-team/yara-c'}>
-                              <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="" />
+                              <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="yara-b" />
                           </Link> 
                           <p>Yara C.</p>
                       </div>            
