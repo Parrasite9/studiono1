@@ -6,8 +6,8 @@
     height: auto;
 }
 
-.service > h2,
-.service > p {
+.service > .content__container > h2,
+.service > .content__container > p {
     text-align: center;
 }
 
@@ -28,12 +28,14 @@
     text-align: center; /* To center the text inside the button */
 }
 
-.service > a {
+.service > .content__container > a {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-bottom: 5%;
 }
+
+
 
 @media (min-width: 700px) {
     .service > .content__container > h2 {
