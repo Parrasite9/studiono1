@@ -766,15 +766,15 @@ function MeetOurTeam() {
                       <div className="stylist__icon"
                           onClick={() => handleTeamMemberClick({
                               name: 'Nunu',
-                              title: 'Barber | Child Friendly',
+                              title: 'Body Sculpture',
                               image: '/images/nunu/pro-photo/nunu_mobile.jpg',
                               desktopBio: {
-                                      paragraph1: "...",
-                                      paragraph2: "...",
-                                      paragraph3: "..."    
+                                      paragraph1: "Meet Nuniece, popularly known as NuNu, the adept and passionate Body Sculpture and Body Contouring specialist at Studio No. 1. With over a year of dedicated experience in the field, NuNu has honed her skills in various body sculpting methods, tailoring her services to suit a diverse range of body types and client goals. Certified in Body Sculpting, NuNu is not just an expert; she's a continuous learner, always expanding her knowledge in the latest techniques to provide the highest level of care and service to her clients.",
+                                      paragraph2: "NuNu specializes in a range of non-invasive treatments, each designed to enhance and celebrate the natural beauty of her clients. Her repertoire includes Non-Invasive Lipo for comprehensive body parts, Vacuum Therapy for Brazilian Butt Lifts and Breast Enhancements, Radio Frequency treatments for fat cell reduction, and Ultrasonic Cavitation for transforming fat into a liquid substance for natural expulsion from the body. NuNu's approach is a blend of science and artistry, ensuring each client receives a tailored experience that aligns with their unique aesthetic goals.",
+                                      paragraph3: "At the core of NuNu's practice is a philosophy that revolves around empowering each client through personalized body sculpting experiences. She believes in fostering body confidence, offering holistic solutions that go beyond physical transformation. Her clients particularly appreciate her ability to understand their individual needs, creating a supportive and empowering environment. NuNu's warmth as a single mother, combined with her dedication to overall well-being, resonates deeply with her clientele, making her not just a specialist in body contouring but a trusted confidant in their journey to self-confidence and empowerment."    
                               },
                               mobileBio: {          
-                                  paragraph1: `...`
+                                  paragraph1: `Meet Nuniece Hernandez, known as NuNu, the dedicated Body Sculpture and Body Contouring specialist at Studio No. 1. With over a year of experience, NuNu brings a wealth of knowledge in non-invasive body sculpting techniques, including Lipo, Vacuum Therapy, Radio Frequency, and Ultrasonic Cavitation. Certified and continually evolving in her field, she specializes in personalized treatments that cater to various body types and client goals. Beyond her technical expertise, NuNu's approach is deeply rooted in enhancing natural beauty and fostering body confidence. Her clients value not only her professional skills but also her warm, empowering approach, reflective of her journey as a single mother and a committed wellness advocate. NuNu's unique blend of scientific precision and compassionate care makes her a trusted expert in body transformation and self-assurance.`
                               },
                               gallery: {
                                   photo1: '/images/nunu/gallery/n1.jpg',
