@@ -257,15 +257,15 @@ function MeetOurTeam() {
                       <div className="stylist__icon"
                           onClick={() => handleTeamMemberClick({
                               name: 'Leo',
-                              title: 'Hair Stylist | Makeup Artist',
+                              title: 'Beautologist | Mens Services | Child Friendly',
                               image: '/images/c.png',
                               desktopBio: {
-                                      paragraph1: "1",
-                                      paragraph2: "2",
-                                      paragraph3: "3"    
+                                      paragraph1: "Meet Leonela, a versatile and talented stylist at Studio No. 1, who has quickly become known for her expertise in men's grooming, women's beauty services, and family haircuts. With a robust experience of 5 years in the industry, Leonela's journey is marked by continuous learning and skill enhancement. She is a certified hand-tied extension expert and has participated in several barber competitions, showcasing her flair and precision. Her dedication to her craft is further evidenced by her participation in prestigious events and training, including a 2-day training with Roman Master in Mechas Level 1 and attending Premiere San Antonio 2023.",
+                                      paragraph2: "Leonela's range of services caters to everyone. For men, she offers a VIP treatment that includes haircuts, beard trims, lineups, and more, ensuring each client leaves looking and feeling their best. Women flock to Leonela for her exceptional skills in highlights, coloring, face waxing, and other beauty treatments, appreciating her keen eye for style and detail. Families love her for her gentle approach with kids, making every haircut a fun and comfortable experience.",
+                                      paragraph3: "Her professional philosophy centers around a bespoke approach to beauty and hair care. Leonela believes in understanding her clients' unique needs and tailoring her services to suit their individual style. Her friendly demeanor and attentive service make every salon visit a delightful experience. Leonela's commitment to excellence, combined with her warm and approachable personality, makes her a cherished stylist among her clientele."    
                               },
                               mobileBio: {          
-                                  paragraph1: `Meet Leo, this is her Bio...`
+                                  paragraph1: `Leonela, a dynamic stylist at Studio No. 1, brings a blend of creativity and precision to her role as a Men's Grooming Specialist, Women's Beauty Services Expert, and Family Haircut Professional. With 5 years of rich experience and specialized training, including a certification in hand-tied extensions and extensive barber competition participation, Leonela excels in providing a range of services. From VIP men's treatments to stylish women's hair coloring and face waxing, to delightful haircuts for kids, her approach is all about personalized care and style. Clients appreciate her bespoke services, warm demeanor, and the ability to turn every salon visit into a memorable, tailored beauty experience.`
                               },
                               gallery: {
                                   photo1: '/images/allison/gallery/a2.jpeg',
