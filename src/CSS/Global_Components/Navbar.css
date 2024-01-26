@@ -38,13 +38,13 @@
     BELOW THIS IS REFERENCING THE OPEN MENU NAV (MOBILE)
     =================================================== */
 
-    .navlinks > a {
+    .desktop__navlinks > .nav-item {
         color: #f2f2f2;
         text-decoration: none;
+        cursor: pointer;
     }
 
-    /*!!!!!!!! DOUBLE CHECK AND SEE IF THIS IS WORKING !!!!!!!!!!!!!!  */
-    .navlinks > a:active {
+    .desktop__navlinks > .nav-item.active {
         color: #ffd700;
     }
 
@@ -87,14 +87,14 @@
         align-content: center; /* Center align the items vertically */
       }
       
-      .navlinks > a {
+      .fullscreen__navbar .navlinks > .nav-item {
         color: #f2f2f2;
         text-decoration: none;
         text-align: center;
         padding: 15% 0;
       }
 
-      .navlinks > a.active {
+      .fullscreen__navbar .navlinks > .nav-item .active {
         color: #ffd700;
     }
 
@@ -132,7 +132,7 @@
             color: #ffd700;
         }
 
-        .desktop__navlinks > a:hover {
+        .desktop__navlinks > .nav-item:hover {
             color: #ffd700;
         }
 
