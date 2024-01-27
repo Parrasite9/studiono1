@@ -1,0 +1,28 @@
+.content__container {
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.content__container > h1 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.content__container > p > strong {
+    color: #0074B7;
+}
+
+@media (min-width: 1000px) {
+    .content__container {
+        text-align: left;
+    }
+
+    .content__container > h1 {
+        font-size: 40px;
+    }
+
+    .content__container > h2 {
+        font-size: 28px;
+        font-weight: 900;
+    }
+}

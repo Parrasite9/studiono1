@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import TeamMember from './Components/TeamMemberPage/TeamMember';
 import AboutPage from './Components/HomePage/AboutPage';
+import Privacy from './Components/Policies/Privacy';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/meet-our-team/:id' element={<TeamMember />} />
           <Route path='/about-us' element={<AboutPage />} />
+          <Route path='privacy-policy' element={<Privacy />} />
         </Routes>
       </BrowserRouter>
       
