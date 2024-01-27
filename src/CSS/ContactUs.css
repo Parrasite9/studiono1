@@ -1,4 +1,4 @@
- .ContactUs > form {
+ .contactUs__container > form {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -13,4 +13,22 @@
 
 .contact__form > button {
     margin-top: 20px;
+}
+
+.icon__and__text {
+    display: flex;
+}
+
+@media (min-width: 1000px) {
+    .contactUs__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .div1 { grid-area: 1 / 1 / 2 / 3; }
+        .div2 { grid-area: 1 / 1 / 2 / 2; }
+        .div3 { grid-area: 1 / 2 / 2 / 3; }
 }
