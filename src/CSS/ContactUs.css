@@ -35,15 +35,44 @@
         .div2 { grid-area: 1 / 1 / 2 / 2; }
         .div3 { grid-area: 1 / 2 / 2 / 3; }
 
+    .contact__info {
+        background-color: #333;
+        padding: 5%;
+    }
+
     .icon__and__text {
         align-items: center;
+        padding: 0 5%;
     }
 
     .icon__and__text > p {
         padding-left: 15px;
+        color: #f2f2f2;
+    }
+
+    .icon__and__text .MuiSvgIcon-root {
+        padding: 10px;
+        background-color: #4b4b4b;
+        border-radius: 50px;
+        color: #f2f2f2;
+    }
+    
+
+    .icon__and__text > p > strong {
+        color: #ffd700;
     }
 
     .icon__and__text > p > a {
         text-decoration: none;
+    }
+
+    .contact__info > h3,
+    .contact__info > p {
+        padding: 0 3%;
+
+    }
+
+    .contact__info > p {
+        color: #f2f2f2;
     }
 }
