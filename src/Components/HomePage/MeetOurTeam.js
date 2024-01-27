@@ -110,28 +110,27 @@ function MeetOurTeam() {
                           bookingLink: 'http://www.yahoo.com',
                           contactInfo: '432-290-6756',
                           services: {
-                              test: 'hello',
-                              womens: {
-                                  haircut: 'Haircut',
-                                  haircutPrice: 'XX',
-                                  balyage: 'Balyage',
-                                  balyagePrice: 'XX',
-                                  waxing: 'Waxing',
-                                  waxingPrice: 'XX',
-                                  color: 'Hair Color',
-                                  colorPrice: 'FC',
-                                  highlights: 'Highlights',
-                                  highlightsPrice: 'FC',
-                                  rootTouchUp: 'Root Touch-Ups',
-                                  rootTouchUpPrice: 'XX',
-                                  perm: 'Perm',
-                                  permPrice: 'XX',
-                                  relaxer: 'Relaxer',
-                                  relaxerPrice: 'XX',
-                                  whiteout: 'White Out',
-                                  whiteoutPrice: 'FC',
-                              }
-                          }
+                            haircut: `Men's Haircut`,
+                            haircutPrice: '25',
+                            womencut: `Women's Haircut`,
+                            womencutPrice: '35',
+                            styling: 'Styling & Updos',
+                            stylingPrice: '30',
+                            color: 'Hair Color',
+                            colorPrice: '75',
+                            highlights: 'Highlights',
+                            highlightsPrice: '75',
+                            balyage: 'Balyage',
+                            balyagePrice: '165',
+                            perm: 'Perm',
+                            permPrice: '80',
+                            treatment: 'Hair Teaments',
+                            treatmentPrice: '25',
+                            bleach: 'Bleach',
+                            bleachPrice: '165',
+                            extension: 'Extensions',
+                            extensionPrice: '200'
+                        }
                       })}>
                           <Link to='/meet-our-team/yara-l'>
                               <img className='personal__img' src="/images/yara_l/pro-photo/yara.png" alt="yara_l" />
@@ -167,28 +166,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/allison'}>
                               <img className='personal__img' src="/images/allison/pro-photo/allison.png" alt="allison" />                                  
@@ -224,28 +222,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/clara'}>
                               <img className='personal__img' src="/images/clara/pro-photo/clara.png" alt="clara" />                         
@@ -281,28 +278,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '956-898-9953',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/leo'}>
                               <img className='personal__img' src="/images/leo/pro-photo/leo.png" alt="leo" /> 
@@ -338,28 +334,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/crystal'}>
                               <img className='personal__img' src="/images/crystal/pro-photo/crystal.png" alt="crystal" />
@@ -392,28 +387,30 @@ function MeetOurTeam() {
                                   photo8: '/images/ruby/gallery/a1.jpeg',
                                   photo9: '/images/ruby/gallery/a3.jpeg',
                               },
-                              bookingLink: 'http://www.yahoo.com',
+                              bookingLink: 'https://rubyarmendariz.glossgenius.com/',
                               contactInfo: '432-290-8718',
                               services: {
                                 haircut: `Men's Haircut`,
-                                haircutPrice: '$25',
+                                haircutPrice: '25',
                                 womencut: `Women's Haircut`,
-                                balyagePrice: '$35',
+                                womencutPrice: '35',
                                 styling: 'Styling & Updos',
-                                waxingPrice: '$30',
+                                stylingPrice: '30',
                                 color: 'Hair Color',
-                                colorPrice: '$75',
+                                colorPrice: '75',
                                 highlights: 'Highlights',
-                                highlightsPrice: '$75',
+                                highlightsPrice: '75',
                                 balyage: 'Balyage',
-                                balyagePrice: '$165',
+                                balyagePrice: '165',
                                 perm: 'Perm',
-                                permPrice: '$80',
+                                permPrice: '80',
                                 treatment: 'Hair Teaments',
-                                treatmentPrice: '$25',
+                                treatmentPrice: '25',
                                 bleach: 'Bleach',
-                                whiteoutPrice: '$165',
-                        }
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/ruby'}>
                               <img className='personal__img' src="/images/ruby/pro-photo/ruby.png" alt="ruby" />
@@ -449,28 +446,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/yara-c'}>
                               <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="yara-b" />
@@ -506,28 +502,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}>                    
                           <Link to={'/meet-our-team/daleth'}>
                               <img className='personal__img' src="/images/daleth/pro-photo/daleth.png" alt="daleth" />
@@ -590,28 +585,27 @@ function MeetOurTeam() {
                               bookingLink: 'https://robinmckinney.glossgenius.com',
                               contactInfo: '432-290-2826',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}>
                               <Link to='/meet-our-team/robin'>
                                   <img className='personal__img' src="/images/robin/pro-photo/robin.png" alt="robin" />
@@ -647,28 +641,27 @@ function MeetOurTeam() {
                                   bookingLink: 'http://www.yahoo.com',
                                   contactInfo: '#',
                                   services: {
-                                      test: 'hello',
-                                      womens: {
-                                          haircut: 'Haircut',
-                                          haircutPrice: 'XX',
-                                          balyage: 'Balyage',
-                                          balyagePrice: 'XX',
-                                          waxing: 'Waxing',
-                                          waxingPrice: 'XX',
-                                          color: 'Hair Color',
-                                          colorPrice: 'FC',
-                                          highlights: 'Highlights',
-                                          highlightsPrice: 'FC',
-                                          rootTouchUp: 'Root Touch-Ups',
-                                          rootTouchUpPrice: 'XX',
-                                          perm: 'Perm',
-                                          permPrice: 'XX',
-                                          relaxer: 'Relaxer',
-                                          relaxerPrice: 'XX',
-                                          whiteout: 'White Out',
-                                          whiteoutPrice: 'FC',
-                                      }
-                                  }
+                                    haircut: `Men's Haircut`,
+                                    haircutPrice: '25',
+                                    womencut: `Women's Haircut`,
+                                    womencutPrice: '35',
+                                    styling: 'Styling & Updos',
+                                    stylingPrice: '30',
+                                    color: 'Hair Color',
+                                    colorPrice: '75',
+                                    highlights: 'Highlights',
+                                    highlightsPrice: '75',
+                                    balyage: 'Balyage',
+                                    balyagePrice: '165',
+                                    perm: 'Perm',
+                                    permPrice: '80',
+                                    treatment: 'Hair Teaments',
+                                    treatmentPrice: '25',
+                                    bleach: 'Bleach',
+                                    bleachPrice: '165',
+                                    extension: 'Extensions',
+                                    extensionPrice: '200'
+                                }
                               })}>                    
                               <Link to={'/meet-our-team/tori'}>
                                   <img className='personal__img' src="/images/tori/pro-photo/tory.png" alt="tori" />
@@ -704,28 +697,27 @@ function MeetOurTeam() {
                                   bookingLink: 'http://www.yahoo.com',
                                   contactInfo: '#',
                                   services: {
-                                      test: 'hello',
-                                      womens: {
-                                          haircut: 'Haircut',
-                                          haircutPrice: 'XX',
-                                          balyage: 'Balyage',
-                                          balyagePrice: 'XX',
-                                          waxing: 'Waxing',
-                                          waxingPrice: 'XX',
-                                          color: 'Hair Color',
-                                          colorPrice: 'FC',
-                                          highlights: 'Highlights',
-                                          highlightsPrice: 'FC',
-                                          rootTouchUp: 'Root Touch-Ups',
-                                          rootTouchUpPrice: 'XX',
-                                          perm: 'Perm',
-                                          permPrice: 'XX',
-                                          relaxer: 'Relaxer',
-                                          relaxerPrice: 'XX',
-                                          whiteout: 'White Out',
-                                          whiteoutPrice: 'FC',
-                                      }
-                                  }
+                                    haircut: `Men's Haircut`,
+                                    haircutPrice: '25',
+                                    womencut: `Women's Haircut`,
+                                    womencutPrice: '35',
+                                    styling: 'Styling & Updos',
+                                    stylingPrice: '30',
+                                    color: 'Hair Color',
+                                    colorPrice: '75',
+                                    highlights: 'Highlights',
+                                    highlightsPrice: '75',
+                                    balyage: 'Balyage',
+                                    balyagePrice: '165',
+                                    perm: 'Perm',
+                                    permPrice: '80',
+                                    treatment: 'Hair Teaments',
+                                    treatmentPrice: '25',
+                                    bleach: 'Bleach',
+                                    bleachPrice: '165',
+                                    extension: 'Extensions',
+                                    extensionPrice: '200'
+                                }
                               })}>                    
                               <Link to={'/meet-our-team/rajani'}>
                                   <img className='personal__img' src="/images/rajani/pro-photo/rajani.png" alt="rajani" />
@@ -787,28 +779,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/yara-c'}>
                               <img className='personal__img' src="/images/nunu/pro-photo/nunu.png" alt="nunu" />
@@ -844,28 +835,27 @@ function MeetOurTeam() {
                               bookingLink: 'http://www.yahoo.com',
                               contactInfo: '#',
                               services: {
-                                  test: 'hello',
-                                  womens: {
-                                      haircut: 'Haircut',
-                                      haircutPrice: 'XX',
-                                      balyage: 'Balyage',
-                                      balyagePrice: 'XX',
-                                      waxing: 'Waxing',
-                                      waxingPrice: 'XX',
-                                      color: 'Hair Color',
-                                      colorPrice: 'FC',
-                                      highlights: 'Highlights',
-                                      highlightsPrice: 'FC',
-                                      rootTouchUp: 'Root Touch-Ups',
-                                      rootTouchUpPrice: 'XX',
-                                      perm: 'Perm',
-                                      permPrice: 'XX',
-                                      relaxer: 'Relaxer',
-                                      relaxerPrice: 'XX',
-                                      whiteout: 'White Out',
-                                      whiteoutPrice: 'FC',
-                                  }
-                              }
+                                haircut: `Men's Haircut`,
+                                haircutPrice: '25',
+                                womencut: `Women's Haircut`,
+                                womencutPrice: '35',
+                                styling: 'Styling & Updos',
+                                stylingPrice: '30',
+                                color: 'Hair Color',
+                                colorPrice: '75',
+                                highlights: 'Highlights',
+                                highlightsPrice: '75',
+                                balyage: 'Balyage',
+                                balyagePrice: '165',
+                                perm: 'Perm',
+                                permPrice: '80',
+                                treatment: 'Hair Teaments',
+                                treatmentPrice: '25',
+                                bleach: 'Bleach',
+                                bleachPrice: '165',
+                                extension: 'Extensions',
+                                extensionPrice: '200'
+                            }
                           })}> 
                           <Link to={'/meet-our-team/yara-c'}>
                               <img className='personal__img' src="/images/yara_c/pro-photo/y2.png" alt="yara-b" />

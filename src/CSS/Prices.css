@@ -2,9 +2,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 25px;
     grid-row-gap: 0px;
     margin: 0 8%;
+    padding: 0 10%;
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 2; }
