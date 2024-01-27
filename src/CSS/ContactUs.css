@@ -26,9 +26,24 @@
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        justify-items: center;
+        align-items: center;
+        padding: 2% 8%;
         }
         
         .div1 { grid-area: 1 / 1 / 2 / 3; }
         .div2 { grid-area: 1 / 1 / 2 / 2; }
         .div3 { grid-area: 1 / 2 / 2 / 3; }
+
+    .icon__and__text {
+        align-items: center;
+    }
+
+    .icon__and__text > p {
+        padding-left: 15px;
+    }
+
+    .icon__and__text > p > a {
+        text-decoration: none;
+    }
 }
