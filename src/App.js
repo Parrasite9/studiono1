@@ -21,7 +21,6 @@ function App() {
           <Route path='/about-us' element={<AboutPage />} />
           <Route path='/privacy-policy' element={<Privacy />} />
           <Route path='/terms-of-service' element={<Terms />} />
-          {/* <Route path='terms' element={<Terms />} /> */}
         </Routes>
       </BrowserRouter>
       
