@@ -1,27 +1,27 @@
-.privacy__content__container {
+.terms__content__container {
     padding: 2% 8%;
     text-align: center;
 }
 
-.privacy__content__container > h1 {
+.terms__content__container > h1 {
     font-size: 32px;
     font-weight: 900;
 }
 
-.privacy__content__container > p > strong {
+.terms__content__container > p > strong {
     color: #0074B7;
 }
 
 @media (min-width: 1000px) {
-    .privacy__content__container {
+    .terms__content__container {
         text-align: left;
     }
 
-    .privacy__content__container > h1 {
+    .terms__content__container > h1 {
         font-size: 40px;
     }
 
-    .privacy__content__container > h2 {
+    .terms__content__container > h2 {
         font-size: 28px;
         font-weight: 900;
     }

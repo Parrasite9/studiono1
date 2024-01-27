@@ -9,7 +9,7 @@ function Privacy() {
   return (
     <div className='Privacy'>
         <Navbar />
-        <div className="content__container">
+        <div className="privacy__content__container">
             <h1>Privacy Policy for Studio No. 1</h1>
             <p>Last Updated: January 26, 2023</p>
 

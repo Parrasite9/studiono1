@@ -7,6 +7,7 @@ import Home from './Components/Home'
 import TeamMember from './Components/TeamMemberPage/TeamMember';
 import AboutPage from './Components/HomePage/AboutPage';
 import Privacy from './Components/Policies/Privacy';
+import Terms from './Components/Policies/Terms';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/meet-our-team/:id' element={<TeamMember />} />
           <Route path='/about-us' element={<AboutPage />} />
-          <Route path='privacy-policy' element={<Privacy />} />
+          <Route path='/privacy-policy' element={<Privacy />} />
+          <Route path='/terms-of-service' element={<Terms />} />
+          {/* <Route path='terms' element={<Terms />} /> */}
         </Routes>
       </BrowserRouter>
       
