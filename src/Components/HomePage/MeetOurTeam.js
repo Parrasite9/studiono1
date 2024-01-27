@@ -423,7 +423,7 @@ function MeetOurTeam() {
                           onClick={() => handleTeamMemberClick({
                               name: 'Yara B.',
                               title: 'Barber | Child Friendly',
-                              image: '/images/y2.png',
+                              image: '/images/yara_c/pro-photo/y2__mobile.png',
                               desktopBio: {
                                       paragraph1: "Meet Yaritza Bislar, a proficient and artistic barber at Studio No. 1, known for her exceptional skill in male grooming and hairstyling. With a rich experience of four years in the industry, Yaritza has honed her expertise in a variety of barbering services. Her specialties include crafting sleek skin fades, classic gentlemen's haircuts, playful and comfortable kids' haircuts, and meticulous beard grooming. Her proficiency with the straight razor for hot facial shaves is particularly noteworthy, making each visit a relaxing and rejuvenating experience.",
                                       paragraph2: "Yaritza's approach to barbering is client-centric, focusing on understanding and meeting the individual needs of each customer. She believes that every client deserves a personalized experience, and she excels in customizing her services to suit their unique preferences and styles. Her commitment to her craft is evident in the precision and care she brings to every cut and shave.",
@@ -444,7 +444,7 @@ function MeetOurTeam() {
                                   photo9: '/images/yara_c/gallery/y9.png',
                               },
                               bookingLink: 'http://www.yahoo.com',
-                              contactInfo: '#',
+                              contactInfo: '432-290-8115',
                               services: {
                                 haircut: `Men's Haircut`,
                                 haircutPrice: '25',
