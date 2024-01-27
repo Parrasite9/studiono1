@@ -337,7 +337,7 @@ function DesktopTeam() {
             photo8: '/images/yara_c/gallery/y8.png',
             photo9: '/images/yara_c/gallery/y9.png',
         },
-        bookingLink: 'http://www.yahoo.com',
+        bookingLink: 'https://yaritzabislar.glossgenius.com',
         contactInfo: '432-290-8115',
         services: {
             haircut: `Men's Haircut`,
