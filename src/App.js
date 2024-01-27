@@ -8,6 +8,7 @@ import TeamMember from './Components/TeamMemberPage/TeamMember';
 import AboutPage from './Components/HomePage/AboutPage';
 import Privacy from './Components/Policies/Privacy';
 import Terms from './Components/Policies/Terms';
+import ContactUs from './Components/ContactUs';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/about-us' element={<AboutPage />} />
           <Route path='/privacy-policy' element={<Privacy />} />
           <Route path='/terms-of-service' element={<Terms />} />
+          <Route path='/contactUs' element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
       

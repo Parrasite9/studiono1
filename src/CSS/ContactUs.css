@@ -1,0 +1,16 @@
+ .ContactUs > form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+
+.contact__form > input, 
+.contact__form > textarea, 
+.contact__form > button {
+    margin-top: 5px;
+}
+
+.contact__form > button {
+    margin-top: 20px;
+}
