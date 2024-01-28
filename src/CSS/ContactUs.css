@@ -1,23 +1,108 @@
- .contactUs__container > form {
+.contactUs__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    padding: 5%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 3 / 2; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    
+    
+ .contactUs__container > .contact__form__container > form {
     display: flex;
     flex-direction: column;
     width: 300px;
 }
 
+.contact__form__container {
+    background-color: #4b4b4b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
 
 .contact__form > input, 
 .contact__form > textarea, 
 .contact__form > button {
     margin-top: 5px;
+    padding: 5%;
+    border: none;
+    color: #f2f2f2;
 }
+
+.contact__form > input, 
+.contact__form > textarea {
+    border: none;
+    border-bottom: 1px solid #0074B7;
+    background-color: transparent;
+} 
+
+::placeholder {
+    color: #9e9e9e;
+  }
 
 .contact__form > button {
     margin-top: 20px;
+    margin-bottom: 10%;
+    color: #f2f2f2;
+    background-color: #5E8B7E;
 }
 
 .icon__and__text {
     display: flex;
 }
+
+.contact__form > h2 {
+    color: #ffd700;
+}
+.contact__info {
+    background-color: #333;
+    /* padding: 5%; */
+    height: 100%;
+}
+
+.icon__and__text {
+    align-items: center;
+    padding: 0 5%;
+}
+
+.icon__and__text > p {
+    padding-left: 15px;
+    color: #f2f2f2;
+}
+
+.icon__and__text .MuiSvgIcon-root {
+    padding: 10px;
+    background-color: #4b4b4b;
+    border-radius: 50px;
+    color: #f2f2f2;
+}
+
+
+.icon__and__text > p > strong {
+    color: #ffd700;
+}
+
+.icon__and__text > p > a {
+    text-decoration: none;
+}
+
+.contact__info > h3,
+.contact__info > p {
+    padding: 0 3%;
+
+}
+
+.contact__info > p {
+    color: #f2f2f2;
+}
+
 
 @media (min-width: 1000px) {
     .contactUs__container {
@@ -34,45 +119,4 @@
         .div1 { grid-area: 1 / 1 / 2 / 3; }
         .div2 { grid-area: 1 / 1 / 2 / 2; }
         .div3 { grid-area: 1 / 2 / 2 / 3; }
-
-    .contact__info {
-        background-color: #333;
-        padding: 5%;
-    }
-
-    .icon__and__text {
-        align-items: center;
-        padding: 0 5%;
-    }
-
-    .icon__and__text > p {
-        padding-left: 15px;
-        color: #f2f2f2;
-    }
-
-    .icon__and__text .MuiSvgIcon-root {
-        padding: 10px;
-        background-color: #4b4b4b;
-        border-radius: 50px;
-        color: #f2f2f2;
-    }
-    
-
-    .icon__and__text > p > strong {
-        color: #ffd700;
-    }
-
-    .icon__and__text > p > a {
-        text-decoration: none;
-    }
-
-    .contact__info > h3,
-    .contact__info > p {
-        padding: 0 3%;
-
-    }
-
-    .contact__info > p {
-        color: #f2f2f2;
-    }
 }
