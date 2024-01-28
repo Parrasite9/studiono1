@@ -11,25 +11,18 @@
 }
 
 .section__image,
-.AboutUs > p {
+.aboutUs__content > p {
     padding: 0 8%;
+}
+
+.aboutUs__content > p {
+    text-align: center;
 }
 
 .section__image > img {
     width: 100%;
     height: auto;
 }
-
-.AboutUs > p {
-    text-align: center;
-}
-
-/* .aboutUs__button {
-    background-color: #163C5E;
-    color: #f2f2f2;
-    padding: 2% 10%;
-    border-radius: 10px;
-} */
 
 .aboutUs__button {
     background-color: #163C5E;
@@ -100,6 +93,10 @@
         justify-content: flex-start;
         padding: 5% 0%;
     }    
+
+    .aboutUs__content > p {
+        padding: 0 8% 0 0;
+    }
 }
 
 
