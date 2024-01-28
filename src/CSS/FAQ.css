@@ -1,5 +1,6 @@
 .faq__container {
     padding: 0 5%;
+    margin-bottom: 10%;
 }
 
 .header__container {
@@ -48,11 +49,24 @@
     }
 
     .faq__container > h3 {
-        padding: 3.5% 5%;
+        padding: 2.5% 5%;
     }
 
     .faq__container > p {
         padding: 0 5%;
         margin-bottom: 5%;
     }
+}
+
+@media (min-width: 1400px) {
+    .faq__container > h3 {
+        font-size: 28px;
+        padding: 1.5% 5%;
+    }
+
+    .faq__container > p {
+        font-size: 24px;
+    }
+
+    
 }
