@@ -10,6 +10,7 @@ import Email from './HomePage/Email'
 import Testimonials from './HomePage/Testimonials'
 import DesktopTeam from './HomePage/DesktopTeam'
 import FAQ from './TeamMemberPage/FAQ'
+import Cred from './HomePage/Cred'
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Navbar />
       <Hero />
       <MeetOurTeam />
+      <Cred />
       <AboutUs />
       <Services />
       <Email />

@@ -1,0 +1,22 @@
+.cred__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    padding: 0 8%;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 3; }
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 1 / 2 / 2 / 3; }
+
+.cred__badge {
+    display: flex;
+    justify-content: center;
+}
+
+.cred__badge > img {
+    width: 75%;
+}
