@@ -22,3 +22,37 @@
 .faq__container > p {
     text-align: center;
 }
+
+@media (min-width: 700px) {
+    .faq__container {
+        padding: 0 8%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .scissor__icon {
+        font-size: 40px;
+    }
+
+    .faq__container > h3 {
+        font-size: 24px;
+        text-align: left;
+    }
+
+    .faq__container > .header__container > h2 {
+        font-size: 32px;
+    }
+
+    .faq__container > p {
+        text-align: left;
+    }
+
+    .faq__container > h3 {
+        padding: 3.5% 5%;
+    }
+
+    .faq__container > p {
+        padding: 0 5%;
+        margin-bottom: 5%;
+    }
+}

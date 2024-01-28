@@ -8,9 +8,9 @@ function FAQ() {
     <div className='FAQ' id='FAQ'>
       <div className="faq__container">
         <div className="header__container">
-          <FontAwesomeIcon icon={faScissors} />
+          <FontAwesomeIcon className='scissor__icon' icon={faScissors} />
           <h2>Frequently Asked Questions</h2>
-          <FontAwesomeIcon className='mirror' icon={faScissors} />
+          <FontAwesomeIcon className='mirror scissor__icon' icon={faScissors} />
         </div>
         <h3>How do I book a service?</h3>
         <p>To book a service, select a team member from our 'Team' page on our website. There you will find detailed information about each team member, including their services and pricing. Once you've made your choice, click the booking link on their page, which will redirect you to a third-party website to complete your booking.</p>
