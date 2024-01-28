@@ -2,9 +2,6 @@ import '../../CSS/Global_Components/Footer.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-// MUI ICONS 
-import FacebookIcon from '@mui/icons-material/Facebook';
-
 // FONT AWESOME 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
@@ -16,7 +13,7 @@ function Footer() {
   return (
     <div className='Footer'>
       <div className="logo">
-        STUDIO NO. 1
+        <Link to='/'>STUDIO NO. 1</Link>
       </div>
 
       <div className="link__container">

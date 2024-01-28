@@ -2,6 +2,16 @@
     padding: 0 5%;
 }
 
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mirror {
+    rotate: 180deg;
+}
+
 .faq__container > h3 {
     background-color: #163C5E;
     color: #ffd700;
