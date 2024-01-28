@@ -60,6 +60,7 @@
 
 .contact__form > h2 {
     color: #ffd700;
+    padding-top: 5%;
 }
 .contact__info {
     background-color: #333;
@@ -95,8 +96,11 @@
 
 .contact__info > h3,
 .contact__info > p {
-    padding: 0 3%;
+    padding: 0 5%;
+}
 
+.contact__info > h3 {
+    padding-top: 5%;
 }
 
 .contact__info > p {
