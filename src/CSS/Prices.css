@@ -24,6 +24,10 @@
         margin-top: 15%;
     }
 
+    .Prices > div > div > h4:nth-child(2) {
+        color: #333;
+    }
+
     .Prices > p {
         font-style: italic;
         text-align: center;
@@ -38,5 +42,12 @@
     @media (min-width: 1000px) {
         .Prices > h2 {
             margin-top: 2%;
+        }
+    }
+
+    @media (min-width: 1250px) {
+        .pricing__container {
+            padding: 0 10%;
+            grid-column-gap: 20%;
         }
     }
