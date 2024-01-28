@@ -64,7 +64,6 @@
 }
 .contact__info {
     background-color: #333;
-    /* padding: 5%; */
     height: 100%;
 }
 
@@ -123,4 +122,38 @@
         .div1 { grid-area: 1 / 1 / 2 / 3; }
         .div2 { grid-area: 1 / 1 / 2 / 2; }
         .div3 { grid-area: 1 / 2 / 2 / 3; }
+
+    .contact__info {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .contactUs__container {
+        padding: 2% 15%;
+    }
+
+    .contactUs__container > .contact__form__container > form {
+        width: 75%;
+    }
+
+    .contact__form > button {
+        font-size: 20px;
+    }
+
+    .contact__form > h2 {
+        font-size: 32px;
+    }
+
+    .contact__info > h3 {
+        font-size: 32px;
+    }
+
+    .contact__info > p {
+        font-size: 20px;
+    }
+
+    .contact__info > .icon__and__text > p {
+        font-size: 20px;
+    }
 }
