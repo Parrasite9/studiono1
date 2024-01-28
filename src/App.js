@@ -9,6 +9,7 @@ import AboutPage from './Components/HomePage/AboutPage';
 import Privacy from './Components/Policies/Privacy';
 import Terms from './Components/Policies/Terms';
 import ContactUs from './Components/ContactUs';
+import FAQ from './Components/TeamMemberPage/FAQ';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/privacy-policy' element={<Privacy />} />
           <Route path='/terms-of-service' element={<Terms />} />
           <Route path='/contactUs' element={<ContactUs />} />
+          <Route path='/faq' element={<FAQ />} />
         </Routes>
       </BrowserRouter>
       

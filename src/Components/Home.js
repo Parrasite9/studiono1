@@ -9,6 +9,7 @@ import Services from './HomePage/Services'
 import Email from './HomePage/Email'
 import Testimonials from './HomePage/Testimonials'
 import DesktopTeam from './HomePage/DesktopTeam'
+import FAQ from './TeamMemberPage/FAQ'
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Services />
       <Email />
       <Testimonials />
+      <FAQ />
       <Footer />
     </div>
   )

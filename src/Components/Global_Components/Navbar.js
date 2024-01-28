@@ -22,7 +22,7 @@ function Navbar() {
     { to: "/", text: "Home" },
     { to: "/About-us", text: "About Us" },
     { to: "#Services", text: "Services" },
-    { to: "/FAQ", text: "FAQ" },
+    { to: "#FAQ", text: "FAQ" },
     { to: "/ContactUs", text: "Contact Us" },
   ];
 
