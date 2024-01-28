@@ -6,6 +6,10 @@ import '../../CSS/Testimonials.css'
 // MUI 
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faScissors } from '@fortawesome/free-solid-svg-icons';
+
 const testimonialSlider = () => {
 
   const settings = {
@@ -23,7 +27,11 @@ const testimonialSlider = () => {
 
   return (
     <div className="ReactSlick">
-        <h2> Beauty Highlights </h2>
+        <div className="header__container">
+          <FontAwesomeIcon className='scissor__icon' icon={faScissors} />
+          <h2> Beauty Highlights </h2>
+          <FontAwesomeIcon className='mirror scissor__icon' icon={faScissors} />
+        </div>
         <Slider {...settings}>
 
             {/* SLIDE 1  */}

@@ -20,9 +20,9 @@ function Home() {
       <MeetOurTeam />
       <Cred />
       <AboutUs />
+      <Testimonials />
       <Services />
       <Email />
-      <Testimonials />
       <FAQ />
       <Footer />
     </div>
