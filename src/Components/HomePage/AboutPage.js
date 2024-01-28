@@ -43,21 +43,13 @@ function AboutPage() {
 
               <h3>About Studio No. 1</h3>
 
-              <p><strong>Welcome to Studio No. 1,</strong>where timeless beauty meets modern elegance. Nestled in the heart of our vibrant city, we're more than just a beauty salon; we're a sanctuary for those seeking to rejuvenate their spirit and revitalize their look.
-              <br />
-              <br />
-              With over a century of combined experience, our team at Studio No. 1 is a tapestry of expertise, passion, and dedication. We pride ourselves on our rich heritage in the beauty industry, seamlessly blending traditional techniques with contemporary styles to offer you an unparalleled beauty experience.</p>
+              <p><strong>Welcome to Studio No. 1,</strong> where timeless beauty and modern elegance converge in the heart of our vibrant city. More than just a beauty salon, we are a sanctuary for rejuvenation, offering a blend of traditional and contemporary styles. Our team, with over a century of combined experience, is a tapestry of expertise, passion, and dedication, committed to delivering an unparalleled beauty experience.</p>
 
-              <p><strong>Our Services: </strong>At Studio No. 1, we understand that beauty is not one-size-fits-all. That's why we offer a comprehensive range of services tailored to meet the unique needs of each client. Our salon caters to both men and women, providing a wide array of beauty and spa services. Indulge in our expertly delivered massages, where our skilled masseuses and massage therapists work to melt away your stress and tension, leaving you refreshed and revitalized. Treat your hands and feet to a luxurious journey with our manicure and pedicure services, designed to pamper and perfect.
-              <br />
-              <br />
-              For those seeking to elevate their skincare routine, our facials are a must-try, incorporating the finest products and techniques to bring out your skin's natural glow. Our estheticians are masters of their craft, offering personalized services that range from skincare consultations to advanced treatments, ensuring your skin receives the care it deserves.
-              </p>
+              <p><strong>Our Services</strong> are designed to cater to the unique needs of each client, embracing both men and women in our comprehensive range. Indulge in our expertly delivered massages, where skilled masseuses and therapists work to dissolve stress, or pamper your hands and feet with our luxurious manicure and pedicure services. Elevate your skincare routine with our personalized facials, incorporating the finest products and techniques to enhance your natural glow. Our estheticians offer a range of services, from consultations to advanced treatments, ensuring your skin is cared for exquisitely.</p>
 
-              <p><strong>Our Commitment: </strong>At Studio No. 1, your satisfaction is our highest priority. We're committed to providing an environment that is not just welcoming, but also invigorating and inspiring. Our salon is a space where creativity flourishes, and individual beauty is celebrated.
-              <br />
-              <br />
-              Join us at Studio No. 1, where every visit is an opportunity to experience the pinnacle of beauty and relaxation. We're not just a salon; we're your partners in the journey towards a more radiant and confident you.</p>
+              <p><strong>Our Commitment</strong> to your satisfaction is unwavering. Studio No. 1 is not just a salon; it's a place where creativity, individual beauty, and a passion for excellence converge. We strive to create an environment that's not only welcoming but also invigorating and inspiring, ensuring every visit leaves you feeling refreshed and revitalized.</p>
+
+              <p><strong>Join us at Studio No. 1</strong> for an experience that transcends the ordinary. Each visit is an opportunity to immerse yourself in the pinnacle of beauty and relaxation. We're not just your salon; we're your partners on a journey to a more radiant and confident you.</p>
               <Link to="/Book-Now"><button>Book Now</button></Link>
 
           </div>
