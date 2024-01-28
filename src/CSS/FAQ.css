@@ -1,0 +1,14 @@
+.faq__container {
+    padding: 0 5%;
+}
+
+.faq__container > h3 {
+    background-color: #163C5E;
+    color: #ffd700;
+    text-align: center;
+    padding: 3.5% 10%;
+}
+
+.faq__container > p {
+    text-align: center;
+}
