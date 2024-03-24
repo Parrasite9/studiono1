@@ -72,7 +72,8 @@ function MeetOurTeam() {
               <Typography className='header__text'>Barbers & HairStylists</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+               <Typography component='div'>
+
                 {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
                 malesuada lacus ex, sit amet blandit leo lobortis eget. */}
   
@@ -544,7 +545,8 @@ function MeetOurTeam() {
               <Typography>Spa Services</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+               <Typography component='div'>
+
                   <div className="spa__services__container">
                       <div className="section__text">
                           <p>Select Your Team Member</p>
@@ -739,7 +741,8 @@ function MeetOurTeam() {
               <Typography>Special Services</Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography>
+               <Typography component='div'>
+
                   <div className="section__text">
                       <p>Select Your Team Member</p>
                   </div>
