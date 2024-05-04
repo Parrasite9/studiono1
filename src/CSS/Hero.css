@@ -1,25 +1,37 @@
+.html {
+    font-size: 16px;
+}
+
 .Hero {
     text-align: center;
     padding: 0 8%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .Hero > h3 {
     color: #0074B7;
-    margin-bottom: 15px;
-    margin-top: 25px;
+    margin: 25px 0 15px;
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .Hero > h1 {
     color: #333;
     margin-top: 0;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .hero__button {
     background-color: #163C5E;
     color: #f2f2f2;
-    padding: 2% 10%;
+    /* padding: 2% 10%; */
+    padding: 0.5rem 2rem;
     border-radius: 10px;
+    font-size: clamp(0.8rem, 1.5vw, 1.2rem);
 }
+
 
 @media (min-width: 700px) {
     .Hero > h3 {
@@ -37,7 +49,7 @@
 
 @media (min-width: 1000px) {
     .Hero  {
-        margin-bottom: 5%;
+        padding: 0 10%;
     }
 
     .Hero > h3 {
@@ -58,6 +70,7 @@
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+        
         }
         
         .div1 { grid-area: 1 / 1 / 2 / 3; }
@@ -90,6 +103,6 @@
 
 @media (min-width: 1400px) {
     .context > h1 {
-        font-size: 48px;
+        font-size: clamp(2rem, 2.5vw, 3rem);
     }
 }
